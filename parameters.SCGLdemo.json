@@ -16,14 +16,6 @@
     // Allowed Values: ["audit","disabled","auditIfNotExists"]
     "value": "audit"
   },
-  "Global_RestrictAllowedLocations_deny_effect": {
-    // Display Name: 'RestrictAllowedLocations_deny > Effect'
-    // Description: 'Enable or disable the execution of the policy. Enabling the Policy is specifing the expected effect (i.e. 'append' or 'deployIfNotExists'). 'disabled' will publish the policy and include it as a member of the policy set, but it will affect any resources or compliance reporting.'
-    // Default Value: 'deny'
-    // Type: 'String'
-    // Allowed Values: ["deny","disabled"]
-    "value": "deny"
-  },
   "Global_deniedLocations": {
     // Display Name: 'Denied locations'
     // Description: 'The list of locations that can NOT be specified when deploying resources'
