@@ -31,7 +31,7 @@ stages:
           - task: AzurePowerShell@4
             displayName: Deploy Policy, Create Documentation, Deploy Documentation
             inputs:
-              azureSubscription: 'CSD-Policy-Training-Sub'
+              azureSubscription: 'AzureCSD'
               ScriptType: 'FilePath'
               ScriptPath: 'Deploy.ps1'
               azurePowerShellVersion: 'LatestVersion'
