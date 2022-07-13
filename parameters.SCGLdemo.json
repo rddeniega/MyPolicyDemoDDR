@@ -5,13 +5,7 @@
     // Type: 'array'
     // Strong Type: location
     "value": [
-      "westus",
-      "westus2",
-      "eastus",
-      "westcentralus",
-      "northeurope",
-      "westeurope",
-      "southeastasia"
+      "southcentralus"
     ]
   },
   "Global_RestrictAllowedLocations_audit_effect": {
@@ -40,7 +34,6 @@
       "centralus",
       "eastus2",
       "northcentralus",
-      "southcentralus",
       "japanwest",
       "japaneast",
       "brazilsouth",
