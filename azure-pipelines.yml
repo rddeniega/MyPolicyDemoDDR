@@ -1,6 +1,6 @@
 ---
 
-name: "1.$(date:yyMM)$(rev:.r) test"
+name: "1.$(date:yyMM)$(rev:.r)"
 
 trigger:
 - AddBuiltin-P
