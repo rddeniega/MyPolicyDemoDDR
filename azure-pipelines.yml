@@ -9,17 +9,17 @@ pool:
   vmImage: 'windows-2019'
 
 variables:
-- group: SCGLWiki
+- group: PolicyDemo
 
 stages:
 - stage: DeployAzurePolicy
   displayName: "Deploy Azure Policy to DEMO Environment"
   jobs:
   - deployment: AutomationLayerDeployment
-    displayName: Deploy to SCGL-demo
+    displayName: Deploy to CSD-Policy-Training-Sub
     pool:
       vmImage: 'windows-2019'
-    environment: 'SCGL-demo'
+    environment: 'CSD-Policy-Training-Sub'
     strategy:
       runOnce:
         deploy:
@@ -31,12 +31,12 @@ stages:
           - task: AzurePowerShell@4
             displayName: Deploy Policy, Create Documentation, Deploy Documentation
             inputs:
-              azureSubscription: 'SCGLDemo'
+              azureSubscription: 'CSD-Policy-Training-Sub'
               ScriptType: 'FilePath'
               ScriptPath: 'Deploy.ps1'
               azurePowerShellVersion: 'LatestVersion'
               scriptArguments: >-
-                -SubscriptionId '3f763b15-f8d6-4171-a3af-b8c33ee81e8e' 
+                -SubscriptionId '21f57d84-ca2c-4df2-8509-d4c23385675e' 
                 -ParametersFile '$(Build.SourcesDirectory)\\parameters.SCGLdemo.json'  
                 -DocumentationOutputDirectory '$(Build.ArtifactStagingDirectory)\\Documentation' 
                 -PolicyDirectories @("$(Build.SourcesDirectory)\Policy\Security") 
@@ -44,14 +44,11 @@ stages:
                 -ExceptionsFile '$(Build.SourcesDirectory)\\exceptions.SCGL.json'
                 -DestroyExistingAssignments 
                 -Verbose
-                -TestingSubscriptionId '5175eb3e-e794-4846-8eeb-b155e4caf34f'
-                -TestResultOutputDirectory '$(Build.ArtifactStagingDirectory)\\Testing\\'
-                -AdditionalTestingDirectories @('$(Build.SourcesDirectory)\\test\\cases')
-                -DocumentationAzureDevOpsOrganization "AccentureGovernancePlatformATCI"
-                -DocumentationAzureDevOpsProject "AccentureGovernancePlatform-ATCI-Demo"
-                -DocumentationAzureDevOpsWikiName "AccentureGovernancePlatform-ATCI-Demo.wiki"
+                -DocumentationAzureDevOpsOrganization "acnbootcamporg"
+                -DocumentationAzureDevOpsProject "PartsUnlimited"
+                -DocumentationAzureDevOpsWikiName "PartsUnlimited.wiki"
                 -DocumentationPersonalAccessToken "$(DocumentationPersonalAccessToken)"
-                -DocumentationScopeNickName "/SCGL-Policies/Visual Studio Premium with MSDN"
+                -DocumentationScopeNickName "/PartsUnlimitedWiki/PolicyDemo"
                 -PolicyExportClass "All"
                 -TestingCredentialSource "PowerShell"
 
