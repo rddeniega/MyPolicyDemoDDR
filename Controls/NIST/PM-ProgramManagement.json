@@ -1,0 +1,309 @@
+{
+  "$schema": "https://schema.toncoso.com/6-4-2019-dev2/controlSet.json",
+  "standard": "NIST 800-53",
+  "standardCategory": "nist",
+  "version": "Rev 4",
+  "controls": [
+    {
+      "id": "9b4be3f0-38a7-c319-a995-618896367fa6",
+      "displayName": "INFORMATION SECURITY PROGRAM PLAN",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PM-1",
+      "description": [
+        "The organization:",
+        "PM-1a. Develops and disseminates an organization-wide information security program plan that:",
+        "PM-1a.1. Provides an overview of the requirements for the security program and a description of the security program management controls and common controls in place or planned for meeting those requirements;",
+        "PM-1a.2. Includes the identification and assignment of roles, responsibilities, management commitment, coordination among organizational entities, and compliance;",
+        "PM-1a.3. Reflects coordination among organizational entities responsible for the different aspects of information security (i.e., technical, physical, personnel, cyber-physical); and",
+        "PM-1a.4. Is approved by a senior official with responsibility and accountability for the risk being incurred to organizational operations (including mission, functions, image, and reputation), organizational assets, individuals, other organizations, and the Nation;",
+        "PM-1b. Reviews the organization-wide information security program plan [Assignment: organization-defined frequency];",
+        "PM-1c. Updates the plan to address organizational changes and problems identified during plan implementation or security control assessments; and",
+        "PM-1d. Protects the information security program plan from unauthorized disclosure and modification."
+      ],
+      "relatedControls": [
+        "PM-8"
+      ],
+      "familyId": "PM",
+      "title": "INFORMATION SECURITY PROGRAM PLAN",
+      "family": "PROGRAM MANAGEMENT",
+      "controlId": "PM-1"
+    },
+    {
+      "id": "94fbc1bf-8d35-e947-8c27-b15155776c89",
+      "displayName": "SENIOR INFORMATION SECURITY OFFICER",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PM-2",
+      "description": [
+        "The organization appoints a senior information security officer with the mission and resources to coordinate, develop, implement, and maintain an organization-wide information security program."
+      ],
+      "relatedControls": [],
+      "familyId": "PM",
+      "title": "SENIOR INFORMATION SECURITY OFFICER",
+      "family": "PROGRAM MANAGEMENT",
+      "controlId": "PM-2"
+    },
+    {
+      "id": "5ee81bc9-fa9e-76b1-f173-ac7f1404f104",
+      "displayName": "INFORMATION SECURITY RESOURCES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PM-3",
+      "description": [
+        "The organization:",
+        "PM-3a. Ensures that all capital planning and investment requests include the resources needed to implement the information security program and documents all exceptions to this requirement;",
+        "PM-3b. Employs a business case/Exhibit 300/Exhibit 53 to record the resources required; and",
+        "PM-3c. Ensures that information security resources are available for expenditure as planned."
+      ],
+      "relatedControls": [
+        "PM-4",
+        "SA-2"
+      ],
+      "familyId": "PM",
+      "title": "INFORMATION SECURITY RESOURCES",
+      "family": "PROGRAM MANAGEMENT",
+      "controlId": "PM-3"
+    },
+    {
+      "id": "ad7023b6-6ce8-9d94-c071-3913b90fb563",
+      "displayName": "PLAN OF ACTION AND MILESTONES PROCESS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PM-4",
+      "description": [
+        "The organization:",
+        "PM-4a. Implements a process for ensuring that plans of action and milestones for the security program and associated organizational information systems:",
+        "PM-4a.1. Are developed and maintained;",
+        "PM-4a.2. Document the remedial information security actions to adequately respond to risk to organizational operations and assets, individuals, other organizations, and the Nation; and",
+        "PM-4a.3. Are reported in accordance with OMB FISMA reporting requirements.",
+        "PM-4b. Reviews plans of action and milestones for consistency with the organizational risk management strategy and organization-wide priorities for risk response actions."
+      ],
+      "relatedControls": [
+        "CA-5"
+      ],
+      "familyId": "PM",
+      "title": "PLAN OF ACTION AND MILESTONES PROCESS",
+      "family": "PROGRAM MANAGEMENT",
+      "controlId": "PM-4"
+    },
+    {
+      "id": "45ca879a-9eb4-86c5-8fc2-369cb67336b9",
+      "displayName": "INFORMATION SYSTEM INVENTORY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PM-5",
+      "description": [
+        "The organization develops and maintains an inventory of its information systems."
+      ],
+      "relatedControls": [],
+      "familyId": "PM",
+      "title": "INFORMATION SYSTEM INVENTORY",
+      "family": "PROGRAM MANAGEMENT",
+      "controlId": "PM-5"
+    },
+    {
+      "id": "12b1b4b7-a916-322e-4961-ae4fe73fcc83",
+      "displayName": "INFORMATION SECURITY MEASURES OF PERFORMANCE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PM-6",
+      "description": [
+        "The organization develops, monitors, and reports on the results of information security measures of performance."
+      ],
+      "relatedControls": [],
+      "familyId": "PM",
+      "title": "INFORMATION SECURITY MEASURES OF PERFORMANCE",
+      "family": "PROGRAM MANAGEMENT",
+      "controlId": "PM-6"
+    },
+    {
+      "id": "8f5bf14a-44b6-68e7-031c-57733fccd0a0",
+      "displayName": "ENTERPRISE ARCHITECTURE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PM-7",
+      "description": [
+        "The organization develops an enterprise architecture with consideration for information security and the resulting risk to organizational operations, organizational assets, individuals, other organizations, and the Nation."
+      ],
+      "relatedControls": [
+        "PL-2",
+        "PL-8",
+        "PM-11",
+        "RA-2",
+        "SA-3"
+      ],
+      "familyId": "PM",
+      "title": "ENTERPRISE ARCHITECTURE",
+      "family": "PROGRAM MANAGEMENT",
+      "controlId": "PM-7"
+    },
+    {
+      "id": "357860f8-fb6a-9124-1070-6c3eef1ecb32",
+      "displayName": "CRITICAL INFRASTRUCTURE PLAN",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PM-8",
+      "description": [
+        "The organization addresses information security issues in the development, documentation, and updating of a critical infrastructure and key resources protection plan."
+      ],
+      "relatedControls": [
+        "PM-1",
+        "PM-9",
+        "PM-11",
+        "RA-3"
+      ],
+      "familyId": "PM",
+      "title": "CRITICAL INFRASTRUCTURE PLAN",
+      "family": "PROGRAM MANAGEMENT",
+      "controlId": "PM-8"
+    },
+    {
+      "id": "05a6193f-c58e-d18f-9c59-4d7471a1dda6",
+      "displayName": "RISK MANAGEMENT STRATEGY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PM-9",
+      "description": [
+        "The organization:",
+        "PM-9a. Develops a comprehensive strategy to manage risk to organizational operations and assets, individuals, other organizations, and the Nation associated with the operation and use of information systems;",
+        "PM-9b. Implements the risk management strategy consistently across the organization; and",
+        "PM-9c. Reviews and updates the risk management strategy [Assignment: organization-defined frequency] or as required, to address organizational changes."
+      ],
+      "relatedControls": [
+        "RA-3"
+      ],
+      "familyId": "PM",
+      "title": "RISK MANAGEMENT STRATEGY",
+      "family": "PROGRAM MANAGEMENT",
+      "controlId": "PM-9"
+    },
+    {
+      "id": "f61ced53-f3f5-b2b9-3ebc-d160afccfde3",
+      "displayName": "SECURITY AUTHORIZATION PROCESS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PM-10",
+      "description": [
+        "The organization:",
+        "PM-10a. Manages (i.e., documents, tracks, and reports) the security state of organizational information systems and the environments in which those systems operate through security authorization processes;",
+        "PM-10b. Designates individuals to fulfill specific roles and responsibilities within the organizational risk management process; and",
+        "PM-10c. Fully integrates the security authorization processes into an organization-wide risk management program."
+      ],
+      "relatedControls": [
+        "CA-6"
+      ],
+      "familyId": "PM",
+      "title": "SECURITY AUTHORIZATION PROCESS",
+      "family": "PROGRAM MANAGEMENT",
+      "controlId": "PM-10"
+    },
+    {
+      "id": "4540b337-a43e-a331-9f46-9dd108068ae8",
+      "displayName": "MISSION/BUSINESS PROCESS DEFINITION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PM-11",
+      "description": [
+        "The organization:",
+        "PM-11a. Defines mission/business processes with consideration for information security and the resulting risk to organizational operations, organizational assets, individuals, other organizations, and the Nation; and",
+        "PM-11b. Determines information protection needs arising from the defined mission/business processes and revises the processes as necessary, until achievable protection needs are obtained."
+      ],
+      "relatedControls": [
+        "PM-7",
+        "PM-8",
+        "RA-2"
+      ],
+      "familyId": "PM",
+      "title": "MISSION/BUSINESS PROCESS DEFINITION",
+      "family": "PROGRAM MANAGEMENT",
+      "controlId": "PM-11"
+    },
+    {
+      "id": "ccafdf97-9a32-885e-7c25-b05eb320ebdb",
+      "displayName": "INSIDER THREAT PROGRAM",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PM-12",
+      "description": [
+        "The organization implements an insider threat program that includes a cross-discipline insider threat incident handling team."
+      ],
+      "relatedControls": [
+        "AC-6",
+        "AT-2",
+        "AU-6",
+        "AU-7",
+        "AU-10",
+        "AU-12",
+        "AU-13",
+        "CA-7",
+        "IA-4",
+        "IR-4",
+        "MP-7",
+        "PE-2",
+        "PS-3",
+        "PS-4",
+        "PS-5",
+        "PS-8",
+        "SC-7",
+        "SC-38",
+        "SI-4",
+        "PM-1",
+        "PM-14"
+      ],
+      "familyId": "PM",
+      "title": "INSIDER THREAT PROGRAM",
+      "family": "PROGRAM MANAGEMENT",
+      "controlId": "PM-12"
+    },
+    {
+      "id": "4f0e8624-5ce5-b780-71c4-13cad75c6109",
+      "displayName": "INFORMATION SECURITY WORKFORCE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PM-13",
+      "description": [
+        "The organization establishes an information security workforce development and improvement program."
+      ],
+      "relatedControls": [
+        "AT-2",
+        "AT-3"
+      ],
+      "familyId": "PM",
+      "title": "INFORMATION SECURITY WORKFORCE",
+      "family": "PROGRAM MANAGEMENT",
+      "controlId": "PM-13"
+    },
+    {
+      "id": "5e3bbf6a-f899-a65e-0ad5-8e317177577c",
+      "displayName": "TESTING, TRAINING, AND MONITORING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PM-14",
+      "description": [
+        "The organization:",
+        "PM-14a. Implements a process for ensuring that organizational plans for conducting security testing, training, and monitoring activities associated with organizational information systems:",
+        "PM-14a.1. Are developed and maintained; and",
+        "PM-14a.2. Continue to be executed in a timely manner;",
+        "PM-14b. Reviews testing, training, and monitoring plans for consistency with the organizational risk management strategy and organization-wide priorities for risk response actions."
+      ],
+      "relatedControls": [
+        "AT-3",
+        "CA-7",
+        "CP-4",
+        "IR-3",
+        "SI-4"
+      ],
+      "familyId": "PM",
+      "title": "TESTING, TRAINING, AND MONITORING",
+      "family": "PROGRAM MANAGEMENT",
+      "controlId": "PM-14"
+    },
+    {
+      "id": "033a4c52-7223-5365-8916-1aa1a48c4077",
+      "displayName": "CONTACTS WITH SECURITY GROUPS AND ASSOCIATIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PM-15",
+      "description": [
+        "The organization establishes and institutionalizes contact with selected groups and associations within the security community:",
+        "PM-15a. To facilitate ongoing security education and training for organizational personnel;",
+        "PM-15b. To maintain currency with recommended security practices, techniques, and technologies; and",
+        "PM-15c. To share current security-related information including threats, vulnerabilities, and incidents."
+      ],
+      "relatedControls": [
+        "SI-5"
+      ],
+      "familyId": "PM",
+      "title": "CONTACTS WITH SECURITY GROUPS AND ASSOCIATIONS",
+      "family": "PROGRAM MANAGEMENT",
+      "controlId": "PM-15"
+    },
+    {
+      "id": "9d2d7091-cec4-d232-0fb9-f5b9615265b3",
+      "displayName": "THREAT AWARENESS PROGRAM",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PM-16",
+      "description": [
+        "The organization implements a threat awareness program that includes a cross-organization information-sharing capability."
+      ],
+      "relatedControls": [
+        "PM-12",
+        "PM-16"
+      ],
+      "familyId": "PM",
+      "title": "THREAT AWARENESS PROGRAM",
+      "family": "PROGRAM MANAGEMENT",
+      "controlId": "PM-16"
+    }
+  ]
+}

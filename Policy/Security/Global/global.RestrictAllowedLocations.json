@@ -1,0 +1,78 @@
+{
+  "$schema": "https://schema.toncoso.com/2019-06-24/policyObject.json",
+  "id": "f3d66bd0-0965-4241-a37d-9d2bbd6d83ae",
+  "name": "RestrictAllowedLocations",
+  "controls": [
+    "1f29dca4-2832-a716-9dbb-d5a37af3ec12"
+  ],
+  "policyObjects": {
+    "audit": {
+      "properties": {
+        "mode": "indexed",
+        "metadata": {
+          "category": "[SCGL]: Dev Governance"
+        },
+        "parameters": {
+          "allowedLocations": {
+            "type": "array",
+            "metadata": {
+              "description": "The list of locations that can be specified when deploying resources",
+              "strongType": "location",
+              "displayName": "Allowed locations"
+            }
+          }
+        },
+        "displayName": "Allowed locations - Audit",
+        "description": "This policy enables you to restrict the locations your organization can specify when deploying resources.",
+        "policyRule": {
+          "if": {
+            "not": {
+              "field": "location",
+              "in": "[parameters('allowedLocations')]"
+            }
+          },
+          "then": {
+            "effect": "audit"
+          }
+        }
+      }
+    },
+    "deny": {
+      "properties": {
+        "mode": "indexed",
+        "metadata": {
+          "category": "[SCGL]: Dev Governance"
+        },
+        "parameters": {
+          "allowedLocations": {
+            "type": "array",
+            "metadata": {
+              "description": "The list of locations that can be specified when deploying resources",
+              "strongType": "location",
+              "displayName": "Allowed locations - Audit"
+            }
+          }
+        },
+        "displayName": "Allowed locations",
+        "description": "This policy enables you to restrict the locations your organization can specify when deploying resources.",
+        "policyRule": {
+          "if": {
+            "not": {
+              "field": "location",
+              "in": "[parameters('allowedLocations')]"
+            }
+          },
+          "then": {
+            "effect": "deny"
+          }
+        }
+      }
+    },
+    "remediate": null,
+    "append": null,
+    "guestConfigurationDeployment": null
+  },
+  "globalParameterNames": [
+    "allowedLocations"
+  ]
+}

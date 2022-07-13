@@ -1,0 +1,422 @@
+{
+  "$schema": "https://schema.toncoso.com/6-4-2019-dev2/controlSet.json",
+  "standard": "NIST 800-53",
+  "standardCategory": "nist",
+  "version": "Rev 4",
+  "controls": [
+    {
+      "id": "339f5568-ec3b-43a3-997d-156f9682268a",
+      "displayName": "SECURITY ASSESSMENT AND AUTHORIZATION POLICY AND PROCEDURES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-1",
+      "description": [
+        "The organization:",
+        "CA-1a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:",
+        "CA-1a.1. A security assessment and authorization policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and",
+        "CA-1a.2. Procedures to facilitate the implementation of the security assessment and authorization policy and associated security assessment and authorization controls; and",
+        "CA-1b. Reviews and updates the current:",
+        "CA-1b.1. Security assessment and authorization policy [Assignment: organization-defined frequency]; and",
+        "CA-1b.2. Security assessment and authorization procedures [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [
+        "PM-9"
+      ],
+      "familyId": "CA",
+      "title": "SECURITY ASSESSMENT AND AUTHORIZATION POLICY AND PROCEDURES",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-1"
+    },
+    {
+      "id": "e5657ca6-ff57-b4ad-5d1f-e741dfa1ba9c",
+      "displayName": "SECURITY ASSESSMENTS / INDEPENDENT ASSESSORS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-2 (1)",
+      "description": [
+        "The organization employs assessors or assessment teams with [Assignment: organization-defined level of independence] to conduct security control assessments."
+      ],
+      "relatedControls": [],
+      "familyId": "CA",
+      "title": "INDEPENDENT ASSESSORS",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-2 (1)"
+    },
+    {
+      "id": "d00bb3d5-e192-1f52-bcac-b266452e45fb",
+      "displayName": "SECURITY ASSESSMENTS / SPECIALIZED ASSESSMENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-2 (2)",
+      "description": [
+        "The organization includes as part of security control assessments, [Assignment: organization-defined frequency], [Selection: announced; unannounced], [Selection (one or more): in-depth monitoring; vulnerability scanning; malicious user testing; insider threat assessment; performance/load testing; [Assignment: organization-defined other forms of security assessment]]."
+      ],
+      "relatedControls": [],
+      "familyId": "CA",
+      "title": "SPECIALIZED ASSESSMENTS",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-2 (2)"
+    },
+    {
+      "id": "0e607062-5425-20a2-0115-72384fbdefcf",
+      "displayName": "SECURITY ASSESSMENTS / EXTERNAL ORGANIZATIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-2 (3)",
+      "description": [
+        "The organization accepts the results of an assessment of [Assignment: organization-defined information system] performed by [Assignment: organization-defined external organization] when the assessment meets [Assignment: organization-defined requirements]."
+      ],
+      "relatedControls": [],
+      "familyId": "CA",
+      "title": "EXTERNAL ORGANIZATIONS",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-2 (3)"
+    },
+    {
+      "id": "358f49c3-effd-3b50-00a4-82d0a6eae054",
+      "displayName": "SECURITY ASSESSMENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-2",
+      "description": [
+        "The organization:",
+        "CA-2a. Develops a security assessment plan that describes the scope of the assessment including:",
+        "CA-2a.1. Security controls and control enhancements under assessment;",
+        "CA-2a.2. Assessment procedures to be used to determine security control effectiveness; and",
+        "CA-2a.3. Assessment environment, assessment team, and assessment roles and responsibilities;",
+        "CA-2b. Assesses the security controls in the information system and its environment of operation [Assignment: organization-defined frequency] to determine the extent to which the controls are implemented correctly, operating as intended, and producing the desired outcome with respect to meeting established security requirements;",
+        "CA-2c. Produces a security assessment report that documents the results of the assessment; and",
+        "CA-2d. Provides the results of the security control assessment to [Assignment: organization-defined individuals or roles]."
+      ],
+      "relatedControls": [
+        "CA-5",
+        "CA-6",
+        "CA-7",
+        "PM-9",
+        "RA-5",
+        "SA-11",
+        "SA-12",
+        "SI-4"
+      ],
+      "familyId": "CA",
+      "title": "SECURITY ASSESSMENTS",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-2"
+    },
+    {
+      "id": "41eb646b-01ae-8e44-bfb2-1cf7ab07dd09",
+      "displayName": "SYSTEM INTERCONNECTIONS / UNCLASSIFIED NATIONAL SECURITY SYSTEM CONNECTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-3 (1)",
+      "description": [
+        "The organization prohibits the direct connection of an [Assignment: organization-defined unclassified, national security system] to an external network without the use of [Assignment: organization-defined boundary protection device]."
+      ],
+      "relatedControls": [],
+      "familyId": "CA",
+      "title": "UNCLASSIFIED NATIONAL SECURITY SYSTEM CONNECTIONS",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-3 (1)"
+    },
+    {
+      "id": "572e6dfe-0089-1843-a4f3-638064d444e3",
+      "displayName": "SYSTEM INTERCONNECTIONS / CLASSIFIED NATIONAL SECURITY SYSTEM CONNECTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-3 (2)",
+      "description": [
+        "The organization prohibits the direct connection of a classified, national security system to an external network without the use of [Assignment: organization-defined boundary protection device]."
+      ],
+      "relatedControls": [],
+      "familyId": "CA",
+      "title": "CLASSIFIED NATIONAL SECURITY SYSTEM CONNECTIONS",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-3 (2)"
+    },
+    {
+      "id": "31a6aac6-a4b1-7d10-dd93-b140f1067e26",
+      "displayName": "SYSTEM INTERCONNECTIONS / UNCLASSIFIED NON-NATIONAL SECURITY SYSTEM CONNECTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-3 (3)",
+      "description": [
+        "The organization prohibits the direct connection of an [Assignment: organization-defined unclassified, non-national security system] to an external network without the use of [Assignment; organization-defined boundary protection device]."
+      ],
+      "relatedControls": [],
+      "familyId": "CA",
+      "title": "UNCLASSIFIED NON-NATIONAL SECURITY SYSTEM CONNECTIONS",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-3 (3)"
+    },
+    {
+      "id": "986fa27a-0130-7b0f-e525-a7c147d2c44e",
+      "displayName": "SYSTEM INTERCONNECTIONS / CONNECTIONS TO PUBLIC NETWORKS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-3 (4)",
+      "description": [
+        "The organization prohibits the direct connection of an [Assignment: organization-defined information system] to a public network."
+      ],
+      "relatedControls": [],
+      "familyId": "CA",
+      "title": "CONNECTIONS TO PUBLIC NETWORKS",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-3 (4)"
+    },
+    {
+      "id": "80efb99e-ccf5-5d40-4052-bdf0fc723bc1",
+      "displayName": "SYSTEM INTERCONNECTIONS / RESTRICTIONS ON EXTERNAL SYSTEM CONNECTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-3 (5)",
+      "description": [
+        "The organization employs [Selection: allow-all, deny-by-exception; deny-all, permit-by-exception] policy for allowing [Assignment: organization-defined information systems] to connect to external information systems."
+      ],
+      "relatedControls": [],
+      "familyId": "CA",
+      "title": "RESTRICTIONS ON EXTERNAL SYSTEM CONNECTIONS",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-3 (5)"
+    },
+    {
+      "id": "b38f202c-427c-4516-b53a-04df5c199a26",
+      "displayName": "SYSTEM INTERCONNECTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-3",
+      "description": [
+        "The organization:",
+        "CA-3a. Authorizes connections from the information system to other information systems through the use of Interconnection Security Agreements;",
+        "CA-3b. Documents, for each interconnection, the interface characteristics, security requirements, and the nature of the information communicated; and",
+        "CA-3c. Reviews and updates Interconnection Security Agreements [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [
+        "AC-3",
+        "AC-4",
+        "AC-20",
+        "AU-2",
+        "AU-12",
+        "AU-16",
+        "CA-7",
+        "IA-3",
+        "SA-9",
+        "SC-7",
+        "SI-4"
+      ],
+      "familyId": "CA",
+      "title": "SYSTEM INTERCONNECTIONS",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-3"
+    },
+    {
+      "id": "048b1e18-9f7a-ae31-ecc5-592c18a694e0",
+      "displayName": "SECURITY CERTIFICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-4",
+      "description": [
+        "[Withdrawn: Incorporated into CA-2]."
+      ],
+      "relatedControls": [
+        "AC-3",
+        "AC-4",
+        "AC-20",
+        "AU-2",
+        "AU-12",
+        "AU-16",
+        "CA-7",
+        "IA-3",
+        "SA-9",
+        "SC-7",
+        "SI-4"
+      ],
+      "familyId": "CA",
+      "title": "SECURITY CERTIFICATION",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-4"
+    },
+    {
+      "id": "d25c77db-d4ae-043b-33d2-7478db266d50",
+      "displayName": "PLAN OF ACTION AND MILESTONES / AUTOMATION SUPPORT FOR ACCURACY / CURRENCY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-5 (1)",
+      "description": [
+        "The organization employs automated mechanisms to help ensure that the plan of action and milestones for the information system is accurate, up to date, and readily available."
+      ],
+      "relatedControls": [],
+      "familyId": "CA",
+      "title": "AUTOMATION SUPPORT FOR ACCURACY / CURRENCY",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-5 (1)"
+    },
+    {
+      "id": "878e6799-a083-3d13-56b0-902bbdcc4f87",
+      "displayName": "PLAN OF ACTION AND MILESTONES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-5",
+      "description": [
+        "The organization:",
+        "CA-5a. Develops a plan of action and milestones for the information system to document the organization\u0027s planned remedial actions to correct weaknesses or deficiencies noted during the assessment of the security controls and to reduce or eliminate known vulnerabilities in the system; and",
+        "CA-5b. Updates existing plan of action and milestones [Assignment: organization-defined frequency] based on the findings from security controls assessments, security impact analyses, and continuous monitoring activities."
+      ],
+      "relatedControls": [
+        "CA-2",
+        "CA-7",
+        "CM-4",
+        "PM-4"
+      ],
+      "familyId": "CA",
+      "title": "PLAN OF ACTION AND MILESTONES",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-5"
+    },
+    {
+      "id": "97bdb668-e364-5d22-c573-4c31cc2ee1ae",
+      "displayName": "SECURITY AUTHORIZATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-6",
+      "description": [
+        "The organization:",
+        "CA-6a. Assigns a senior-level executive or manager as the authorizing official for the information system;",
+        "CA-6b. Ensures that the authorizing official authorizes the information system for processing before commencing operations; and",
+        "CA-6c. Updates the security authorization [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [
+        "CA-2",
+        "CA-7",
+        "PM-9",
+        "PM-10"
+      ],
+      "familyId": "CA",
+      "title": "SECURITY AUTHORIZATION",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-6"
+    },
+    {
+      "id": "e93f3680-f4e7-3088-c626-94fa910b5440",
+      "displayName": "CONTINUOUS MONITORING / INDEPENDENT ASSESSMENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-7 (1)",
+      "description": [
+        "The organization employs assessors or assessment teams with [Assignment: organization-defined level of independence] to monitor the security controls in the information system on an ongoing basis."
+      ],
+      "relatedControls": [],
+      "familyId": "CA",
+      "title": "INDEPENDENT ASSESSMENT",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-7 (1)"
+    },
+    {
+      "id": "42e1e339-9488-a349-4968-62018de79c69",
+      "displayName": "CONTINUOUS MONITORING / TYPES OF ASSESSMENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-7 (2)",
+      "description": [
+        "[Withdrawn: Incorporated into CA-2]."
+      ],
+      "relatedControls": [],
+      "familyId": "CA",
+      "title": "TYPES OF ASSESSMENTS",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-7 (2)"
+    },
+    {
+      "id": "a627eaef-508d-7395-785b-2cbe6995b921",
+      "displayName": "CONTINUOUS MONITORING / TREND ANALYSES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-7 (3)",
+      "description": [
+        "The organization employs trend analyses to determine if security control implementations, the frequency of continuous monitoring activities, and/or the types of activities used in the continuous monitoring process need to be modified based on empirical data."
+      ],
+      "relatedControls": [],
+      "familyId": "CA",
+      "title": "TREND ANALYSES",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-7 (3)"
+    },
+    {
+      "id": "1b0765a1-9b95-6cf0-e0f7-a281351aa5f6",
+      "displayName": "CONTINUOUS MONITORING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-7",
+      "description": [
+        "The organization develops a continuous monitoring strategy and implements a continuous monitoring program that includes:",
+        "CA-7a. Establishment of [Assignment: organization-defined metrics] to be monitored;",
+        "CA-7b. Establishment of [Assignment: organization-defined frequencies] for monitoring and [Assignment: organization-defined frequencies] for assessments supporting such monitoring;",
+        "CA-7c. Ongoing security control assessments in accordance with the organizational continuous monitoring strategy;",
+        "CA-7d. Ongoing security status monitoring of organization-defined metrics in accordance with the organizational continuous monitoring strategy;",
+        "CA-7e. Correlation and analysis of security-related information generated by assessments and monitoring;",
+        "CA-7f. Response actions to address results of the analysis of security-related information; and",
+        "CA-7g. Reporting the security status of organization and the information system to [Assignment: organization-defined personnel or roles] [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [
+        "CA-2",
+        "CA-5",
+        "CA-6",
+        "CM-3",
+        "CM-4",
+        "PM-6",
+        "PM-9",
+        "RA-5",
+        "SA-11",
+        "SA-12",
+        "SI-2",
+        "SI-4"
+      ],
+      "familyId": "CA",
+      "title": "CONTINUOUS MONITORING",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-7"
+    },
+    {
+      "id": "db39ba01-c350-44d0-02bf-5a114187cb0b",
+      "displayName": "PENETRATION TESTING / INDEPENDENT PENETRATION AGENT OR TEAM",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-8 (1)",
+      "description": [
+        "The organization employs an independent penetration agent or penetration team to perform penetration testing on the information system or system components."
+      ],
+      "relatedControls": [],
+      "familyId": "CA",
+      "title": "INDEPENDENT PENETRATION AGENT OR TEAM",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-8 (1)"
+    },
+    {
+      "id": "b8584da8-4238-9c88-07ee-9f78748a7199",
+      "displayName": "PENETRATION TESTING / RED TEAM EXERCISES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-8 (2)",
+      "description": [
+        "The organization employs [Assignment: organization-defined red team exercises] to simulate attempts by adversaries to compromise organizational information systems in accordance with [Assignment: organization-defined rules of engagement]."
+      ],
+      "relatedControls": [],
+      "familyId": "CA",
+      "title": "RED TEAM EXERCISES",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-8 (2)"
+    },
+    {
+      "id": "1b67f29e-d51e-f404-42a5-4165f59c4546",
+      "displayName": "PENETRATION TESTING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-8",
+      "description": [
+        "The organization conducts penetration testing [Assignment: organization-defined frequency] on [Assignment: organization-defined information systems or system components]."
+      ],
+      "relatedControls": [
+        "SA-12"
+      ],
+      "familyId": "CA",
+      "title": "PENETRATION TESTING",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-8"
+    },
+    {
+      "id": "e1acf410-f7ef-a805-fed0-3d307034dce4",
+      "displayName": "INTERNAL SYSTEM CONNECTIONS / SECURITY COMPLIANCE CHECKS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-9 (1)",
+      "description": [
+        "The information system performs security compliance checks on constituent system components prior to the establishment of the internal connection."
+      ],
+      "relatedControls": [],
+      "familyId": "CA",
+      "title": "SECURITY COMPLIANCE CHECKS",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-9 (1)"
+    },
+    {
+      "id": "d0f02c47-bc0c-3de0-ab9a-8dbb4a0b82a5",
+      "displayName": "INTERNAL SYSTEM CONNECTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CA-9",
+      "description": [
+        "The organization:",
+        "CA-9a. Authorizes internal connections of [Assignment: organization-defined information system components or classes of components] to the information system; and",
+        "CA-9b. Documents, for each internal connection, the interface characteristics, security requirements, and the nature of the information communicated."
+      ],
+      "relatedControls": [
+        "AC-3",
+        "AC-4",
+        "AC-18",
+        "AC-19",
+        "AU-2",
+        "AU-12",
+        "CA-7",
+        "CM-2",
+        "IA-3",
+        "SC-7",
+        "SI-4"
+      ],
+      "familyId": "CA",
+      "title": "INTERNAL SYSTEM CONNECTIONS",
+      "family": "SECURITY ASSESSMENT AND AUTHORIZATION",
+      "controlId": "CA-9"
+    }
+  ]
+}

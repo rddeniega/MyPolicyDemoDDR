@@ -1,0 +1,297 @@
+{
+  "$schema": "https://schema.toncoso.com/6-4-2019-dev2/controlSet.json",
+  "standard": "NIST 800-53",
+  "standardCategory": "nist",
+  "version": "Rev 4",
+  "controls": [
+    {
+      "id": "411e2cd7-38e5-afdf-e12b-72986b8d3a09",
+      "displayName": "PERSONNEL SECURITY POLICY AND PROCEDURES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PS-1",
+      "description": [
+        "The organization:",
+        "PS-1a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:",
+        "PS-1a.1. A personnel security policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and",
+        "PS-1a.2. Procedures to facilitate the implementation of the personnel security policy and associated personnel security controls; and",
+        "PS-1b. Reviews and updates the current:",
+        "PS-1b.1. Personnel security policy [Assignment: organization-defined frequency]; and",
+        "PS-1b.2. Personnel security procedures [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [
+        "PM-9"
+      ],
+      "familyId": "PS",
+      "title": "PERSONNEL SECURITY POLICY AND PROCEDURES",
+      "family": "PERSONNEL SECURITY",
+      "controlId": "PS-1"
+    },
+    {
+      "id": "67209a49-db16-5aae-c7d9-5672967f3dba",
+      "displayName": "POSITION RISK DESIGNATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PS-2",
+      "description": [
+        "The organization:",
+        "PS-2a. Assigns a risk designation to all organizational positions;",
+        "PS-2b. Establishes screening criteria for individuals filling those positions; and",
+        "PS-2c. Reviews and updates position risk designations [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [
+        "AT-3",
+        "PL-2",
+        "PS-3"
+      ],
+      "familyId": "PS",
+      "title": "POSITION RISK DESIGNATION",
+      "family": "PERSONNEL SECURITY",
+      "controlId": "PS-2"
+    },
+    {
+      "id": "2c9a8c76-1773-a919-214b-f092fb2e8ff5",
+      "displayName": "PERSONNEL SCREENING / CLASSIFIED INFORMATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PS-3 (1)",
+      "description": [
+        "The organization ensures that individuals accessing an information system processing, storing, or transmitting classified information are cleared and indoctrinated to the highest classification level of the information to which they have access on the system."
+      ],
+      "relatedControls": [],
+      "familyId": "PS",
+      "title": "CLASSIFIED INFORMATION",
+      "family": "PERSONNEL SECURITY",
+      "controlId": "PS-3 (1)"
+    },
+    {
+      "id": "65696603-4681-2239-23f8-55fc96294ef9",
+      "displayName": "PERSONNEL SCREENING / FORMAL INDOCTRINATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PS-3 (2)",
+      "description": [
+        "The organization ensures that individuals accessing an information system processing, storing, or transmitting types of classified information which require formal indoctrination, are formally indoctrinated for all of the relevant types of information to which they have access on the system."
+      ],
+      "relatedControls": [],
+      "familyId": "PS",
+      "title": "FORMAL INDOCTRINATION",
+      "family": "PERSONNEL SECURITY",
+      "controlId": "PS-3 (2)"
+    },
+    {
+      "id": "7b190c7c-3d6c-7b8a-6169-bf8c5c7bcd77",
+      "displayName": "PERSONNEL SCREENING / INFORMATION WITH SPECIAL PROTECTION MEASURES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PS-3 (3)",
+      "description": [
+        "The organization ensures that individuals accessing an information system processing, storing, or transmitting information requiring special protection:",
+        "PS-3 (3)(a) Have valid access authorizations that are demonstrated by assigned official government duties; and",
+        "PS-3 (3)(b) Satisfy [Assignment: organization-defined additional personnel screening criteria]."
+      ],
+      "relatedControls": [],
+      "familyId": "PS",
+      "title": "INFORMATION WITH SPECIAL PROTECTION MEASURES",
+      "family": "PERSONNEL SECURITY",
+      "controlId": "PS-3 (3)"
+    },
+    {
+      "id": "e8c4b7ef-7123-1157-b724-42880187eb65",
+      "displayName": "PERSONNEL SCREENING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PS-3",
+      "description": [
+        "The organization:",
+        "PS-3a. Screens individuals prior to authorizing access to the information system; and",
+        "PS-3b. Rescreens individuals according to [Assignment: organization-defined conditions requiring rescreening and, where rescreening is so indicated, the frequency of such rescreening]."
+      ],
+      "relatedControls": [
+        "AC-2",
+        "IA-4",
+        "PE-2",
+        "PS-2"
+      ],
+      "familyId": "PS",
+      "title": "PERSONNEL SCREENING",
+      "family": "PERSONNEL SECURITY",
+      "controlId": "PS-3"
+    },
+    {
+      "id": "4ab572c6-6030-2dfa-c3fa-529516fbb1a2",
+      "displayName": "PERSONNEL TERMINATION / POST-EMPLOYMENT REQUIREMENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PS-4 (1)",
+      "description": [
+        "The organization:",
+        "PS-4 (1)(a) Notifies terminated individuals of applicable, legally binding post-employment requirements for the protection of organizational information; and",
+        "PS-4 (1)(b) Requires terminated individuals to sign an acknowledgment of post-employment requirements as part of the organizational termination process."
+      ],
+      "relatedControls": [],
+      "familyId": "PS",
+      "title": "POST-EMPLOYMENT REQUIREMENTS",
+      "family": "PERSONNEL SECURITY",
+      "controlId": "PS-4 (1)"
+    },
+    {
+      "id": "51584ecf-557d-3cc0-f693-4d45f560c6d7",
+      "displayName": "PERSONNEL TERMINATION / AUTOMATED NOTIFICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PS-4 (2)",
+      "description": [
+        "The organization employs automated mechanisms to notify [Assignment: organization-defined personnel or roles] upon termination of an individual."
+      ],
+      "relatedControls": [],
+      "familyId": "PS",
+      "title": "AUTOMATED NOTIFICATION",
+      "family": "PERSONNEL SECURITY",
+      "controlId": "PS-4 (2)"
+    },
+    {
+      "id": "d4d25691-93dd-bd51-6cee-181f85827115",
+      "displayName": "PERSONNEL TERMINATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PS-4",
+      "description": [
+        "The organization, upon termination of individual employment:",
+        "PS-4a. Disables information system access within [Assignment: organization-defined time period];",
+        "PS-4b. Terminates/revokes any authenticators/credentials associated with the individual;",
+        "PS-4c. Conducts exit interviews that include a discussion of [Assignment: organization-defined information security topics];",
+        "PS-4d. Retrieves all security-related organizational information system-related property;",
+        "PS-4e. Retains access to organizational information and information systems formerly controlled by terminated individual; and",
+        "PS-4f. Notifies [Assignment: organization-defined personnel or roles] within [Assignment: organization-defined time period]."
+      ],
+      "relatedControls": [
+        "AC-2",
+        "IA-4",
+        "PE-2",
+        "PS-5",
+        "PS-6"
+      ],
+      "familyId": "PS",
+      "title": "PERSONNEL TERMINATION",
+      "family": "PERSONNEL SECURITY",
+      "controlId": "PS-4"
+    },
+    {
+      "id": "63e3afb4-4936-b341-fae8-54396b66cbc4",
+      "displayName": "PERSONNEL TRANSFER",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PS-5",
+      "description": [
+        "The organization:",
+        "PS-5a. Reviews and confirms ongoing operational need for current logical and physical access authorizations to information systems/facilities when individuals are reassigned or transferred to other positions within the organization;",
+        "PS-5b. Initiates [Assignment: organization-defined transfer or reassignment actions] within [Assignment: organization-defined time period following the formal transfer action];",
+        "PS-5c. Modifies access authorization as needed to correspond with any changes in operational need due to reassignment or transfer; and",
+        "PS-5d. Notifies [Assignment: organization-defined personnel or roles] within [Assignment: organization-defined time period]."
+      ],
+      "relatedControls": [
+        "AC-2",
+        "IA-4",
+        "PE-2",
+        "PS-4"
+      ],
+      "familyId": "PS",
+      "title": "PERSONNEL TRANSFER",
+      "family": "PERSONNEL SECURITY",
+      "controlId": "PS-5"
+    },
+    {
+      "id": "fa2871de-d6cc-03eb-24ba-2704be4d4451",
+      "displayName": "ACCESS AGREEMENTS / INFORMATION REQUIRING SPECIAL PROTECTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PS-6 (1)",
+      "description": [
+        "[Withdrawn: Incorporated into PS-3]."
+      ],
+      "relatedControls": [],
+      "familyId": "PS",
+      "title": "INFORMATION REQUIRING SPECIAL PROTECTION",
+      "family": "PERSONNEL SECURITY",
+      "controlId": "PS-6 (1)"
+    },
+    {
+      "id": "c0d6262a-9b83-b466-44bd-28418d8b6254",
+      "displayName": "ACCESS AGREEMENTS / CLASSIFIED INFORMATION REQUIRING SPECIAL PROTECTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PS-6 (2)",
+      "description": [
+        "The organization ensures that access to classified information requiring special protection is granted only to individuals who:",
+        "PS-6 (2)(a) Have a valid access authorization that is demonstrated by assigned official government duties;",
+        "PS-6 (2)(b) Satisfy associated personnel security criteria; and",
+        "PS-6 (2)(c) Have read, understood, and signed a nondisclosure agreement."
+      ],
+      "relatedControls": [],
+      "familyId": "PS",
+      "title": "CLASSIFIED INFORMATION REQUIRING SPECIAL PROTECTION",
+      "family": "PERSONNEL SECURITY",
+      "controlId": "PS-6 (2)"
+    },
+    {
+      "id": "b0128ad3-0e7c-4e2b-bd55-8fb33531d881",
+      "displayName": "ACCESS AGREEMENTS / POST-EMPLOYMENT REQUIREMENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PS-6 (3)",
+      "description": [
+        "The organization:",
+        "PS-6 (3)(a) Notifies individuals of applicable, legally binding post-employment requirements for protection of organizational information; and",
+        "PS-6 (3)(b) Requires individuals to sign an acknowledgment of these requirements, if applicable, as part of granting initial access to covered information."
+      ],
+      "relatedControls": [],
+      "familyId": "PS",
+      "title": "POST-EMPLOYMENT REQUIREMENTS",
+      "family": "PERSONNEL SECURITY",
+      "controlId": "PS-6 (3)"
+    },
+    {
+      "id": "35563cae-1471-0c81-70ea-03bcfaa13065",
+      "displayName": "ACCESS AGREEMENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PS-6",
+      "description": [
+        "The organization:",
+        "PS-6a. Develops and documents access agreements for organizational information systems;",
+        "PS-6b. Reviews and updates the access agreements [Assignment: organization-defined frequency]; and",
+        "PS-6c. Ensures that individuals requiring access to organizational information and information systems:",
+        "PS-6c.1. Sign appropriate access agreements prior to being granted access; and",
+        "PS-6c.2. Re-sign access agreements to maintain access to organizational information systems when access agreements have been updated or [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [
+        "PL-4",
+        "PS-2",
+        "PS-3",
+        "PS-4",
+        "PS-8"
+      ],
+      "familyId": "PS",
+      "title": "ACCESS AGREEMENTS",
+      "family": "PERSONNEL SECURITY",
+      "controlId": "PS-6"
+    },
+    {
+      "id": "0bcf324a-d348-64a6-c5c3-92d2efc3e34b",
+      "displayName": "THIRD-PARTY PERSONNEL SECURITY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PS-7",
+      "description": [
+        "The organization:",
+        "PS-7a. Establishes personnel security requirements including security roles and responsibilities for third-party providers;",
+        "PS-7b. Requires third-party providers to comply with personnel security policies and procedures established by the organization;",
+        "PS-7c. Documents personnel security requirements;",
+        "PS-7d. Requires third-party providers to notify [Assignment: organization-defined personnel or roles] of any personnel transfers or terminations of third-party personnel who possess organizational credentials and/or badges, or who have information system privileges within [Assignment: organization-defined time period]; and",
+        "PS-7e. Monitors provider compliance."
+      ],
+      "relatedControls": [
+        "PS-2",
+        "PS-3",
+        "PS-4",
+        "PS-5",
+        "PS-6",
+        "SA-9",
+        "SA-21"
+      ],
+      "familyId": "PS",
+      "title": "THIRD-PARTY PERSONNEL SECURITY",
+      "family": "PERSONNEL SECURITY",
+      "controlId": "PS-7"
+    },
+    {
+      "id": "216df953-308f-9fda-ed04-81b771c52666",
+      "displayName": "PERSONNEL SANCTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PS-8",
+      "description": [
+        "The organization:",
+        "PS-8a. Employs a formal sanctions process for individuals failing to comply with established information security policies and procedures; and",
+        "PS-8b. Notifies [Assignment: organization-defined personnel or roles] within [Assignment: organization-defined time period] when a formal employee sanctions process is initiated, identifying the individual sanctioned and the reason for the sanction."
+      ],
+      "relatedControls": [
+        "PL-4",
+        "PS-6"
+      ],
+      "familyId": "PS",
+      "title": "PERSONNEL SANCTIONS",
+      "family": "PERSONNEL SECURITY",
+      "controlId": "PS-8"
+    }
+  ]
+}

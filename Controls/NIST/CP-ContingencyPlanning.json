@@ -1,0 +1,814 @@
+{
+  "$schema": "https://schema.toncoso.com/6-4-2019-dev2/controlSet.json",
+  "standard": "NIST 800-53",
+  "standardCategory": "nist",
+  "version": "Rev 4",
+  "controls": [
+    {
+      "id": "f2a6e410-75ea-2e77-e826-e46ec6ad99f3",
+      "displayName": "CONTINGENCY PLANNING POLICY AND PROCEDURES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-1",
+      "description": [
+        "The organization:",
+        "CP-1a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:",
+        "CP-1a.1. A contingency planning policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and",
+        "CP-1a.2. Procedures to facilitate the implementation of the contingency planning policy and associated contingency planning controls; and",
+        "CP-1b. Reviews and updates the current:",
+        "CP-1b.1. Contingency planning policy [Assignment: organization-defined frequency]; and",
+        "CP-1b.2. Contingency planning procedures [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [
+        "PM-9"
+      ],
+      "familyId": "CP",
+      "title": "CONTINGENCY PLANNING POLICY AND PROCEDURES",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-1"
+    },
+    {
+      "id": "2b725a4b-6383-ce91-f1cd-bc41fb2f08d0",
+      "displayName": "CONTINGENCY PLAN / COORDINATE WITH RELATED PLANS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-2 (1)",
+      "description": [
+        "The organization coordinates contingency plan development with organizational elements responsible for related plans."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "COORDINATE WITH RELATED PLANS",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-2 (1)"
+    },
+    {
+      "id": "9e04e0f1-54d7-4d47-c970-d43d86422956",
+      "displayName": "CONTINGENCY PLAN / CAPACITY PLANNING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-2 (2)",
+      "description": [
+        "The organization conducts capacity planning so that necessary capacity for information processing, telecommunications, and environmental support exists during contingency operations."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "CAPACITY PLANNING",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-2 (2)"
+    },
+    {
+      "id": "4499f16c-3784-29b6-ce15-8b52cbf53734",
+      "displayName": "CONTINGENCY PLAN / RESUME ESSENTIAL MISSIONS / BUSINESS FUNCTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-2 (3)",
+      "description": [
+        "The organization plans for the resumption of essential missions and business functions within [Assignment: organization-defined time period] of contingency plan activation."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "RESUME ESSENTIAL MISSIONS / BUSINESS FUNCTIONS",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-2 (3)"
+    },
+    {
+      "id": "8d5ffa11-81bf-865a-923c-148955cc3df4",
+      "displayName": "CONTINGENCY PLAN / RESUME ALL MISSIONS / BUSINESS FUNCTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-2 (4)",
+      "description": [
+        "The organization plans for the resumption of all missions and business functions within [Assignment: organization-defined time period] of contingency plan activation."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "RESUME ALL MISSIONS / BUSINESS FUNCTIONS",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-2 (4)"
+    },
+    {
+      "id": "27c9e0c1-da7c-a8a0-1705-896036a755f6",
+      "displayName": "CONTINGENCY PLAN / CONTINUE  ESSENTIAL MISSIONS / BUSINESS FUNCTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-2 (5)",
+      "description": [
+        "The organization plans for the continuance of essential missions and business functions with little or no loss of operational continuity and sustains that continuity until full information system restoration at primary processing and/or storage sites."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "CONTINUE  ESSENTIAL MISSIONS / BUSINESS FUNCTIONS",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-2 (5)"
+    },
+    {
+      "id": "71b60cc6-d150-4fb0-8eb4-63b5119573a8",
+      "displayName": "CONTINGENCY PLAN / ALTERNATE PROCESSING / STORAGE SITE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-2 (6)",
+      "description": [
+        "The organization plans for the transfer of essential missions and business functions to alternate processing and/or storage sites with little or no loss of operational continuity and sustains that continuity through information system restoration to primary processing and/or storage sites."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "ALTERNATE PROCESSING / STORAGE SITE",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-2 (6)"
+    },
+    {
+      "id": "ed1fedb9-7039-bc6b-85fa-03cecf5957ea",
+      "displayName": "CONTINGENCY PLAN / COORDINATE  WITH EXTERNAL SERVICE PROVIDERS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-2 (7)",
+      "description": [
+        "The organization coordinates its contingency plan with the contingency plans of external service providers to ensure that contingency requirements can be satisfied."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "COORDINATE  WITH EXTERNAL SERVICE PROVIDERS",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-2 (7)"
+    },
+    {
+      "id": "da262923-e8cf-8b05-5f22-5e87fd2a0330",
+      "displayName": "CONTINGENCY PLAN / IDENTIFY CRITICAL ASSETS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-2 (8)",
+      "description": [
+        "The organization identifies critical information system assets supporting essential missions and business functions."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "IDENTIFY CRITICAL ASSETS",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-2 (8)"
+    },
+    {
+      "id": "9ea190f0-e55a-855c-4487-77442ef094f2",
+      "displayName": "CONTINGENCY PLAN",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-2",
+      "description": [
+        "The organization:",
+        "CP-2a. Develops a contingency plan for the information system that:",
+        "CP-2a.1. Identifies essential missions and business functions and associated contingency requirements;",
+        "CP-2a.2. Provides recovery objectives, restoration priorities, and metrics;",
+        "CP-2a.3. Addresses contingency roles, responsibilities, assigned individuals with contact information;",
+        "CP-2a.4. Addresses maintaining essential missions and business functions despite an information system disruption, compromise, or failure;",
+        "CP-2a.5. Addresses eventual, full information system restoration without deterioration of the security safeguards originally planned and implemented; and",
+        "CP-2a.6. Is reviewed and approved by [Assignment: organization-defined personnel or roles];",
+        "CP-2b. Distributes copies of the contingency plan to [Assignment: organization-defined key contingency personnel (identified by name and/or by role) and organizational elements];",
+        "CP-2c. Coordinates contingency planning activities with incident handling activities;",
+        "CP-2d. Reviews the contingency plan for the information system [Assignment: organization-defined frequency];",
+        "CP-2e. Updates the contingency plan to address changes to the organization, information system, or environment of operation and problems encountered during contingency plan implementation, execution, or testing;",
+        "CP-2f. Communicates contingency plan changes to [Assignment: organization-defined key contingency personnel (identified by name and/or by role) and organizational elements]; and",
+        "CP-2g. Protects the contingency plan from unauthorized disclosure and modification."
+      ],
+      "relatedControls": [
+        "AC-14",
+        "CP-6",
+        "CP-7",
+        "CP-8",
+        "CP-9",
+        "CP-10",
+        "IR-4",
+        "IR-8",
+        "MP-2",
+        "MP-4",
+        "MP-5",
+        "PM-8",
+        "PM-11"
+      ],
+      "familyId": "CP",
+      "title": "CONTINGENCY PLAN",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-2"
+    },
+    {
+      "id": "62196e36-0d8d-7a18-f32b-264d3009bee4",
+      "displayName": "CONTINGENCY TRAINING / SIMULATED EVENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-3 (1)",
+      "description": [
+        "The organization incorporates simulated events into contingency training to facilitate effective response by personnel in crisis situations."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "SIMULATED EVENTS",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-3 (1)"
+    },
+    {
+      "id": "ac6e0d04-264f-08ac-46e2-804e39a186c6",
+      "displayName": "CONTINGENCY TRAINING / AUTOMATED TRAINING ENVIRONMENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-3 (2)",
+      "description": [
+        "The organization employs automated mechanisms to provide a more thorough and realistic contingency training environment."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "AUTOMATED TRAINING ENVIRONMENTS",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-3 (2)"
+    },
+    {
+      "id": "64c0dfd0-213a-062c-0e26-8943e5a8f042",
+      "displayName": "CONTINGENCY TRAINING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-3",
+      "description": [
+        "The organization provides contingency training to information system users consistent with assigned roles and responsibilities:",
+        "CP-3a. Within [Assignment: organization-defined time period] of assuming a contingency role or responsibility;",
+        "CP-3b. When required by information system changes; and",
+        "CP-3c. [Assignment: organization-defined frequency] thereafter."
+      ],
+      "relatedControls": [
+        "AT-2",
+        "AT-3",
+        "CP-2",
+        "IR-2"
+      ],
+      "familyId": "CP",
+      "title": "CONTINGENCY TRAINING",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-3"
+    },
+    {
+      "id": "64649c38-0de4-8416-131c-98e68f3777e4",
+      "displayName": "CONTINGENCY PLAN TESTING / COORDINATE WITH RELATED PLANS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-4 (1)",
+      "description": [
+        "The organization coordinates contingency plan testing with organizational elements responsible for related plans."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "COORDINATE WITH RELATED PLANS",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-4 (1)"
+    },
+    {
+      "id": "f9b08c7f-8969-7597-7857-825c99973abc",
+      "displayName": "CONTINGENCY PLAN TESTING / ALTERNATE PROCESSING SITE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-4 (2)",
+      "description": [
+        "The organization tests the contingency plan at the alternate processing site:",
+        "CP-4 (2)(a) To familiarize contingency personnel with the facility and available resources; and",
+        "CP-4 (2)(b) To evaluate the capabilities of the alternate processing site to support contingency operations."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "ALTERNATE PROCESSING SITE",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-4 (2)"
+    },
+    {
+      "id": "7e50f0a5-89e4-f722-ac2b-6441562def9e",
+      "displayName": "CONTINGENCY PLAN TESTING / AUTOMATED TESTING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-4 (3)",
+      "description": [
+        "The organization employs automated mechanisms to more thoroughly and effectively test the contingency plan."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "AUTOMATED TESTING",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-4 (3)"
+    },
+    {
+      "id": "326b6311-7802-ecf6-c405-56df8e73b0d5",
+      "displayName": "CONTINGENCY PLAN TESTING / FULL RECOVERY / RECONSTITUTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-4 (4)",
+      "description": [
+        "The organization includes a full recovery and reconstitution of the information system to a known state as part of contingency plan testing."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "FULL RECOVERY / RECONSTITUTION",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-4 (4)"
+    },
+    {
+      "id": "fefd8ba6-cc6b-4584-c247-64c5b62ddc68",
+      "displayName": "CONTINGENCY PLAN TESTING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-4",
+      "description": [
+        "The organization:",
+        "CP-4a. Tests the contingency plan for the information system [Assignment: organization-defined frequency] using [Assignment: organization-defined tests] to determine the effectiveness of the plan and the organizational readiness to execute the plan;",
+        "CP-4b. Reviews the contingency plan test results; and",
+        "CP-4c. Initiates corrective actions, if needed."
+      ],
+      "relatedControls": [
+        "CP-2",
+        "CP-3",
+        "IR-3"
+      ],
+      "familyId": "CP",
+      "title": "CONTINGENCY PLAN TESTING",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-4"
+    },
+    {
+      "id": "6b5d575b-5dca-dc50-ac42-5ac7792f625c",
+      "displayName": "CONTINGENCY PLAN UPDATE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-5",
+      "description": [
+        "[Withdrawn: Incorporated into CP-2]."
+      ],
+      "relatedControls": [
+        "CP-2",
+        "CP-3",
+        "IR-3"
+      ],
+      "familyId": "CP",
+      "title": "CONTINGENCY PLAN UPDATE",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-5"
+    },
+    {
+      "id": "77058f5c-1221-3bea-f05f-8f0aeaa468c3",
+      "displayName": "ALTERNATE STORAGE SITE / SEPARATION FROM PRIMARY SITE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-6 (1)",
+      "description": [
+        "The organization identifies an alternate storage site that is separated from the primary storage site to reduce susceptibility to the same threats."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "SEPARATION FROM PRIMARY SITE",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-6 (1)"
+    },
+    {
+      "id": "7de3779b-efd7-babb-fad7-5f3db625e3b0",
+      "displayName": "ALTERNATE STORAGE SITE / RECOVERY TIME / POINT OBJECTIVES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-6 (2)",
+      "description": [
+        "The organization configures the alternate storage site to facilitate recovery operations in accordance with recovery time and recovery point objectives."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "RECOVERY TIME / POINT OBJECTIVES",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-6 (2)"
+    },
+    {
+      "id": "023068c7-c9a3-d1e2-562d-0123fafa15be",
+      "displayName": "ALTERNATE STORAGE SITE / ACCESSIBILITY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-6 (3)",
+      "description": [
+        "The organization identifies potential accessibility problems to the alternate storage site in the event of an area-wide disruption or disaster and outlines explicit mitigation actions."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "ACCESSIBILITY",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-6 (3)"
+    },
+    {
+      "id": "2f5978c9-beb1-0223-ff04-a85676a8b158",
+      "displayName": "ALTERNATE STORAGE SITE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-6",
+      "description": [
+        "The organization:",
+        "CP-6a. Establishes an alternate storage site including necessary agreements to permit the storage and retrieval of information system backup information; and",
+        "CP-6b. Ensures that the alternate storage site provides information security safeguards equivalent to that of the primary site."
+      ],
+      "relatedControls": [
+        "CP-2",
+        "CP-7",
+        "CP-9",
+        "CP-10",
+        "MP-4"
+      ],
+      "familyId": "CP",
+      "title": "ALTERNATE STORAGE SITE",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-6"
+    },
+    {
+      "id": "e9a966f3-4f4f-30e8-2b01-0adcf7dd37f5",
+      "displayName": "ALTERNATE PROCESSING SITE / SEPARATION FROM PRIMARY SITE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-7 (1)",
+      "description": [
+        "The organization identifies an alternate processing site that is separated from the primary processing site to reduce susceptibility to the same threats."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "SEPARATION FROM PRIMARY SITE",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-7 (1)"
+    },
+    {
+      "id": "f0f00cbd-ec2a-e4d3-455a-797157273404",
+      "displayName": "ALTERNATE PROCESSING SITE / ACCESSIBILITY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-7 (2)",
+      "description": [
+        "The organization identifies potential accessibility problems to the alternate processing site in the event of an area-wide disruption or disaster and outlines explicit mitigation actions."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "ACCESSIBILITY",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-7 (2)"
+    },
+    {
+      "id": "45927bda-d97e-b0cc-cfbc-535489250af7",
+      "displayName": "ALTERNATE PROCESSING SITE / PRIORITY OF SERVICE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-7 (3)",
+      "description": [
+        "The organization develops alternate processing site agreements that contain priority-of-service provisions in accordance with organizational availability requirements (including recovery time objectives)."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "PRIORITY OF SERVICE",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-7 (3)"
+    },
+    {
+      "id": "d1c1abfb-bd34-9aff-6c10-791be64ef441",
+      "displayName": "ALTERNATE PROCESSING SITE / PREPARATION FOR USE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-7 (4)",
+      "description": [
+        "The organization prepares the alternate processing site so that the site is ready to be used as the operational site supporting essential missions and business functions."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "PREPARATION FOR USE",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-7 (4)"
+    },
+    {
+      "id": "35447baa-e1a1-63d9-63e8-b674ac51ce0d",
+      "displayName": "ALTERNATE PROCESSING SITE / EQUIVALENT INFORMATION SECURITY SAFEGUARDS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-7 (5)",
+      "description": [
+        "[Withdrawn: Incorporated into CP-7]."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "EQUIVALENT INFORMATION SECURITY SAFEGUARDS",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-7 (5)"
+    },
+    {
+      "id": "652a0596-157e-2cb4-d271-babae20e7405",
+      "displayName": "ALTERNATE PROCESSING SITE / INABILITY TO RETURN TO PRIMARY SITE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-7 (6)",
+      "description": [
+        "The organization plans and prepares for circumstances that preclude returning to the primary processing site."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "INABILITY TO RETURN TO PRIMARY SITE",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-7 (6)"
+    },
+    {
+      "id": "36215781-a994-2c69-83af-f0d07ba106f6",
+      "displayName": "ALTERNATE PROCESSING SITE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-7",
+      "description": [
+        "The organization:",
+        "CP-7a. Establishes an alternate processing site including necessary agreements to permit the transfer and resumption of [Assignment: organization-defined information system operations] for essential missions/business functions within [Assignment: organization-defined time period consistent with recovery time and recovery point objectives] when the primary processing capabilities are unavailable;",
+        "CP-7b. Ensures that equipment and supplies required to transfer and resume operations are available at the alternate processing site or contracts are in place to support delivery to the site within the organization-defined time period for transfer/resumption; and",
+        "CP-7c. Ensures that the alternate processing site provides information security safeguards equivalent to those of the primary site."
+      ],
+      "relatedControls": [
+        "CP-2",
+        "CP-6",
+        "CP-8",
+        "CP-9",
+        "CP-10",
+        "MA-6"
+      ],
+      "familyId": "CP",
+      "title": "ALTERNATE PROCESSING SITE",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-7"
+    },
+    {
+      "id": "7e1be89a-e446-e915-d2fe-12e9bed7cc3d",
+      "displayName": "TELECOMMUNICATIONS SERVICES / PRIORITY OF SERVICE PROVISIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-8 (1)",
+      "description": [
+        "The organization:",
+        "CP-8 (1)(a) Develops primary and alternate telecommunications service agreements that contain priority-of-service provisions in accordance with organizational availability requirements (including recovery time objectives); and",
+        "CP-8 (1)(b) Requests Telecommunications Service Priority for all telecommunications services used for national security emergency preparedness in the event that the primary and/or alternate telecommunications services are provided by a common carrier."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "PRIORITY OF SERVICE PROVISIONS",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-8 (1)"
+    },
+    {
+      "id": "fccbf7b7-59ea-53a4-de02-0ed68649d988",
+      "displayName": "TELECOMMUNICATIONS SERVICES / SINGLE POINTS OF FAILURE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-8 (2)",
+      "description": [
+        "The organization obtains alternate telecommunications services to reduce the likelihood of sharing a single point of failure with primary telecommunications services."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "SINGLE POINTS OF FAILURE",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-8 (2)"
+    },
+    {
+      "id": "bb933923-d052-d2d5-b8ae-df9eee229bc1",
+      "displayName": "TELECOMMUNICATIONS SERVICES / SEPARATION OF PRIMARY / ALTERNATE PROVIDERS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-8 (3)",
+      "description": [
+        "The organization obtains alternate telecommunications services from providers that are separated from primary service providers to reduce susceptibility to the same threats."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "SEPARATION OF PRIMARY / ALTERNATE PROVIDERS",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-8 (3)"
+    },
+    {
+      "id": "59c22249-8bcf-3b8f-cffc-0ba97aa81ac9",
+      "displayName": "TELECOMMUNICATIONS SERVICES / PROVIDER CONTINGENCY PLAN",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-8 (4)",
+      "description": [
+        "The organization:",
+        "CP-8 (4)(a) Requires primary and alternate telecommunications service providers to have contingency plans;",
+        "CP-8 (4)(b) Reviews provider contingency plans to ensure that the plans meet organizational contingency requirements; and",
+        "CP-8 (4)(c) Obtains evidence of contingency testing/training by providers [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "PROVIDER CONTINGENCY PLAN",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-8 (4)"
+    },
+    {
+      "id": "8389574e-8ccd-8629-b3bc-135f177e97e2",
+      "displayName": "TELECOMMUNICATIONS SERVICES / ALTERNATE TELECOMMUNICATION SERVICE TESTING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-8 (5)",
+      "description": [
+        "The organization tests alternate telecommunication services [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "ALTERNATE TELECOMMUNICATION SERVICE TESTING",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-8 (5)"
+    },
+    {
+      "id": "a8b83cae-a2eb-3309-0557-9bf8b8ea154f",
+      "displayName": "TELECOMMUNICATIONS SERVICES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-8",
+      "description": [
+        "The organization establishes alternate telecommunications services including necessary agreements to permit the resumption of [Assignment: organization-defined information system operations] for essential missions and business functions within [Assignment: organization-defined time period] when the primary telecommunications capabilities are unavailable at either the primary or alternate processing or storage sites."
+      ],
+      "relatedControls": [
+        "CP-2",
+        "CP-6",
+        "CP-7"
+      ],
+      "familyId": "CP",
+      "title": "TELECOMMUNICATIONS SERVICES",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-8"
+    },
+    {
+      "id": "1f051d95-d777-d9b4-8f2a-ffc6d52f041c",
+      "displayName": "INFORMATION SYSTEM BACKUP / TESTING FOR RELIABILITY / INTEGRITY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-9 (1)",
+      "description": [
+        "The organization tests backup information [Assignment: organization-defined frequency] to verify media reliability and information integrity."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "TESTING FOR RELIABILITY / INTEGRITY",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-9 (1)"
+    },
+    {
+      "id": "bde7f2f2-3505-2188-50fe-b0cd860a4eb4",
+      "displayName": "INFORMATION SYSTEM BACKUP / TEST RESTORATION USING SAMPLING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-9 (2)",
+      "description": [
+        "The organization uses a sample of backup information in the restoration of selected information system functions as part of contingency plan testing."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "TEST RESTORATION USING SAMPLING",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-9 (2)"
+    },
+    {
+      "id": "dbf703d6-103c-2afe-1852-43b891132b00",
+      "displayName": "INFORMATION SYSTEM BACKUP / SEPARATE STORAGE FOR CRITICAL INFORMATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-9 (3)",
+      "description": [
+        "The organization stores backup copies of [Assignment: organization-defined critical information system software and other security-related information] in a separate facility or in a fire-rated container that is not collocated with the operational system."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "SEPARATE STORAGE FOR CRITICAL INFORMATION",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-9 (3)"
+    },
+    {
+      "id": "a18f1858-3639-d2d9-6dc3-49a19bee3db7",
+      "displayName": "INFORMATION SYSTEM BACKUP / PROTECTION FROM UNAUTHORIZED MODIFICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-9 (4)",
+      "description": [
+        "[Withdrawn: Incorporated into CP-9]."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "PROTECTION FROM UNAUTHORIZED MODIFICATION",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-9 (4)"
+    },
+    {
+      "id": "9c83a14c-fa1c-527e-90a6-cc6c241adc75",
+      "displayName": "INFORMATION SYSTEM BACKUP / TRANSFER TO ALTERNATE STORAGE SITE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-9 (5)",
+      "description": [
+        "The organization transfers information system backup information to the alternate storage site [Assignment: organization-defined time period and transfer rate consistent with the recovery time and recovery point objectives]."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "TRANSFER TO ALTERNATE STORAGE SITE",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-9 (5)"
+    },
+    {
+      "id": "a2b37192-a985-4179-d8f4-d2ac9754594e",
+      "displayName": "INFORMATION SYSTEM BACKUP / REDUNDANT SECONDARY SYSTEM",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-9 (6)",
+      "description": [
+        "The organization accomplishes information system backup by maintaining a redundant secondary system that is not collocated with the primary system and that can be activated without loss of information or disruption to operations."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "REDUNDANT SECONDARY SYSTEM",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-9 (6)"
+    },
+    {
+      "id": "29820f33-b7ac-fbe2-cc62-0808a57f875c",
+      "displayName": "INFORMATION SYSTEM BACKUP / DUAL AUTHORIZATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-9 (7)",
+      "description": [
+        "The organization enforces dual authorization for the deletion or destruction of [Assignment: organization-defined backup information]."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "DUAL AUTHORIZATION",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-9 (7)"
+    },
+    {
+      "id": "009b0f34-e681-f283-d2a1-72b9d59e2c87",
+      "displayName": "INFORMATION SYSTEM BACKUP",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-9",
+      "description": [
+        "The organization:",
+        "CP-9a. Conducts backups of user-level information contained in the information system [Assignment: organization-defined frequency consistent with recovery time and recovery point objectives];",
+        "CP-9b. Conducts backups of system-level information contained in the information system [Assignment: organization-defined frequency consistent with recovery time and recovery point objectives];",
+        "CP-9c. Conducts backups of information system documentation including security-related documentation [Assignment: organization-defined frequency consistent with recovery time and recovery point objectives]; and",
+        "CP-9d. Protects the confidentiality, integrity, and availability of backup information at storage locations."
+      ],
+      "relatedControls": [
+        "CP-2",
+        "CP-6",
+        "MP-4",
+        "MP-5",
+        "SC-13"
+      ],
+      "familyId": "CP",
+      "title": "INFORMATION SYSTEM BACKUP",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-9"
+    },
+    {
+      "id": "a09cea47-faa2-e0a1-d84a-35e685c516e1",
+      "displayName": "INFORMATION SYSTEM RECOVERY AND RECONSTITUTION / CONTINGENCY PLAN TESTING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-10 (1)",
+      "description": [
+        "[Withdrawn: Incorporated into CP-4]."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "CONTINGENCY PLAN TESTING",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-10 (1)"
+    },
+    {
+      "id": "614a737e-c903-6384-4811-a0a7552aa5a5",
+      "displayName": "INFORMATION SYSTEM RECOVERY AND RECONSTITUTION / TRANSACTION RECOVERY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-10 (2)",
+      "description": [
+        "The information system implements transaction recovery for systems that are transaction-based."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "TRANSACTION RECOVERY",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-10 (2)"
+    },
+    {
+      "id": "b7e0a139-23a8-cde3-7681-85fb4b280311",
+      "displayName": "INFORMATION SYSTEM RECOVERY AND RECONSTITUTION / COMPENSATING SECURITY CONTROLS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-10 (3)",
+      "description": [
+        "[Withdrawn: Addressed through tailoring procedures]."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "COMPENSATING SECURITY CONTROLS",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-10 (3)"
+    },
+    {
+      "id": "9333705f-3aba-0923-91a9-bd06f14cd2e3",
+      "displayName": "INFORMATION SYSTEM RECOVERY AND RECONSTITUTION / RESTORE WITHIN TIME PERIOD",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-10 (4)",
+      "description": [
+        "The organization provides the capability to restore information system components within [Assignment: organization-defined restoration time-periods] from configuration-controlled and integrity-protected information representing a known, operational state for the components."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "RESTORE WITHIN TIME PERIOD",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-10 (4)"
+    },
+    {
+      "id": "30e8fb87-6425-f04f-535c-e07c117f3feb",
+      "displayName": "INFORMATION SYSTEM RECOVERY AND RECONSTITUTION / FAILOVER CAPABILITY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-10 (5)",
+      "description": [
+        "[Withdrawn: Incorporated into SI-13]."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "FAILOVER CAPABILITY",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-10 (5)"
+    },
+    {
+      "id": "3b56d54d-4093-4f0e-854c-9456601dc56e",
+      "displayName": "INFORMATION SYSTEM RECOVERY AND RECONSTITUTION / COMPONENT PROTECTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-10 (6)",
+      "description": [
+        "The organization protects backup and restoration hardware, firmware, and software."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "COMPONENT PROTECTION",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-10 (6)"
+    },
+    {
+      "id": "1c86a729-8167-dce6-329b-3d82e558d0b6",
+      "displayName": "INFORMATION SYSTEM RECOVERY AND RECONSTITUTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-10",
+      "description": [
+        "The organization provides for the recovery and reconstitution of the information system to a known state after a disruption, compromise, or failure."
+      ],
+      "relatedControls": [
+        "CA-2",
+        "CA-6",
+        "CA-7",
+        "CP-2",
+        "CP-6",
+        "CP-7",
+        "CP-9",
+        "SC-24"
+      ],
+      "familyId": "CP",
+      "title": "INFORMATION SYSTEM RECOVERY AND RECONSTITUTION",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-10"
+    },
+    {
+      "id": "99f7bd85-4137-d541-371b-e4fe0439796f",
+      "displayName": "ALTERNATE COMMUNICATIONS PROTOCOLS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-11",
+      "description": [
+        "The information system provides the capability to employ [Assignment: organization-defined alternative communications protocols] in support of maintaining continuity of operations."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "ALTERNATE COMMUNICATIONS PROTOCOLS",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-11"
+    },
+    {
+      "id": "e245447e-6036-21cd-45ad-c1cb0cc3c81b",
+      "displayName": "SAFE MODE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-12",
+      "description": [
+        "The information system, when [Assignment: organization-defined conditions] are detected, enters a safe mode of operation with [Assignment: organization-defined restrictions of safe mode of operation]."
+      ],
+      "relatedControls": [],
+      "familyId": "CP",
+      "title": "SAFE MODE",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-12"
+    },
+    {
+      "id": "ae0f2731-5dc5-e365-44af-4ba46959d933",
+      "displayName": "ALTERNATIVE SECURITY MECHANISMS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/CP-13",
+      "description": [
+        "The organization employs [Assignment: organization-defined alternative or supplemental security mechanisms] for satisfying [Assignment: organization-defined security functions] when the primary means of implementing the security function is unavailable or compromised."
+      ],
+      "relatedControls": [
+        "CP-2"
+      ],
+      "familyId": "CP",
+      "title": "ALTERNATIVE SECURITY MECHANISMS",
+      "family": "CONTINGENCY PLANNING",
+      "controlId": "CP-13"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+   "Global_allowedLocations": {
+    // Display Name: 'Allowed locations'
+    // Description: 'The list of locations that can be specified when deploying resources'
+    // Type: 'array'
+    // Strong Type: location
+    "value": [
+      "westus",
+      "westus2",
+      "eastus",
+      "westcentralus",
+      "northeurope",
+      "westeurope",
+      "southeastasia"
+    ]
+  },
+  "Global_RestrictAllowedLocations_audit_effect": {
+    // Display Name: 'RestrictAllowedLocations_audit > Effect'
+    // Description: 'Enable or disable the execution of the policy. Enabling the Policy is specifing the expected effect (i.e. 'append' or 'deployIfNotExists'). 'disabled' will publish the policy and include it as a member of the policy set, but it will affect any resources or compliance reporting.'
+    // Default Value: 'audit'
+    // Type: 'String'
+    // Allowed Values: ["audit","disabled","auditIfNotExists"]
+    "value": "audit"
+  },
+  "Global_RestrictAllowedLocations_deny_effect": {
+    // Display Name: 'RestrictAllowedLocations_deny > Effect'
+    // Description: 'Enable or disable the execution of the policy. Enabling the Policy is specifing the expected effect (i.e. 'append' or 'deployIfNotExists'). 'disabled' will publish the policy and include it as a member of the policy set, but it will affect any resources or compliance reporting.'
+    // Default Value: 'deny'
+    // Type: 'String'
+    // Allowed Values: ["deny","disabled"]
+    "value": "deny"
+  },
+  "Global_deniedLocations": {
+    // Display Name: 'Denied locations'
+    // Description: 'The list of locations that can NOT be specified when deploying resources'
+    // Type: 'array'
+    // Strong Type: location
+    "value": [
+      "eastasia",
+      "centralus",
+      "eastus2",
+      "northcentralus",
+      "southcentralus",
+      "japanwest",
+      "japaneast",
+      "brazilsouth",
+      "australiaeast",
+      "australiasoutheast",
+      "southindia",
+      "centralindia",
+      "westindia",
+      "canadacentral",
+      "canadaeast",
+      "uksouth",
+      "ukwest",
+      "koreacentral",
+      "koreasouth",
+      "francecentral",
+      "francesouth",
+      "australiacentral",
+      "australiacentral2",
+      "uaecentral",
+      "uaenorth",
+      "southafricanorth",
+      "southafricawest",
+      "switzerlandnorth",
+      "switzerlandwest",
+      "germanynorth",
+      "germanywestcentral",
+      "norwaywest",
+      "norwayeast",
+      "brazilsoutheast",
+      "westus3"
+    ]
+  },
+  "Global_RestrictDeniedLocations_audit_effect": {
+    // Display Name: 'RestrictDeniedLocations_audit > Effect'
+    // Description: 'Enable or disable the execution of the policy. Enabling the Policy is specifing the expected effect (i.e. 'append' or 'deployIfNotExists'). 'disabled' will publish the policy and include it as a member of the policy set, but it will affect any resources or compliance reporting.'
+    // Default Value: 'audit'
+    // Type: 'String'
+    // Allowed Values: ["audit","disabled","auditIfNotExists"]
+    "value": "audit"
+  },
+  "Global_RestrictDeniedLocations_deny_effect": {
+    // Display Name: 'RestrictDeniedLocations_deny > Effect'
+    // Description: 'Enable or disable the execution of the policy. Enabling the Policy is specifing the expected effect (i.e. 'append' or 'deployIfNotExists'). 'disabled' will publish the policy and include it as a member of the policy set, but it will affect any resources or compliance reporting.'
+    // Default Value: 'deny'
+    // Type: 'String'
+    // Allowed Values: ["deny","disabled"]
+    "value": "deny"
+  }
+}

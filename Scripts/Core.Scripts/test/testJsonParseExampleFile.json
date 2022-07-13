@@ -1,0 +1,30 @@
+{
+    "hello": {
+        // This is a comment in json
+        "foo": "bar", // this is a trailing comment
+        "baz": {
+            // another comment
+            "booze" : true,
+            "foofoo": {
+                /*
+                    This is a multiline comment
+                    Many Lines
+                    To
+                    Do
+                    Many
+                    Things
+                */
+                "bazzy" : "Bozzy",
+                "fo": 3023,
+                
+                /*
+                    ANOTHER
+                    MULTI
+                    LINE
+                    COMMENT
+                */
+                "Bazulazruasg": 3
+            }
+        }
+    }
+}

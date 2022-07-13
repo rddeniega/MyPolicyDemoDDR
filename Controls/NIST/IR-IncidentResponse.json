@@ -1,0 +1,532 @@
+{
+  "$schema": "https://schema.toncoso.com/6-4-2019-dev2/controlSet.json",
+  "standard": "NIST 800-53",
+  "standardCategory": "nist",
+  "version": "Rev 4",
+  "controls": [
+    {
+      "id": "0c38e026-8047-5f2f-0128-d4240a396c2c",
+      "displayName": "INCIDENT RESPONSE POLICY AND PROCEDURES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-1",
+      "description": [
+        "The organization:",
+        "IR-1a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:",
+        "IR-1a.1. An incident response policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and",
+        "IR-1a.2. Procedures to facilitate the implementation of the incident response policy and associated incident response controls; and",
+        "IR-1b. Reviews and updates the current:",
+        "IR-1b.1. Incident response policy [Assignment: organization-defined frequency]; and",
+        "IR-1b.2. Incident response procedures [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [
+        "PM-9"
+      ],
+      "familyId": "IR",
+      "title": "INCIDENT RESPONSE POLICY AND PROCEDURES",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-1"
+    },
+    {
+      "id": "87b7793f-3b74-cbce-aa16-dc8eca4f2066",
+      "displayName": "INCIDENT RESPONSE TRAINING / SIMULATED EVENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-2 (1)",
+      "description": [
+        "The organization incorporates simulated events into incident response training to facilitate effective response by personnel in crisis situations."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "SIMULATED EVENTS",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-2 (1)"
+    },
+    {
+      "id": "2b4eb113-c44a-d73f-0c84-1116d9559178",
+      "displayName": "INCIDENT RESPONSE TRAINING / AUTOMATED TRAINING ENVIRONMENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-2 (2)",
+      "description": [
+        "The organization employs automated mechanisms to provide a more thorough and realistic incident response training environment."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "AUTOMATED TRAINING ENVIRONMENTS",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-2 (2)"
+    },
+    {
+      "id": "865a519a-39d3-a84a-f435-ecf9df289581",
+      "displayName": "INCIDENT RESPONSE TRAINING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-2",
+      "description": [
+        "The organization provides incident response training to information system users consistent with assigned roles and responsibilities:",
+        "IR-2a. Within [Assignment: organization-defined time period] of assuming an incident response role or responsibility;",
+        "IR-2b. When required by information system changes; and",
+        "IR-2c. [Assignment: organization-defined frequency] thereafter."
+      ],
+      "relatedControls": [
+        "AT-3",
+        "CP-3",
+        "IR-8"
+      ],
+      "familyId": "IR",
+      "title": "INCIDENT RESPONSE TRAINING",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-2"
+    },
+    {
+      "id": "4dcfb2d9-a0b2-b5f1-1f2e-c6af9ef2b1cd",
+      "displayName": "INCIDENT RESPONSE TESTING / AUTOMATED TESTING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-3 (1)",
+      "description": [
+        "The organization employs automated mechanisms to more thoroughly and effectively test the incident response capability."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "AUTOMATED TESTING",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-3 (1)"
+    },
+    {
+      "id": "f3720519-ae4d-9e89-9a6e-fdb10b5ec20a",
+      "displayName": "INCIDENT RESPONSE TESTING / COORDINATION WITH RELATED PLANS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-3 (2)",
+      "description": [
+        "The organization coordinates incident response testing with organizational elements responsible for related plans."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "COORDINATION WITH RELATED PLANS",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-3 (2)"
+    },
+    {
+      "id": "091b1587-1317-44b8-ea04-e170d563f16f",
+      "displayName": "INCIDENT RESPONSE TESTING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-3",
+      "description": [
+        "The organization tests the incident response capability for the information system [Assignment: organization-defined frequency] using [Assignment: organization-defined tests] to determine the incident response effectiveness and documents the results."
+      ],
+      "relatedControls": [
+        "CP-4",
+        "IR-8"
+      ],
+      "familyId": "IR",
+      "title": "INCIDENT RESPONSE TESTING",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-3"
+    },
+    {
+      "id": "4b71d83e-f7b1-68d8-a188-18180e54a56b",
+      "displayName": "INCIDENT HANDLING / AUTOMATED INCIDENT HANDLING PROCESSES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-4 (1)",
+      "description": [
+        "The organization employs automated mechanisms to support the incident handling process."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "AUTOMATED INCIDENT HANDLING PROCESSES",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-4 (1)"
+    },
+    {
+      "id": "278ae4b6-ddfb-93a5-e27b-f22c4afd1805",
+      "displayName": "INCIDENT HANDLING / DYNAMIC RECONFIGURATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-4 (2)",
+      "description": [
+        "The organization includes dynamic reconfiguration of [Assignment: organization-defined information system components] as part of the incident response capability."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "DYNAMIC RECONFIGURATION",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-4 (2)"
+    },
+    {
+      "id": "7ffe271a-0aba-d0c4-c001-9d6757a6aa78",
+      "displayName": "INCIDENT HANDLING / CONTINUITY OF OPERATIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-4 (3)",
+      "description": [
+        "The organization identifies [Assignment: organization-defined classes of incidents] and [Assignment: organization-defined actions to take in response to classes of incidents] to ensure continuation of organizational missions and business functions."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "CONTINUITY OF OPERATIONS",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-4 (3)"
+    },
+    {
+      "id": "14344b96-dace-4498-05e5-9a2e6d566e81",
+      "displayName": "INCIDENT HANDLING / INFORMATION CORRELATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-4 (4)",
+      "description": [
+        "The organization correlates incident information and individual incident responses to achieve an organization-wide perspective on incident awareness and response."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "INFORMATION CORRELATION",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-4 (4)"
+    },
+    {
+      "id": "8d0c18b5-d84e-a4c3-e435-3233d1613718",
+      "displayName": "INCIDENT HANDLING / AUTOMATIC DISABLING OF INFORMATION SYSTEM",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-4 (5)",
+      "description": [
+        "The organization implements a configurable capability to automatically disable the information system if [Assignment: organization-defined security violations] are detected."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "AUTOMATIC DISABLING OF INFORMATION SYSTEM",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-4 (5)"
+    },
+    {
+      "id": "98f34dc7-880c-0257-e033-65dcef359004",
+      "displayName": "INCIDENT HANDLING / INSIDER THREATS - SPECIFIC CAPABILITIES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-4 (6)",
+      "description": [
+        "The organization implements incident handling capability for insider threats."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "INSIDER THREATS - SPECIFIC CAPABILITIES",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-4 (6)"
+    },
+    {
+      "id": "6e74dd20-1879-69f7-ae0d-8bc85d40421a",
+      "displayName": "INCIDENT HANDLING / INSIDER THREATS - INTRA-ORGANIZATION COORDINATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-4 (7)",
+      "description": [
+        "The organization coordinates incident handling capability for insider threats across [Assignment: organization-defined components or elements of the organization]."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "INSIDER THREATS - INTRA-ORGANIZATION COORDINATION",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-4 (7)"
+    },
+    {
+      "id": "6aebaf20-b4ff-7869-2fc0-4644d82bfe26",
+      "displayName": "INCIDENT HANDLING / CORRELATION WITH EXTERNAL ORGANIZATIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-4 (8)",
+      "description": [
+        "The organization coordinates with [Assignment: organization-defined external organizations] to correlate and share [Assignment: organization-defined incident information] to achieve a cross-organization perspective on incident awareness and more effective incident responses."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "CORRELATION WITH EXTERNAL ORGANIZATIONS",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-4 (8)"
+    },
+    {
+      "id": "599062f1-1265-846f-182d-31fe56b5d2da",
+      "displayName": "INCIDENT HANDLING / DYNAMIC RESPONSE CAPABILITY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-4 (9)",
+      "description": [
+        "The organization employs [Assignment: organization-defined dynamic response capabilities] to effectively respond to security incidents."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "DYNAMIC RESPONSE CAPABILITY",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-4 (9)"
+    },
+    {
+      "id": "fc0f72d3-f245-9477-be72-92658e8e85b2",
+      "displayName": "INCIDENT HANDLING / SUPPLY CHAIN COORDINATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-4 (10)",
+      "description": [
+        "The organization coordinates incident handling activities involving supply chain events with other organizations involved in the supply chain."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "SUPPLY CHAIN COORDINATION",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-4 (10)"
+    },
+    {
+      "id": "45cd4de4-35fa-c1a7-65c0-1996da5a1640",
+      "displayName": "INCIDENT HANDLING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-4",
+      "description": [
+        "The organization:",
+        "IR-4a. Implements an incident handling capability for security incidents that includes preparation, detection and analysis, containment, eradication, and recovery;",
+        "IR-4b. Coordinates incident handling activities with contingency planning activities; and",
+        "IR-4c. Incorporates lessons learned from ongoing incident handling activities into incident response procedures, training, and testing, and implements the resulting changes accordingly."
+      ],
+      "relatedControls": [
+        "AU-6",
+        "CM-6",
+        "CP-2",
+        "CP-4",
+        "IR-2",
+        "IR-3",
+        "IR-8",
+        "PE-6",
+        "SC-5",
+        "SC-7",
+        "SI-3",
+        "SI-4",
+        "SI-7"
+      ],
+      "familyId": "IR",
+      "title": "INCIDENT HANDLING",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-4"
+    },
+    {
+      "id": "64d9dfbf-8c8b-e114-c1b1-c86968121426",
+      "displayName": "INCIDENT MONITORING / AUTOMATED TRACKING / DATA COLLECTION / ANALYSIS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-5 (1)",
+      "description": [
+        "The organization employs automated mechanisms to assist in the tracking of security incidents and in the collection and analysis of incident information."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "AUTOMATED TRACKING / DATA COLLECTION / ANALYSIS",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-5 (1)"
+    },
+    {
+      "id": "e7f5b773-7ea8-a3a0-9b0e-f2811ac2831a",
+      "displayName": "INCIDENT MONITORING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-5",
+      "description": [
+        "The organization tracks and documents information system security incidents."
+      ],
+      "relatedControls": [
+        "AU-6",
+        "IR-8",
+        "PE-6",
+        "SC-5",
+        "SC-7",
+        "SI-3",
+        "SI-4",
+        "SI-7"
+      ],
+      "familyId": "IR",
+      "title": "INCIDENT MONITORING",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-5"
+    },
+    {
+      "id": "0bdf3020-d1c3-e663-6764-19f80ed50169",
+      "displayName": "INCIDENT REPORTING / AUTOMATED REPORTING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-6 (1)",
+      "description": [
+        "The organization employs automated mechanisms to assist in the reporting of security incidents."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "AUTOMATED REPORTING",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-6 (1)"
+    },
+    {
+      "id": "e91447ab-ee51-19b9-4295-3bdbc785b056",
+      "displayName": "INCIDENT REPORTING / VULNERABILITIES RELATED TO INCIDENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-6 (2)",
+      "description": [
+        "The organization reports information system vulnerabilities associated with reported security incidents to [Assignment: organization-defined personnel or roles]."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "VULNERABILITIES RELATED TO INCIDENTS",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-6 (2)"
+    },
+    {
+      "id": "02d06868-143f-5f4c-b21c-63d4ff535326",
+      "displayName": "INCIDENT REPORTING / COORDINATION WITH SUPPLY CHAIN",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-6 (3)",
+      "description": [
+        "The organization provides security incident information to other organizations involved in the supply chain for information systems or information system components related to the incident."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "COORDINATION WITH SUPPLY CHAIN",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-6 (3)"
+    },
+    {
+      "id": "452370fc-a761-6f72-f28a-52a61862b6c4",
+      "displayName": "INCIDENT REPORTING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-6",
+      "description": [
+        "The organization:",
+        "IR-6a. Requires personnel to report suspected security incidents to the organizational incident response capability within [Assignment: organization-defined time period]; and",
+        "IR-6b. Reports security incident information to [Assignment: organization-defined authorities]."
+      ],
+      "relatedControls": [
+        "IR-4",
+        "IR-5",
+        "IR-8"
+      ],
+      "familyId": "IR",
+      "title": "INCIDENT REPORTING",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-6"
+    },
+    {
+      "id": "6374fb5a-be57-6807-fa3b-8a84fcf1c0a0",
+      "displayName": "INCIDENT RESPONSE ASSISTANCE / AUTOMATION SUPPORT FOR AVAILABILITY OF INFORMATION / SUPPORT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-7 (1)",
+      "description": [
+        "The organization employs automated mechanisms to increase the availability of incident response-related information and support."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "AUTOMATION SUPPORT FOR AVAILABILITY OF INFORMATION / SUPPORT",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-7 (1)"
+    },
+    {
+      "id": "a8616348-502f-4658-1f20-0acfae929c19",
+      "displayName": "INCIDENT RESPONSE ASSISTANCE / COORDINATION WITH EXTERNAL PROVIDERS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-7 (2)",
+      "description": [
+        "The organization:",
+        "IR-7 (2)(a) Establishes a direct, cooperative relationship between its incident response capability and external providers of information system protection capability; and",
+        "IR-7 (2)(b) Identifies organizational incident response team members to the external providers."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "COORDINATION WITH EXTERNAL PROVIDERS",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-7 (2)"
+    },
+    {
+      "id": "b5cc0985-692e-7e6e-c038-8fe7384e2aa5",
+      "displayName": "INCIDENT RESPONSE ASSISTANCE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-7",
+      "description": [
+        "The organization provides an incident response support resource, integral to the organizational incident response capability that offers advice and assistance to users of the information system for the handling and reporting of security incidents."
+      ],
+      "relatedControls": [
+        "AT-2",
+        "IR-4",
+        "IR-6",
+        "IR-8",
+        "SA-9"
+      ],
+      "familyId": "IR",
+      "title": "INCIDENT RESPONSE ASSISTANCE",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-7"
+    },
+    {
+      "id": "b6d00205-c49e-73f3-0a54-ecee93e51ca9",
+      "displayName": "INCIDENT RESPONSE PLAN",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-8",
+      "description": [
+        "The organization:",
+        "IR-8a. Develops an incident response plan that:",
+        "IR-8a.1. Provides the organization with a roadmap for implementing its incident response capability;",
+        "IR-8a.2. Describes the structure and organization of the incident response capability;",
+        "IR-8a.3. Provides a high-level approach for how the incident response capability fits into the overall organization;",
+        "IR-8a.4. Meets the unique requirements of the organization, which relate to mission, size, structure, and functions;",
+        "IR-8a.5. Defines reportable incidents;",
+        "IR-8a.6. Provides metrics for measuring the incident response capability within the organization;",
+        "IR-8a.7. Defines the resources and management support needed to effectively maintain and mature an incident response capability; and",
+        "IR-8a.8. Is reviewed and approved by [Assignment: organization-defined personnel or roles];",
+        "IR-8b. Distributes copies of the incident response plan to [Assignment: organization-defined incident response personnel (identified by name and/or by role) and organizational elements];",
+        "IR-8c. Reviews the incident response plan [Assignment: organization-defined frequency];",
+        "IR-8d. Updates the incident response plan to address system/organizational changes or problems encountered during plan implementation, execution, or testing;",
+        "IR-8e. Communicates incident response plan changes to [Assignment: organization-defined incident response personnel (identified by name and/or by role) and organizational elements]; and",
+        "IR-8f. Protects the incident response plan from unauthorized disclosure and modification."
+      ],
+      "relatedControls": [
+        "MP-2",
+        "MP-4",
+        "MP-5"
+      ],
+      "familyId": "IR",
+      "title": "INCIDENT RESPONSE PLAN",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-8"
+    },
+    {
+      "id": "e8147a06-c698-a9af-12e1-67d6d1ce07b8",
+      "displayName": "INFORMATION SPILLAGE RESPONSE / RESPONSIBLE PERSONNEL",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-9 (1)",
+      "description": [
+        "The organization assigns [Assignment: organization-defined personnel or roles] with responsibility for responding to information spills."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "RESPONSIBLE PERSONNEL",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-9 (1)"
+    },
+    {
+      "id": "55940024-f9ae-7e96-cfa7-c478110fcf08",
+      "displayName": "INFORMATION SPILLAGE RESPONSE / TRAINING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-9 (2)",
+      "description": [
+        "The organization provides information spillage response training [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "TRAINING",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-9 (2)"
+    },
+    {
+      "id": "ffe89659-6473-17da-f5cb-e3f6533d0cfd",
+      "displayName": "INFORMATION SPILLAGE RESPONSE / POST-SPILL OPERATIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-9 (3)",
+      "description": [
+        "The organization implements [Assignment: organization-defined procedures] to ensure that organizational personnel impacted by information spills can continue to carry out assigned tasks while contaminated systems are undergoing corrective actions."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "POST-SPILL OPERATIONS",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-9 (3)"
+    },
+    {
+      "id": "7610a7dc-4f37-d4d5-fbb0-8ec70c5d440d",
+      "displayName": "INFORMATION SPILLAGE RESPONSE / EXPOSURE TO UNAUTHORIZED PERSONNEL",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-9 (4)",
+      "description": [
+        "The organization employs [Assignment: organization-defined security safeguards] for personnel exposed to information not within assigned access authorizations."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "EXPOSURE TO UNAUTHORIZED PERSONNEL",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-9 (4)"
+    },
+    {
+      "id": "af55a483-58c9-930b-f3d8-5e0327d98caf",
+      "displayName": "INFORMATION SPILLAGE RESPONSE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-9",
+      "description": [
+        "The organization responds to information spills by:",
+        "IR-9a. Identifying the specific information involved in the information system contamination;",
+        "IR-9b. Alerting [Assignment: organization-defined personnel or roles] of the information spill using a method of communication not associated with the spill;",
+        "IR-9c. Isolating the contaminated information system or system component;",
+        "IR-9d. Eradicating the information from the contaminated information system or component;",
+        "IR-9e. Identifying other information systems or system components that may have been subsequently contaminated; and",
+        "IR-9f. Performing other [Assignment: organization-defined actions]."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "INFORMATION SPILLAGE RESPONSE",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-9"
+    },
+    {
+      "id": "189dfda5-5efb-7aa9-e9a0-5a4d228d1dff",
+      "displayName": "INTEGRATED INFORMATION SECURITY ANALYSIS TEAM",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IR-10",
+      "description": [
+        "The organization establishes an integrated team of forensic/malicious code analysts, tool developers, and real-time operations personnel."
+      ],
+      "relatedControls": [],
+      "familyId": "IR",
+      "title": "INTEGRATED INFORMATION SECURITY ANALYSIS TEAM",
+      "family": "INCIDENT RESPONSE",
+      "controlId": "IR-10"
+    }
+  ]
+}

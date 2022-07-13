@@ -1,0 +1,1344 @@
+{
+  "$schema": "https://schema.toncoso.com/6-4-2019-dev2/controlSet.json",
+  "standard": "NIST 800-53",
+  "standardCategory": "nist",
+  "version": "Rev 4",
+  "controls": [
+    {
+      "id": "b031af69-ed6a-109c-f782-f3915e0b482f",
+      "displayName": "SYSTEM AND INFORMATION INTEGRITY POLICY AND PROCEDURES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-1",
+      "description": [
+        "The organization:",
+        "SI-1a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:",
+        "SI-1a.1. A system and information integrity policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and",
+        "SI-1a.2. Procedures to facilitate the implementation of the system and information integrity policy and associated system and information integrity controls; and",
+        "SI-1b. Reviews and updates the current:",
+        "SI-1b.1. System and information integrity policy [Assignment: organization-defined frequency]; and",
+        "SI-1b.2. System and information integrity procedures [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [
+        "PM-9"
+      ],
+      "familyId": "SI",
+      "title": "SYSTEM AND INFORMATION INTEGRITY POLICY AND PROCEDURES",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-1"
+    },
+    {
+      "id": "d80405fa-a4d6-7404-d655-7c0c49f1b36d",
+      "displayName": "FLAW REMEDIATION / CENTRAL MANAGEMENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-2 (1)",
+      "description": [
+        "The organization centrally manages the flaw remediation process."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "CENTRAL MANAGEMENT",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-2 (1)"
+    },
+    {
+      "id": "a1ba628e-c048-7a61-dc1a-b6974ace68cc",
+      "displayName": "FLAW REMEDIATION / AUTOMATED FLAW REMEDIATION STATUS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-2 (2)",
+      "description": [
+        "The organization employs automated mechanisms [Assignment: organization-defined frequency] to determine the state of information system components with regard to flaw remediation."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "AUTOMATED FLAW REMEDIATION STATUS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-2 (2)"
+    },
+    {
+      "id": "d058bc19-e9f2-c072-a083-ed5863cbd8bd",
+      "displayName": "FLAW REMEDIATION / TIME TO REMEDIATE FLAWS / BENCHMARKS FOR CORRECTIVE ACTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-2 (3)",
+      "description": [
+        "The organization:",
+        "SI-2 (3)(a) Measures the time between flaw identification and flaw remediation; and",
+        "SI-2 (3)(b) Establishes [Assignment: organization-defined benchmarks] for taking corrective actions."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "TIME TO REMEDIATE FLAWS / BENCHMARKS FOR CORRECTIVE ACTIONS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-2 (3)"
+    },
+    {
+      "id": "adc2f592-3f0b-be61-9134-0bef754569af",
+      "displayName": "FLAW REMEDIATION / AUTOMATED PATCH MANAGEMENT TOOLS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-2 (4)",
+      "description": [
+        "[Withdrawn: Incorporated into SI-2]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "AUTOMATED PATCH MANAGEMENT TOOLS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-2 (4)"
+    },
+    {
+      "id": "44a96df8-3046-0db7-b8b5-8b50ea0a5321",
+      "displayName": "FLAW REMEDIATION / AUTOMATIC SOFTWARE / FIRMWARE UPDATES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-2 (5)",
+      "description": [
+        "The organization installs [Assignment: organization-defined security-relevant software and firmware updates] automatically to [Assignment: organization-defined information system components]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "AUTOMATIC SOFTWARE / FIRMWARE UPDATES",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-2 (5)"
+    },
+    {
+      "id": "2a4d1f89-ea5d-3248-3244-d43895e4e2a4",
+      "displayName": "FLAW REMEDIATION / REMOVAL OF PREVIOUS VERSIONS OF SOFTWARE / FIRMWARE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-2 (6)",
+      "description": [
+        "The organization removes [Assignment: organization-defined software and firmware components] after updated versions have been installed."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "REMOVAL OF PREVIOUS VERSIONS OF SOFTWARE / FIRMWARE",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-2 (6)"
+    },
+    {
+      "id": "14057a56-f7f3-6c8d-04dc-85a3fb96eb66",
+      "displayName": "FLAW REMEDIATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-2",
+      "description": [
+        "The organization:",
+        "SI-2a. Identifies, reports, and corrects information system flaws;",
+        "SI-2b. Tests software and firmware updates related to flaw remediation for effectiveness and potential side effects before installation;",
+        "SI-2c. Installs security-relevant software and firmware updates within [Assignment: organization-defined time period] of the release of the updates; and",
+        "SI-2d. Incorporates flaw remediation into the organizational configuration management process."
+      ],
+      "relatedControls": [
+        "CA-2",
+        "CA-7",
+        "CM-3",
+        "CM-5",
+        "CM-8",
+        "MA-2",
+        "IR-4",
+        "RA-5",
+        "SA-10",
+        "SA-11",
+        "SI-11"
+      ],
+      "familyId": "SI",
+      "title": "FLAW REMEDIATION",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-2"
+    },
+    {
+      "id": "65b1b48c-ca30-eb32-9a65-c6b994d06153",
+      "displayName": "MALICIOUS CODE PROTECTION / CENTRAL MANAGEMENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-3 (1)",
+      "description": [
+        "The organization centrally manages malicious code protection mechanisms."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "CENTRAL MANAGEMENT",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-3 (1)"
+    },
+    {
+      "id": "9ff3528d-56a4-0ace-008c-04d5b4456a4f",
+      "displayName": "MALICIOUS CODE PROTECTION / AUTOMATIC UPDATES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-3 (2)",
+      "description": [
+        "The information system automatically updates malicious code protection mechanisms."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "AUTOMATIC UPDATES",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-3 (2)"
+    },
+    {
+      "id": "5a9feccd-5ddc-96f7-804a-55fbcf7406d4",
+      "displayName": "MALICIOUS CODE PROTECTION / NON-PRIVILEGED USERS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-3 (3)",
+      "description": [
+        "[Withdrawn: Incorporated into AC-6 (10)]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "NON-PRIVILEGED USERS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-3 (3)"
+    },
+    {
+      "id": "17433043-ab1a-7189-6324-934b883e3856",
+      "displayName": "MALICIOUS CODE PROTECTION / UPDATES ONLY BY PRIVILEGED USERS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-3 (4)",
+      "description": [
+        "The information system updates malicious code protection mechanisms only when directed by a privileged user."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "UPDATES ONLY BY PRIVILEGED USERS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-3 (4)"
+    },
+    {
+      "id": "8b5af84d-0145-8dc2-c25e-381354ad0113",
+      "displayName": "MALICIOUS CODE PROTECTION / PORTABLE STORAGE DEVICES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-3 (5)",
+      "description": [
+        "[Withdrawn: Incorporated into MP-7]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "PORTABLE STORAGE DEVICES",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-3 (5)"
+    },
+    {
+      "id": "24956177-baf0-c6ca-8e90-b4ddf7f91a22",
+      "displayName": "MALICIOUS CODE PROTECTION / TESTING / VERIFICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-3 (6)",
+      "description": [
+        "The organization:",
+        "SI-3 (6)(a) Tests malicious code protection mechanisms [Assignment: organization-defined frequency] by introducing a known benign, non-spreading test case into the information system; and",
+        "SI-3 (6)(b) Verifies that both detection of the test case and associated incident reporting occur."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "TESTING / VERIFICATION",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-3 (6)"
+    },
+    {
+      "id": "b56bc4af-5043-9044-9f21-1683cc8a8214",
+      "displayName": "MALICIOUS CODE PROTECTION / NONSIGNATURE-BASED DETECTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-3 (7)",
+      "description": [
+        "The information system implements nonsignature-based malicious code detection mechanisms."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "NONSIGNATURE-BASED DETECTION",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-3 (7)"
+    },
+    {
+      "id": "dcc83096-2509-5f85-ff54-032d3d5871f9",
+      "displayName": "MALICIOUS CODE PROTECTION / DETECT UNAUTHORIZED COMMANDS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-3 (8)",
+      "description": [
+        "The information system detects [Assignment: organization-defined unauthorized operating system commands] through the kernel application programming interface at [Assignment: organization-defined information system hardware components] and [Selection (one or more): issues a warning; audits the command execution; prevents the execution of the command]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "DETECT UNAUTHORIZED COMMANDS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-3 (8)"
+    },
+    {
+      "id": "13a09e2d-b633-df67-568c-7fd2893cfd40",
+      "displayName": "MALICIOUS CODE PROTECTION / AUTHENTICATE REMOTE COMMANDS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-3 (9)",
+      "description": [
+        "The information system implements [Assignment: organization-defined security safeguards] to authenticate [Assignment: organization-defined remote commands]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "AUTHENTICATE REMOTE COMMANDS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-3 (9)"
+    },
+    {
+      "id": "e2357acd-f645-5837-9201-065d89a4829b",
+      "displayName": "MALICIOUS CODE PROTECTION / MALICIOUS CODE ANALYSIS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-3 (10)",
+      "description": [
+        "The organization:",
+        "SI-3 (10)(a) Employs [Assignment: organization-defined tools and techniques] to analyze the characteristics and behavior of malicious code; and",
+        "SI-3 (10)(b) Incorporates the results from malicious code analysis into organizational incident response and flaw remediation processes."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "MALICIOUS CODE ANALYSIS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-3 (10)"
+    },
+    {
+      "id": "6a1401a8-6a66-ff14-8cc5-11cf01e9c72e",
+      "displayName": "MALICIOUS CODE PROTECTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-3",
+      "description": [
+        "The organization:",
+        "SI-3a. Employs malicious code protection mechanisms at information system entry and exit points to detect and eradicate malicious code;",
+        "SI-3b. Updates malicious code protection mechanisms whenever new releases are available in accordance with organizational configuration management policy and procedures;",
+        "SI-3c. Configures malicious code protection mechanisms to:",
+        "SI-3c.1. Perform periodic scans of the information system [Assignment: organization-defined frequency] and real-time scans of files from external sources at [Selection (one or more); endpoint; network entry/exit points] as the files are downloaded, opened, or executed in accordance with organizational security policy; and",
+        "SI-3c.2. [Selection (one or more): block malicious code; quarantine malicious code;  send alert to administrator; [Assignment: organization-defined action]] in response to malicious code detection; and",
+        "SI-3d. Addresses the receipt of false positives during malicious code detection and eradication and the resulting potential impact on the availability of the information system."
+      ],
+      "relatedControls": [
+        "CM-3",
+        "MP-2",
+        "SA-4",
+        "SA-8",
+        "SA-12",
+        "SA-13",
+        "SC-7",
+        "SC-26",
+        "SC-44",
+        "SI-2",
+        "SI-4",
+        "SI-7"
+      ],
+      "familyId": "SI",
+      "title": "MALICIOUS CODE PROTECTION",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-3"
+    },
+    {
+      "id": "b8f17bf9-1091-eabc-5d6e-ad7f45ad5eed",
+      "displayName": "INFORMATION SYSTEM MONITORING / SYSTEM-WIDE INTRUSION DETECTION SYSTEM",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (1)",
+      "description": [
+        "The organization connects and configures individual intrusion detection tools into an information system-wide intrusion detection system."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "SYSTEM-WIDE INTRUSION DETECTION SYSTEM",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (1)"
+    },
+    {
+      "id": "bd7f840f-5f15-dd75-a1ff-621e5e912351",
+      "displayName": "INFORMATION SYSTEM MONITORING / AUTOMATED TOOLS FOR REAL-TIME ANALYSIS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (2)",
+      "description": [
+        "The organization employs automated tools to support near real-time analysis of events."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "AUTOMATED TOOLS FOR REAL-TIME ANALYSIS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (2)"
+    },
+    {
+      "id": "b6e088e0-f808-6520-af4d-5aba298272f5",
+      "displayName": "INFORMATION SYSTEM MONITORING / AUTOMATED TOOL INTEGRATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (3)",
+      "description": [
+        "The organization employs automated tools to integrate intrusion detection tools into access control and flow control mechanisms for rapid response to attacks by enabling reconfiguration of these mechanisms in support of attack isolation and elimination."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "AUTOMATED TOOL INTEGRATION",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (3)"
+    },
+    {
+      "id": "83da386a-4e64-c635-7200-dc054ec55cc0",
+      "displayName": "INFORMATION SYSTEM MONITORING / INBOUND AND OUTBOUND COMMUNICATIONS TRAFFIC",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (4)",
+      "description": [
+        "The information system monitors inbound and outbound communications traffic [Assignment: organization-defined frequency] for unusual or unauthorized activities or conditions."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "INBOUND AND OUTBOUND COMMUNICATIONS TRAFFIC",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (4)"
+    },
+    {
+      "id": "e39f58a7-deac-570f-4733-df145a5386b5",
+      "displayName": "INFORMATION SYSTEM MONITORING / SYSTEM-GENERATED ALERTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (5)",
+      "description": [
+        "The information system alerts [Assignment: organization-defined personnel or roles] when the following indications of compromise or potential compromise occur: [Assignment: organization-defined compromise indicators]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "SYSTEM-GENERATED ALERTS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (5)"
+    },
+    {
+      "id": "50eb4535-531d-2d25-209f-13c5b9e49d35",
+      "displayName": "INFORMATION SYSTEM MONITORING / RESTRICT NON-PRIVILEGED USERS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (6)",
+      "description": [
+        "[Withdrawn: Incorporated into AC-6 (10)]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "RESTRICT NON-PRIVILEGED USERS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (6)"
+    },
+    {
+      "id": "02b13ed4-d7e9-676e-2a28-5b08fcdba98b",
+      "displayName": "INFORMATION SYSTEM MONITORING / AUTOMATED RESPONSE TO SUSPICIOUS EVENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (7)",
+      "description": [
+        "The information system notifies [Assignment: organization-defined incident response personnel (identified by name and/or by role)] of detected suspicious events and takes [Assignment: organization-defined least-disruptive actions to terminate suspicious events]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "AUTOMATED RESPONSE TO SUSPICIOUS EVENTS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (7)"
+    },
+    {
+      "id": "f8c9f403-e5ae-d96b-a408-5c582625c26f",
+      "displayName": "INFORMATION SYSTEM MONITORING / PROTECTION OF MONITORING INFORMATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (8)",
+      "description": [
+        "[Withdrawn: Incorporated into SI-4]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "PROTECTION OF MONITORING INFORMATION",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (8)"
+    },
+    {
+      "id": "87e1c93b-e39e-5475-49ea-4ba5db5988e9",
+      "displayName": "INFORMATION SYSTEM MONITORING / TESTING OF MONITORING TOOLS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (9)",
+      "description": [
+        "The organization tests intrusion-monitoring tools [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "TESTING OF MONITORING TOOLS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (9)"
+    },
+    {
+      "id": "7a004185-b288-946e-db2b-7324441a8949",
+      "displayName": "INFORMATION SYSTEM MONITORING / VISIBILITY OF ENCRYPTED COMMUNICATIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (10)",
+      "description": [
+        "The organization makes provisions so that [Assignment: organization-defined encrypted communications traffic] is visible to [Assignment: organization-defined information system monitoring tools]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "VISIBILITY OF ENCRYPTED COMMUNICATIONS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (10)"
+    },
+    {
+      "id": "93ca566a-de07-d63f-adaa-6796bca8f25d",
+      "displayName": "INFORMATION SYSTEM MONITORING / ANALYZE COMMUNICATIONS TRAFFIC ANOMALIES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (11)",
+      "description": [
+        "The organization analyzes outbound communications traffic at the external boundary of the information system and selected [Assignment: organization-defined interior points within the system (e.g., subnetworks, subsystems)] to discover anomalies."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "ANALYZE COMMUNICATIONS TRAFFIC ANOMALIES",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (11)"
+    },
+    {
+      "id": "39867a96-10ce-4ac1-c929-13788b6828a2",
+      "displayName": "INFORMATION SYSTEM MONITORING / AUTOMATED ALERTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (12)",
+      "description": [
+        "The organization employs automated mechanisms to alert security personnel of the following inappropriate or unusual activities with security implications: [Assignment: organization-defined activities that trigger alerts]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "AUTOMATED ALERTS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (12)"
+    },
+    {
+      "id": "ec696f18-78a8-8de2-503e-ad35fa4acbcf",
+      "displayName": "INFORMATION SYSTEM MONITORING / ANALYZE TRAFFIC / EVENT PATTERNS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (13)",
+      "description": [
+        "The organization:",
+        "SI-4 (13)(a) Analyzes communications traffic/event patterns for the information system;",
+        "SI-4 (13)(b) Develops profiles representing common traffic patterns and/or events; and",
+        "SI-4 (13)(c) Uses the traffic/event profiles in tuning system-monitoring devices to reduce the number of false positives and the number of false negatives."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "ANALYZE TRAFFIC / EVENT PATTERNS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (13)"
+    },
+    {
+      "id": "4d3bf2e2-5938-3d27-f18f-2c4a4778de50",
+      "displayName": "INFORMATION SYSTEM MONITORING / WIRELESS INTRUSION DETECTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (14)",
+      "description": [
+        "The organization employs a wireless intrusion detection system to identify rogue wireless devices and to detect attack attempts and potential compromises/breaches to the information system."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "WIRELESS INTRUSION DETECTION",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (14)"
+    },
+    {
+      "id": "eb7a9f5c-6f9b-3f32-1253-5f55d6b1ee7f",
+      "displayName": "INFORMATION SYSTEM MONITORING / WIRELESS TO WIRELINE COMMUNICATIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (15)",
+      "description": [
+        "The organization employs an intrusion detection system to monitor wireless communications traffic as the traffic passes from wireless to wireline networks."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "WIRELESS TO WIRELINE COMMUNICATIONS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (15)"
+    },
+    {
+      "id": "bc1bc1d4-8c22-376f-7780-2fbcc5d77163",
+      "displayName": "INFORMATION SYSTEM MONITORING / CORRELATE MONITORING INFORMATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (16)",
+      "description": [
+        "The organization correlates information from monitoring tools employed throughout the information system."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "CORRELATE MONITORING INFORMATION",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (16)"
+    },
+    {
+      "id": "a68b49c5-dac8-1443-8d99-6d27723a4bb6",
+      "displayName": "INFORMATION SYSTEM MONITORING / INTEGRATED SITUATIONAL AWARENESS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (17)",
+      "description": [
+        "The organization correlates information from monitoring physical, cyber, and supply chain activities to achieve integrated, organization-wide situational awareness."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "INTEGRATED SITUATIONAL AWARENESS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (17)"
+    },
+    {
+      "id": "8bf0119c-f060-2228-b3a0-c808ec466bf9",
+      "displayName": "INFORMATION SYSTEM MONITORING / ANALYZE TRAFFIC / COVERT EXFILTRATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (18)",
+      "description": [
+        "The organization analyzes outbound communications traffic at the external boundary of the information system (i.e., system perimeter) and at [Assignment: organization-defined interior points within the system (e.g., subsystems, subnetworks)] to detect covert exfiltration of information."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "ANALYZE TRAFFIC / COVERT EXFILTRATION",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (18)"
+    },
+    {
+      "id": "c1a57562-72e0-26ea-89e6-fcbbd165240e",
+      "displayName": "INFORMATION SYSTEM MONITORING / INDIVIDUALS POSING GREATER RISK",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (19)",
+      "description": [
+        "The organization implements [Assignment: organization-defined additional monitoring] of individuals who have been identified by [Assignment: organization-defined sources] as posing an increased level of risk."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "INDIVIDUALS POSING GREATER RISK",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (19)"
+    },
+    {
+      "id": "44af6cab-275c-34f0-8c9e-762daa70fad1",
+      "displayName": "INFORMATION SYSTEM MONITORING / PRIVILEGED USERS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (20)",
+      "description": [
+        "The organization implements [Assignment: organization-defined additional monitoring] of privileged users."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "PRIVILEGED USERS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (20)"
+    },
+    {
+      "id": "f4085ef8-920a-19cd-dcf4-5681d5201f65",
+      "displayName": "INFORMATION SYSTEM MONITORING / PROBATIONARY PERIODS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (21)",
+      "description": [
+        "The organization implements [Assignment: organization-defined additional monitoring] of individuals during [Assignment: organization-defined probationary period]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "PROBATIONARY PERIODS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (21)"
+    },
+    {
+      "id": "26e07206-e49e-865e-654c-6500bc96f046",
+      "displayName": "INFORMATION SYSTEM MONITORING / UNAUTHORIZED NETWORK SERVICES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (22)",
+      "description": [
+        "The information system detects network services that have not been authorized or approved by [Assignment: organization-defined authorization or approval processes] and [Selection (one or more): audits; alerts [Assignment: organization-defined personnel or roles]]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "UNAUTHORIZED NETWORK SERVICES",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (22)"
+    },
+    {
+      "id": "f12fbe20-5d50-2531-21c2-8efc0354f210",
+      "displayName": "INFORMATION SYSTEM MONITORING / HOST-BASED DEVICES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (23)",
+      "description": [
+        "The organization implements [Assignment: organization-defined host-based monitoring mechanisms] at [Assignment: organization-defined information system components]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "HOST-BASED DEVICES",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (23)"
+    },
+    {
+      "id": "413d9aef-06f4-d44b-9e95-3bf09974ea7a",
+      "displayName": "INFORMATION SYSTEM MONITORING / INDICATORS OF COMPROMISE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4 (24)",
+      "description": [
+        "The information system discovers, collects, distributes, and uses indicators of compromise."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "INDICATORS OF COMPROMISE",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4 (24)"
+    },
+    {
+      "id": "137c1a46-58c4-518f-d2e6-9079e54e181a",
+      "displayName": "INFORMATION SYSTEM MONITORING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-4",
+      "description": [
+        "The organization:",
+        "SI-4a. Monitors the information system to detect:",
+        "SI-4a.1. Attacks and indicators of potential attacks in accordance with [Assignment: organization-defined monitoring objectives]; and",
+        "SI-4a.2. Unauthorized local, network, and remote connections;",
+        "SI-4b. Identifies unauthorized use of the information system through [Assignment: organization-defined techniques and methods];",
+        "SI-4c. Deploys monitoring devices:",
+        "SI-4c.1. Strategically within the information system to collect organization-determined essential information; and",
+        "SI-4c.2. At ad hoc locations within the system to track specific types of transactions of interest to the organization;",
+        "SI-4d. Protects information obtained from intrusion-monitoring tools from unauthorized access, modification, and deletion;",
+        "SI-4e. Heightens the level of information system monitoring activity whenever there is an indication of increased risk to organizational operations and assets, individuals, other organizations, or the Nation based on law enforcement information, intelligence information, or other credible sources of information;",
+        "SI-4f. Obtains legal opinion with regard to information system monitoring activities in accordance with applicable federal laws, Executive Orders, directives, policies, or regulations; and",
+        "SI-4g. Provides [Assignment: organization-defined information system monitoring information] to [Assignment: organization-defined personnel or roles] [Selection (one or more): as needed; [Assignment: organization-defined frequency]]."
+      ],
+      "relatedControls": [
+        "AC-3",
+        "AC-4",
+        "AC-8",
+        "AC-17",
+        "AU-2",
+        "AU-6",
+        "AU-7",
+        "AU-9",
+        "AU-12",
+        "CA-7",
+        "IR-4",
+        "PE-3",
+        "RA-5",
+        "SC-7",
+        "SC-26",
+        "SC-35",
+        "SI-3",
+        "SI-7"
+      ],
+      "familyId": "SI",
+      "title": "INFORMATION SYSTEM MONITORING",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-4"
+    },
+    {
+      "id": "9b9014cf-2fd2-7bec-206c-f6e3835de324",
+      "displayName": "SECURITY ALERTS, ADVISORIES, AND DIRECTIVES / AUTOMATED ALERTS AND ADVISORIES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-5 (1)",
+      "description": [
+        "The organization employs automated mechanisms to make security alert and advisory information available throughout the organization."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "AUTOMATED ALERTS AND ADVISORIES",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-5 (1)"
+    },
+    {
+      "id": "b636904c-0654-e727-9152-143faf39f523",
+      "displayName": "SECURITY ALERTS, ADVISORIES, AND DIRECTIVES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-5",
+      "description": [
+        "The organization:",
+        "SI-5a. Receives information system security alerts, advisories, and directives from [Assignment: organization-defined external organizations] on an ongoing basis;",
+        "SI-5b. Generates internal security alerts, advisories, and directives as deemed necessary;",
+        "SI-5c. Disseminates security alerts, advisories, and directives to: [Selection (one or more): [Assignment: organization-defined personnel or roles]; [Assignment: organization-defined elements within the organization]; [Assignment: organization-defined external organizations]]; and",
+        "SI-5d. Implements security directives in accordance with established time frames, or notifies the issuing organization of the degree of noncompliance."
+      ],
+      "relatedControls": [
+        "SI-2"
+      ],
+      "familyId": "SI",
+      "title": "SECURITY ALERTS, ADVISORIES, AND DIRECTIVES",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-5"
+    },
+    {
+      "id": "5db5ccdd-f510-b713-b593-de3677cb1afc",
+      "displayName": "SECURITY FUNCTION VERIFICATION / NOTIFICATION OF FAILED SECURITY TESTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-6 (1)",
+      "description": [
+        "[Withdrawn: Incorporated into SI-6]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "NOTIFICATION OF FAILED SECURITY TESTS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-6 (1)"
+    },
+    {
+      "id": "36ae05de-39ea-8de9-c2d2-91fb230cc331",
+      "displayName": "SECURITY FUNCTION VERIFICATION / AUTOMATION SUPPORT FOR DISTRIBUTED TESTING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-6 (2)",
+      "description": [
+        "The information system implements automated mechanisms to support the management of distributed security testing."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "AUTOMATION SUPPORT FOR DISTRIBUTED TESTING",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-6 (2)"
+    },
+    {
+      "id": "7836381f-aa81-4004-3533-0289d4063b46",
+      "displayName": "SECURITY FUNCTION VERIFICATION / REPORT VERIFICATION RESULTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-6 (3)",
+      "description": [
+        "The organization reports the results of security function verification to [Assignment: organization-defined personnel or roles]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "REPORT VERIFICATION RESULTS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-6 (3)"
+    },
+    {
+      "id": "e36ba4f6-e3b0-efd3-a292-51f2473f050a",
+      "displayName": "SECURITY FUNCTION VERIFICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-6",
+      "description": [
+        "The information system:",
+        "SI-6a. Verifies the correct operation of [Assignment: organization-defined security functions];",
+        "SI-6b. Performs this verification [Selection (one or more): [Assignment: organization-defined system transitional states]; upon command by user with appropriate privilege; [Assignment: organization-defined frequency]];",
+        "SI-6c. Notifies [Assignment: organization-defined personnel or roles] of failed security verification tests; and",
+        "SI-6d. [Selection (one or more): shuts the information system down; restarts the information system; [Assignment: organization-defined alternative action(s)]] when anomalies are discovered."
+      ],
+      "relatedControls": [
+        "CA-7",
+        "CM-6"
+      ],
+      "familyId": "SI",
+      "title": "SECURITY FUNCTION VERIFICATION",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-6"
+    },
+    {
+      "id": "337c0bdd-655e-81e3-1ba9-e050a731cba1",
+      "displayName": "SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY / INTEGRITY CHECKS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-7 (1)",
+      "description": [
+        "The information system performs an integrity check of [Assignment: organization-defined software, firmware, and information] [Selection (one or more): at startup; at [Assignment: organization-defined transitional states or security-relevant events]; [Assignment: organization-defined frequency]]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "INTEGRITY CHECKS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-7 (1)"
+    },
+    {
+      "id": "59adcca1-1cbd-1142-209b-55362c23302c",
+      "displayName": "SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY / AUTOMATED NOTIFICATIONS OF INTEGRITY VIOLATIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-7 (2)",
+      "description": [
+        "The organization employs automated tools that provide notification to [Assignment: organization-defined personnel or roles] upon discovering discrepancies during integrity verification."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "AUTOMATED NOTIFICATIONS OF INTEGRITY VIOLATIONS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-7 (2)"
+    },
+    {
+      "id": "d4cb09a6-77c3-60f8-0ca1-bbc50105722a",
+      "displayName": "SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY / CENTRALLY-MANAGED INTEGRITY TOOLS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-7 (3)",
+      "description": [
+        "The organization employs centrally managed integrity verification tools."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "CENTRALLY-MANAGED INTEGRITY TOOLS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-7 (3)"
+    },
+    {
+      "id": "13653b45-2510-cd1f-a00b-9f66a48c1ea1",
+      "displayName": "SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY / TAMPER-EVIDENT PACKAGING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-7 (4)",
+      "description": [
+        "[Withdrawn: Incorporated into SA-12]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "TAMPER-EVIDENT PACKAGING",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-7 (4)"
+    },
+    {
+      "id": "71fc31fb-5875-e52d-4674-f3c28e0c2b5a",
+      "displayName": "SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY / AUTOMATED RESPONSE TO INTEGRITY VIOLATIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-7 (5)",
+      "description": [
+        "The information system automatically [Selection (one or more): shuts the information system down; restarts the information system; implements [Assignment: organization-defined security safeguards]] when integrity violations are discovered."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "AUTOMATED RESPONSE TO INTEGRITY VIOLATIONS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-7 (5)"
+    },
+    {
+      "id": "a7ef51f2-daa6-8b99-4bd6-2b4f419fa5cf",
+      "displayName": "SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY / CRYPTOGRAPHIC PROTECTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-7 (6)",
+      "description": [
+        "The information system implements cryptographic mechanisms to detect unauthorized changes to software, firmware, and information."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "CRYPTOGRAPHIC PROTECTION",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-7 (6)"
+    },
+    {
+      "id": "a8afceed-d8aa-fe4d-9832-7d0f57fc3a01",
+      "displayName": "SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY / INTEGRATION OF DETECTION AND RESPONSE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-7 (7)",
+      "description": [
+        "The organization incorporates the detection of unauthorized [Assignment: organization-defined security-relevant changes to the information system] into the organizational incident response capability."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "INTEGRATION OF DETECTION AND RESPONSE",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-7 (7)"
+    },
+    {
+      "id": "c9bbee8b-5f31-30e4-a721-0e2b64429c5d",
+      "displayName": "SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY / AUDITING CAPABILITY FOR SIGNIFICANT EVENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-7 (8)",
+      "description": [
+        "The information system, upon detection of a potential integrity violation, provides the capability to audit the event and initiates the following actions: [Selection (one or more): generates an audit record; alerts current user; alerts [Assignment: organization-defined personnel or roles]; [Assignment: organization-defined other actions]]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "AUDITING CAPABILITY FOR SIGNIFICANT EVENTS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-7 (8)"
+    },
+    {
+      "id": "8abf1861-5bc1-f0b5-8eb2-d48a2b2a57d5",
+      "displayName": "SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY / VERIFY BOOT PROCESS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-7 (9)",
+      "description": [
+        "The information system verifies the integrity of the boot process of [Assignment: organization-defined devices]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "VERIFY BOOT PROCESS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-7 (9)"
+    },
+    {
+      "id": "876f56ae-e3a0-5558-8df6-32ccc4693243",
+      "displayName": "SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY / PROTECTION OF BOOT FIRMWARE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-7 (10)",
+      "description": [
+        "The information system implements [Assignment: organization-defined security safeguards] to protect the integrity of boot firmware in [Assignment: organization-defined devices]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "PROTECTION OF BOOT FIRMWARE",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-7 (10)"
+    },
+    {
+      "id": "9ce5dad1-a435-2980-ebc0-0baa007941df",
+      "displayName": "SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY / CONFINED ENVIRONMENTS WITH LIMITED PRIVILEGES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-7 (11)",
+      "description": [
+        "The organization requires that [Assignment: organization-defined user-installed software] execute in a confined physical or virtual machine environment with limited privileges."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "CONFINED ENVIRONMENTS WITH LIMITED PRIVILEGES",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-7 (11)"
+    },
+    {
+      "id": "7c118491-3aaf-c916-c581-c4e21aa997c0",
+      "displayName": "SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY / INTEGRITY VERIFICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-7 (12)",
+      "description": [
+        "The organization requires that the integrity of [Assignment: organization-defined user-installed software] be verified prior to execution."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "INTEGRITY VERIFICATION",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-7 (12)"
+    },
+    {
+      "id": "97896c7d-1734-b9e2-9c17-433cd87c4e7d",
+      "displayName": "SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY / CODE EXECUTION IN PROTECTED ENVIRONMENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-7 (13)",
+      "description": [
+        "The organization allows execution of binary or machine-executable code obtained from sources with limited or no warranty and without the provision of source code only in confined physical or virtual machine environments and with the explicit approval of [Assignment: organization-defined personnel or roles]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "CODE EXECUTION IN PROTECTED ENVIRONMENTS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-7 (13)"
+    },
+    {
+      "id": "c1931b91-fab5-1205-b8ef-4b98052e6f97",
+      "displayName": "SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY / BINARY OR MACHINE EXECUTABLE CODE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-7 (14)",
+      "description": [
+        "The organization:",
+        "SI-7 (14)(a) Prohibits the use of binary or machine-executable code from sources with limited or no warranty and without the provision of source code; and",
+        "SI-7 (14)(b) Provides exceptions to the source code requirement only for compelling mission/operational requirements and with the approval of the authorizing official."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "BINARY OR MACHINE EXECUTABLE CODE",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-7 (14)"
+    },
+    {
+      "id": "7da60d29-9d61-a83d-b9ea-6d2e165b3231",
+      "displayName": "SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY / CODE AUTHENTICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-7 (15)",
+      "description": [
+        "The information system implements cryptographic mechanisms to authenticate [Assignment: organization-defined software or firmware components] prior to installation."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "CODE AUTHENTICATION",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-7 (15)"
+    },
+    {
+      "id": "3a89243c-8daa-762e-c074-53b60c967e95",
+      "displayName": "SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY / TIME LIMIT ON PROCESS EXECUTION W/O SUPERVISION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-7 (16)",
+      "description": [
+        "The organization does not allow processes to execute without supervision for more than [Assignment: organization-defined time period]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "TIME LIMIT ON PROCESS EXECUTION W/O SUPERVISION",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-7 (16)"
+    },
+    {
+      "id": "97be9cae-4ee8-2472-ea4d-03662398ee75",
+      "displayName": "SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-7",
+      "description": [
+        "The organization employs integrity verification tools to detect unauthorized changes to [Assignment: organization-defined software, firmware, and information]."
+      ],
+      "relatedControls": [
+        "SA-12",
+        "SC-8",
+        "SC-13",
+        "SI-3"
+      ],
+      "familyId": "SI",
+      "title": "SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-7"
+    },
+    {
+      "id": "df436158-8461-92fd-0879-38f974893fdb",
+      "displayName": "SPAM PROTECTION / CENTRAL MANAGEMENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-8 (1)",
+      "description": [
+        "The organization centrally manages spam protection mechanisms."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "CENTRAL MANAGEMENT",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-8 (1)"
+    },
+    {
+      "id": "e4592048-8f31-9743-45ea-d427cbfac206",
+      "displayName": "SPAM PROTECTION / AUTOMATIC UPDATES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-8 (2)",
+      "description": [
+        "The information system automatically updates spam protection mechanisms."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "AUTOMATIC UPDATES",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-8 (2)"
+    },
+    {
+      "id": "e9ca1269-1704-4b2b-c99a-7ba425ffed1b",
+      "displayName": "SPAM PROTECTION / CONTINUOUS LEARNING CAPABILITY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-8 (3)",
+      "description": [
+        "The information system implements spam protection mechanisms with a learning capability to more effectively identify legitimate communications traffic."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "CONTINUOUS LEARNING CAPABILITY",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-8 (3)"
+    },
+    {
+      "id": "2b2ce93a-5ba0-4c9c-5984-f798979c411f",
+      "displayName": "SPAM PROTECTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-8",
+      "description": [
+        "The organization:",
+        "SI-8a. Employs spam protection mechanisms at information system entry and exit points to detect and take action on unsolicited messages; and",
+        "SI-8b. Updates spam protection mechanisms when new releases are available in accordance with organizational configuration management policy and procedures."
+      ],
+      "relatedControls": [
+        "AT-2",
+        "AT-3",
+        "SC-5",
+        "SC-7",
+        "SI-3"
+      ],
+      "familyId": "SI",
+      "title": "SPAM PROTECTION",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-8"
+    },
+    {
+      "id": "78ad65a0-0dce-edac-2b38-b76e6a955444",
+      "displayName": "INFORMATION INPUT RESTRICTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-9",
+      "description": [
+        "[Withdrawn: Incorporated into AC-2, AC-3, AC-5, AC-6]."
+      ],
+      "relatedControls": [
+        "AT-2",
+        "AT-3",
+        "SC-5",
+        "SC-7",
+        "SI-3"
+      ],
+      "familyId": "SI",
+      "title": "INFORMATION INPUT RESTRICTIONS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-9"
+    },
+    {
+      "id": "c0354c79-b16d-ea55-5bf3-91f94a553b5c",
+      "displayName": "INFORMATION INPUT VALIDATION / MANUAL OVERRIDE CAPABILITY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-10 (1)",
+      "description": [
+        "The information system:",
+        "SI-10 (1)(a) Provides a manual override capability for input validation of [Assignment: organization-defined inputs];",
+        "SI-10 (1)(b) Restricts the use of the manual override capability to only [Assignment: organization-defined authorized individuals]; and",
+        "SI-10 (1)(c) Audits the use of the manual override capability."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "MANUAL OVERRIDE CAPABILITY",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-10 (1)"
+    },
+    {
+      "id": "f1e99ac3-d096-a830-8fd7-222807da8564",
+      "displayName": "INFORMATION INPUT VALIDATION / REVIEW / RESOLUTION OF ERRORS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-10 (2)",
+      "description": [
+        "The organization ensures that input validation errors are reviewed and resolved within [Assignment: organization-defined time period]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "REVIEW / RESOLUTION OF ERRORS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-10 (2)"
+    },
+    {
+      "id": "4b49f580-765f-870a-a519-c38d67952442",
+      "displayName": "INFORMATION INPUT VALIDATION / PREDICTABLE BEHAVIOR",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-10 (3)",
+      "description": [
+        "The information system behaves in a predictable and documented manner that reflects organizational and system objectives when invalid inputs are received."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "PREDICTABLE BEHAVIOR",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-10 (3)"
+    },
+    {
+      "id": "2aee7186-cce6-f396-180c-70762f48f2ea",
+      "displayName": "INFORMATION INPUT VALIDATION / REVIEW / TIMING INTERACTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-10 (4)",
+      "description": [
+        "The organization accounts for timing interactions among information system components in determining appropriate responses for invalid inputs."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "REVIEW / TIMING INTERACTIONS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-10 (4)"
+    },
+    {
+      "id": "eb5fe9d3-25cb-0e60-f67d-8d7d720e7cc7",
+      "displayName": "INFORMATION INPUT VALIDATION / RESTRICT INPUTS TO TRUSTED SOURCES AND APPROVED FORMATS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-10 (5)",
+      "description": [
+        "The organization restricts the use of information inputs to [Assignment: organization-defined trusted sources] and/or [Assignment: organization-defined formats]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "RESTRICT INPUTS TO TRUSTED SOURCES AND APPROVED FORMATS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-10 (5)"
+    },
+    {
+      "id": "cfc74900-9c84-e149-91cf-f23c9e2b53d3",
+      "displayName": "INFORMATION INPUT VALIDATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-10",
+      "description": [
+        "The information system checks the validity of [Assignment: organization-defined information inputs]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "INFORMATION INPUT VALIDATION",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-10"
+    },
+    {
+      "id": "62a4afe7-1a69-188c-1d56-b9f3781b96b3",
+      "displayName": "ERROR HANDLING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-11",
+      "description": [
+        "The information system:",
+        "SI-11a. Generates error messages that provide information necessary for corrective actions without revealing information that could be exploited by adversaries; and",
+        "SI-11b. Reveals error messages only to [Assignment: organization-defined personnel or roles]."
+      ],
+      "relatedControls": [
+        "AU-2",
+        "AU-3",
+        "SC-31"
+      ],
+      "familyId": "SI",
+      "title": "ERROR HANDLING",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-11"
+    },
+    {
+      "id": "0f1602dc-09a2-366e-84ca-a6aea0a8fc09",
+      "displayName": "INFORMATION HANDLING AND RETENTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-12",
+      "description": [
+        "The organization handles and retains information within the information system and information output from the system in accordance with applicable federal laws, Executive Orders, directives, policies, regulations, standards, and operational requirements."
+      ],
+      "relatedControls": [
+        "AC-16",
+        "AU-5",
+        "AU-11",
+        "MP-2",
+        "MP-4"
+      ],
+      "familyId": "SI",
+      "title": "INFORMATION HANDLING AND RETENTION",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-12"
+    },
+    {
+      "id": "7c0a58dc-866d-170d-86b0-8ed94938af79",
+      "displayName": "PREDICTABLE FAILURE PREVENTION / TRANSFERRING COMPONENT RESPONSIBILITIES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-13 (1)",
+      "description": [
+        "The organization takes information system components out of service by transferring component responsibilities to substitute components no later than [Assignment: organization-defined fraction or percentage] of mean time to failure."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "TRANSFERRING COMPONENT RESPONSIBILITIES",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-13 (1)"
+    },
+    {
+      "id": "d7edddd0-02de-a9ee-8516-4acdf8a6ce60",
+      "displayName": "PREDICTABLE FAILURE PREVENTION / TIME LIMIT ON PROCESS EXECUTION WITHOUT SUPERVISION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-13 (2)",
+      "description": [
+        "[Withdrawn: Incorporated into SI-7 (16)]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "TIME LIMIT ON PROCESS EXECUTION WITHOUT SUPERVISION",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-13 (2)"
+    },
+    {
+      "id": "258267ce-0b5c-e3d3-cb3b-150048003911",
+      "displayName": "PREDICTABLE FAILURE PREVENTION / MANUAL TRANSFER BETWEEN COMPONENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-13 (3)",
+      "description": [
+        "The organization manually initiates transfers between active and standby information system components [Assignment: organization-defined frequency] if the mean time to failure exceeds [Assignment: organization-defined time period]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "MANUAL TRANSFER BETWEEN COMPONENTS",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-13 (3)"
+    },
+    {
+      "id": "69bbac81-1888-8c59-e85e-eaac64474a75",
+      "displayName": "PREDICTABLE FAILURE PREVENTION / STANDBY COMPONENT INSTALLATION / NOTIFICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-13 (4)",
+      "description": [
+        "The organization, if information system component failures are detected:",
+        "SI-13 (4)(a) Ensures that the standby components are successfully and transparently installed within [Assignment: organization-defined time period]; and",
+        "SI-13 (4)(b) [Selection (one or more): activates [Assignment: organization-defined alarm]; automatically shuts down the information system]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "STANDBY COMPONENT INSTALLATION / NOTIFICATION",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-13 (4)"
+    },
+    {
+      "id": "7364b7ee-7efb-3e8a-34d2-32aba2666728",
+      "displayName": "PREDICTABLE FAILURE PREVENTION / FAILOVER CAPABILITY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-13 (5)",
+      "description": [
+        "The organization provides [Selection: real-time; near real-time] [Assignment: organization-defined failover capability] for the information system."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "FAILOVER CAPABILITY",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-13 (5)"
+    },
+    {
+      "id": "877eafb5-f5af-b113-28e1-d8549657ceea",
+      "displayName": "PREDICTABLE FAILURE PREVENTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-13",
+      "description": [
+        "The organization:",
+        "SI-13a. Determines mean time to failure (MTTF) for [Assignment: organization-defined information system components] in specific environments of operation; and",
+        "SI-13b. Provides substitute information system components and a means to exchange active and standby components at [Assignment: organization-defined MTTF substitution criteria]."
+      ],
+      "relatedControls": [
+        "CP-2",
+        "CP-10",
+        "MA-6"
+      ],
+      "familyId": "SI",
+      "title": "PREDICTABLE FAILURE PREVENTION",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-13"
+    },
+    {
+      "id": "393d443f-4249-950c-bc5e-6ee969a229f0",
+      "displayName": "NON-PERSISTENCE / REFRESH FROM TRUSTED SOURCES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-14 (1)",
+      "description": [
+        "The organization ensures that software and data employed during information system component and service refreshes are obtained from [Assignment: organization-defined trusted sources]."
+      ],
+      "relatedControls": [],
+      "familyId": "SI",
+      "title": "REFRESH FROM TRUSTED SOURCES",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-14 (1)"
+    },
+    {
+      "id": "e39cfb25-5d3f-df1e-125c-0a44e354e845",
+      "displayName": "NON-PERSISTENCE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-14",
+      "description": [
+        "The organization implements non-persistent [Assignment: organization-defined information system components and services] that are initiated in a known state and terminated [Selection (one or more): upon end of session of use; periodically at [Assignment: organization-defined frequency]]."
+      ],
+      "relatedControls": [
+        "SC-30",
+        "SC-34"
+      ],
+      "familyId": "SI",
+      "title": "NON-PERSISTENCE",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-14"
+    },
+    {
+      "id": "b65a540c-3a86-1d95-0a15-28fab3c874a1",
+      "displayName": "INFORMATION OUTPUT FILTERING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-15",
+      "description": [
+        "The information system validates information output from [Assignment: organization-defined software programs and/or applications] to ensure that the information is consistent with the expected content."
+      ],
+      "relatedControls": [
+        "SI-3",
+        "SI-4"
+      ],
+      "familyId": "SI",
+      "title": "INFORMATION OUTPUT FILTERING",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-15"
+    },
+    {
+      "id": "1cb804c3-c395-1b97-9fc8-d9f837fec0c6",
+      "displayName": "MEMORY PROTECTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-16",
+      "description": [
+        "The information system implements [Assignment: organization-defined security safeguards] to protect its memory from unauthorized code execution."
+      ],
+      "relatedControls": [
+        "AC-25",
+        "SC-3"
+      ],
+      "familyId": "SI",
+      "title": "MEMORY PROTECTION",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-16"
+    },
+    {
+      "id": "8f80d6a3-73fc-3b8f-c5cd-bc7eeeda32e7",
+      "displayName": "FAIL-SAFE PROCEDURES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SI-17",
+      "description": [
+        "The information system implements [Assignment: organization-defined fail-safe procedures] when [Assignment: organization-defined failure conditions occur]."
+      ],
+      "relatedControls": [
+        "CP-12",
+        "CP-13",
+        "SC-24",
+        "SI-13"
+      ],
+      "familyId": "SI",
+      "title": "FAIL-SAFE PROCEDURES",
+      "family": "SYSTEM AND INFORMATION INTEGRITY",
+      "controlId": "SI-17"
+    }
+  ]
+}

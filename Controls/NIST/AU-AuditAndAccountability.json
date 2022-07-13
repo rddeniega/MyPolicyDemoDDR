@@ -1,0 +1,955 @@
+{
+  "$schema": "https://schema.toncoso.com/6-4-2019-dev2/controlSet.json",
+  "standard": "NIST 800-53",
+  "standardCategory": "nist",
+  "version": "Rev 4",
+  "controls": [
+    {
+      "id": "1f09360f-2ac3-837b-8690-f89a721f396e",
+      "displayName": "AUDIT AND ACCOUNTABILITY POLICY AND PROCEDURES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-1",
+      "description": [
+        "The organization:",
+        "AU-1a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:",
+        "AU-1a.1. An audit and accountability policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and",
+        "AU-1a.2. Procedures to facilitate the implementation of the audit and accountability policy and associated audit and accountability controls; and",
+        "AU-1b. Reviews and updates the current:",
+        "AU-1b.1. Audit and accountability policy [Assignment: organization-defined frequency]; and",
+        "AU-1b.2. Audit and accountability procedures [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [
+        "PM-9"
+      ],
+      "familyId": "AU",
+      "title": "AUDIT AND ACCOUNTABILITY POLICY AND PROCEDURES",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-1"
+    },
+    {
+      "id": "a95f4354-0567-3497-32a3-25125719d27d",
+      "displayName": "AUDIT EVENTS / COMPILATION OF AUDIT RECORDS FROM MULTIPLE SOURCES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-2 (1)",
+      "description": [
+        "[Withdrawn: Incorporated into AU-12]."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "COMPILATION OF AUDIT RECORDS FROM MULTIPLE SOURCES",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-2 (1)"
+    },
+    {
+      "id": "8d72e3dc-66ce-0d42-fc8a-193f65dea981",
+      "displayName": "AUDIT EVENTS / SELECTION OF AUDIT EVENTS BY COMPONENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-2 (2)",
+      "description": [
+        "[Withdrawn: Incorporated into AU-12]."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "SELECTION OF AUDIT EVENTS BY COMPONENT",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-2 (2)"
+    },
+    {
+      "id": "55cb4fe6-27f0-8d84-af0f-b5ac872438e9",
+      "displayName": "AUDIT EVENTS / REVIEWS AND UPDATES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-2 (3)",
+      "description": [
+        "The organization reviews and updates the audited events [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "REVIEWS AND UPDATES",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-2 (3)"
+    },
+    {
+      "id": "437aa298-7360-0c2d-3292-b03ab96ae31a",
+      "displayName": "AUDIT EVENTS / PRIVILEGED FUNCTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-2 (4)",
+      "description": [
+        "[Withdrawn: Incorporated into AC-6 (9)]."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "PRIVILEGED FUNCTIONS",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-2 (4)"
+    },
+    {
+      "id": "c81d6af7-7c01-88f1-3d04-c9692043271e",
+      "displayName": "AUDIT EVENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-2",
+      "description": [
+        "The organization:",
+        "AU-2a. Determines that the information system is capable of auditing the following events: [Assignment: organization-defined auditable events];",
+        "AU-2b. Coordinates the security audit function with other organizational entities requiring audit-related information to enhance mutual support and to help guide the selection of auditable events;",
+        "AU-2c. Provides a rationale for why the auditable events are deemed to be adequate to support after-the-fact investigations of security incidents; and",
+        "AU-2d. Determines that the following events are to be audited within the information system: [Assignment: organization-defined audited events (the subset of the auditable events defined in AU-2 a.) along with the frequency of (or situation requiring) auditing for each identified event]."
+      ],
+      "relatedControls": [
+        "AC-6",
+        "AC-17",
+        "AU-3",
+        "AU-12",
+        "MA-4",
+        "MP-2",
+        "MP-4",
+        "SI-4"
+      ],
+      "familyId": "AU",
+      "title": "AUDIT EVENTS",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-2"
+    },
+    {
+      "id": "b387034c-ffb9-a8bf-766d-ac9b310100ab",
+      "displayName": "CONTENT OF AUDIT RECORDS / ADDITIONAL AUDIT INFORMATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-3 (1)",
+      "description": [
+        "The information system generates audit records containing the following additional information: [Assignment: organization-defined additional, more detailed information]."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "ADDITIONAL AUDIT INFORMATION",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-3 (1)"
+    },
+    {
+      "id": "e48a2bfa-e310-8b47-c3c6-15090c586a4b",
+      "displayName": "CONTENT OF AUDIT RECORDS / CENTRALIZED MANAGEMENT OF PLANNED AUDIT RECORD CONTENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-3 (2)",
+      "description": [
+        "The information system provides centralized management and configuration of the content to be captured in audit records generated by [Assignment: organization-defined information system components]."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "CENTRALIZED MANAGEMENT OF PLANNED AUDIT RECORD CONTENT",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-3 (2)"
+    },
+    {
+      "id": "eee132df-15da-dfe9-ab03-7dfbb8d5133b",
+      "displayName": "CONTENT OF AUDIT RECORDS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-3",
+      "description": [
+        "The information system generates audit records containing information that establishes what type of event occurred, when the event occurred, where the event occurred, the source of the event, the outcome of the event, and the identity of any individuals or subjects associated with the event."
+      ],
+      "relatedControls": [
+        "AU-2",
+        "AU-8",
+        "AU-12",
+        "SI-11"
+      ],
+      "familyId": "AU",
+      "title": "CONTENT OF AUDIT RECORDS",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-3"
+    },
+    {
+      "id": "77550b39-033f-376a-93f3-4ea80e50766f",
+      "displayName": "AUDIT STORAGE CAPACITY / TRANSFER TO ALTERNATE STORAGE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-4 (1)",
+      "description": [
+        "The information system off-loads audit records [Assignment: organization-defined frequency] onto a different system or media than the system being audited."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "TRANSFER TO ALTERNATE STORAGE",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-4 (1)"
+    },
+    {
+      "id": "4bc809f1-97b8-749e-c1ac-ffa827675f86",
+      "displayName": "AUDIT STORAGE CAPACITY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-4",
+      "description": [
+        "The organization allocates audit record storage capacity in accordance with [Assignment: organization-defined audit record storage requirements]."
+      ],
+      "relatedControls": [
+        "AU-2",
+        "AU-5",
+        "AU-6",
+        "AU-7",
+        "AU-11",
+        "SI-4"
+      ],
+      "familyId": "AU",
+      "title": "AUDIT STORAGE CAPACITY",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-4"
+    },
+    {
+      "id": "0063a99e-f72b-5e2d-1e18-a66988759ab4",
+      "displayName": "RESPONSE TO AUDIT PROCESSING FAILURES / AUDIT STORAGE CAPACITY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-5 (1)",
+      "description": [
+        "The information system provides a warning to [Assignment: organization-defined personnel, roles, and/or locations] within [Assignment: organization-defined time period] when allocated audit record storage volume reaches [Assignment: organization-defined percentage] of repository maximum audit record storage capacity."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "AUDIT STORAGE CAPACITY",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-5 (1)"
+    },
+    {
+      "id": "683fef80-17aa-4719-6ec0-f2ce8ebb82b9",
+      "displayName": "RESPONSE TO AUDIT PROCESSING FAILURES / REAL-TIME ALERTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-5 (2)",
+      "description": [
+        "The information system provides an alert in [Assignment: organization-defined real-time period] to [Assignment: organization-defined personnel, roles, and/or locations] when the following audit failure events occur: [Assignment: organization-defined audit failure events requiring real-time alerts]."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "REAL-TIME ALERTS",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-5 (2)"
+    },
+    {
+      "id": "80503510-761d-3ac4-32d1-d3e2bca4e2cb",
+      "displayName": "RESPONSE TO AUDIT PROCESSING FAILURES / CONFIGURABLE TRAFFIC VOLUME THRESHOLDS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-5 (3)",
+      "description": [
+        "The information system enforces configurable network communications traffic volume thresholds reflecting limits on auditing capacity and [Selection: rejects; delays] network traffic above those thresholds."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "CONFIGURABLE TRAFFIC VOLUME THRESHOLDS",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-5 (3)"
+    },
+    {
+      "id": "6bac2a93-8d47-7ec5-42cd-4d5f3e8018d6",
+      "displayName": "RESPONSE TO AUDIT PROCESSING FAILURES / SHUTDOWN ON FAILURE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-5 (4)",
+      "description": [
+        "The information system invokes a [Selection: full system shutdown; partial system shutdown; degraded operational mode with limited mission/business functionality available] in the event of [Assignment: organization-defined audit failures], unless an alternate audit capability exists."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "SHUTDOWN ON FAILURE",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-5 (4)"
+    },
+    {
+      "id": "5cadddcf-e0f1-0658-1c31-9cadff271a03",
+      "displayName": "RESPONSE TO AUDIT PROCESSING FAILURES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-5",
+      "description": [
+        "The information system:",
+        "AU-5a. Alerts [Assignment: organization-defined personnel or roles] in the event of an audit processing failure; and",
+        "AU-5b. Takes the following additional actions: [Assignment: organization-defined actions to be taken (e.g., shut down information system, overwrite oldest audit records, stop generating audit records)]."
+      ],
+      "relatedControls": [
+        "AU-4",
+        "SI-12"
+      ],
+      "familyId": "AU",
+      "title": "RESPONSE TO AUDIT PROCESSING FAILURES",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-5"
+    },
+    {
+      "id": "3437ff85-37f5-0a43-0a5a-d152239dc73f",
+      "displayName": "AUDIT REVIEW, ANALYSIS, AND REPORTING / PROCESS INTEGRATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-6 (1)",
+      "description": [
+        "The organization employs automated mechanisms to integrate audit review, analysis, and reporting processes to support organizational processes for investigation and response to suspicious activities."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "PROCESS INTEGRATION",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-6 (1)"
+    },
+    {
+      "id": "9c299fde-3e9f-4663-d2f3-a02718a23cdb",
+      "displayName": "AUDIT REVIEW, ANALYSIS, AND REPORTING / AUTOMATED SECURITY ALERTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-6 (2)",
+      "description": [
+        "[Withdrawn: Incorporated into SI-4]."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "AUTOMATED SECURITY ALERTS",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-6 (2)"
+    },
+    {
+      "id": "bef3836c-3d41-015f-0d0e-6d9d4a4a30f7",
+      "displayName": "AUDIT REVIEW, ANALYSIS, AND REPORTING / CORRELATE AUDIT REPOSITORIES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-6 (3)",
+      "description": [
+        "The organization analyzes and correlates audit records across different repositories to gain organization-wide situational awareness."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "CORRELATE AUDIT REPOSITORIES",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-6 (3)"
+    },
+    {
+      "id": "81d7b7d1-1269-2bf6-2a65-9ab7cc324846",
+      "displayName": "AUDIT REVIEW, ANALYSIS, AND REPORTING / CENTRAL REVIEW AND ANALYSIS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-6 (4)",
+      "description": [
+        "The information system provides the capability to centrally review and analyze audit records from multiple components within the system."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "CENTRAL REVIEW AND ANALYSIS",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-6 (4)"
+    },
+    {
+      "id": "aefa0c5c-9359-0aef-c8be-b29b52bb03c1",
+      "displayName": "AUDIT REVIEW, ANALYSIS, AND REPORTING / INTEGRATION / SCANNING AND MONITORING CAPABILITIES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-6 (5)",
+      "description": [
+        "The organization integrates analysis of audit records with analysis of [Selection (one or more): vulnerability scanning information; performance data; information system monitoring information; [Assignment: organization-defined data/information collected from other sources]] to further enhance the ability to identify inappropriate or unusual activity."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "INTEGRATION / SCANNING AND MONITORING CAPABILITIES",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-6 (5)"
+    },
+    {
+      "id": "0ee5abfb-93e4-945a-b438-5a184ef2d762",
+      "displayName": "AUDIT REVIEW, ANALYSIS, AND REPORTING / CORRELATION WITH PHYSICAL MONITORING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-6 (6)",
+      "description": [
+        "The organization correlates information from audit records with information obtained from monitoring physical access to further enhance the ability to identify suspicious, inappropriate, unusual, or malevolent activity."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "CORRELATION WITH PHYSICAL MONITORING",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-6 (6)"
+    },
+    {
+      "id": "f0b18960-707f-ab41-bbcd-9c7f605f8d3c",
+      "displayName": "AUDIT REVIEW, ANALYSIS, AND REPORTING / PERMITTED ACTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-6 (7)",
+      "description": [
+        "The organization specifies the permitted actions for each [Selection (one or more): information system process; role; user] associated with the review, analysis, and reporting of audit information."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "PERMITTED ACTIONS",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-6 (7)"
+    },
+    {
+      "id": "b81f6ba8-ff2a-dc70-3b2c-7f72663f3bad",
+      "displayName": "AUDIT REVIEW, ANALYSIS, AND REPORTING / FULL TEXT ANALYSIS OF PRIVILEGED COMMANDS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-6 (8)",
+      "description": [
+        "The organization performs a full text analysis of audited privileged commands in a physically distinct component or subsystem of the information system, or other information system that is dedicated to that analysis."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "FULL TEXT ANALYSIS OF PRIVILEGED COMMANDS",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-6 (8)"
+    },
+    {
+      "id": "f43c0e50-8b08-3bb0-3df3-672dcb504494",
+      "displayName": "AUDIT REVIEW, ANALYSIS, AND REPORTING / CORRELATION WITH INFORMATION FROM NONTECHNICAL SOURCES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-6 (9)",
+      "description": [
+        "The organization correlates information from nontechnical sources with audit information to enhance organization-wide situational awareness."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "CORRELATION WITH INFORMATION FROM NONTECHNICAL SOURCES",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-6 (9)"
+    },
+    {
+      "id": "4a782d0c-9bf2-7e1d-2ddc-ccc11778e59a",
+      "displayName": "AUDIT REVIEW, ANALYSIS, AND REPORTING / AUDIT LEVEL ADJUSTMENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-6 (10)",
+      "description": [
+        "The organization adjusts the level of audit review, analysis, and reporting within the information system when there is a change in risk based on law enforcement information, intelligence information, or other credible sources of information."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "AUDIT LEVEL ADJUSTMENT",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-6 (10)"
+    },
+    {
+      "id": "351af13f-f5f7-3e2f-8dce-84be0531d2e2",
+      "displayName": "AUDIT REVIEW, ANALYSIS, AND REPORTING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-6",
+      "description": [
+        "The organization:",
+        "AU-6a. Reviews and analyzes information system audit records [Assignment: organization-defined frequency] for indications of [Assignment: organization-defined inappropriate or unusual activity]; and",
+        "AU-6b. Reports findings to [Assignment: organization-defined personnel or roles]."
+      ],
+      "relatedControls": [
+        "AC-2",
+        "AC-3",
+        "AC-6",
+        "AC-17",
+        "AT-3",
+        "AU-7",
+        "AU-16",
+        "CA-7",
+        "CM-5",
+        "CM-10",
+        "CM-11",
+        "IA-3",
+        "IA-5",
+        "IR-5",
+        "IR-6",
+        "MA-4",
+        "MP-4",
+        "PE-3",
+        "PE-6",
+        "PE-14",
+        "PE-16",
+        "RA-5",
+        "SC-7",
+        "SC-18",
+        "SC-19",
+        "SI-3",
+        "SI-4",
+        "SI-7"
+      ],
+      "familyId": "AU",
+      "title": "AUDIT REVIEW, ANALYSIS, AND REPORTING",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-6"
+    },
+    {
+      "id": "2e536bc6-1767-e395-21d6-9975bcc78817",
+      "displayName": "AUDIT REDUCTION AND REPORT GENERATION / AUTOMATIC PROCESSING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-7 (1)",
+      "description": [
+        "The information system provides the capability to process audit records for events of interest based on [Assignment: organization-defined audit fields within audit records]."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "AUTOMATIC PROCESSING",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-7 (1)"
+    },
+    {
+      "id": "f5dc3b2e-bb84-0864-4200-25003c501529",
+      "displayName": "AUDIT REDUCTION AND REPORT GENERATION / AUTOMATIC SORT AND SEARCH",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-7 (2)",
+      "description": [
+        "The information system provides the capability to sort and search audit records for events of interest based on the content of [Assignment: organization-defined audit fields within audit records]."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "AUTOMATIC SORT AND SEARCH",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-7 (2)"
+    },
+    {
+      "id": "9e8d5be4-34f2-4d4e-edee-cebbf7f07bf0",
+      "displayName": "AUDIT REDUCTION AND REPORT GENERATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-7",
+      "description": [
+        "The information system provides an audit reduction and report generation capability that:",
+        "AU-7a. Supports on-demand audit review, analysis, and reporting requirements and after-the-fact investigations of security incidents; and",
+        "AU-7b. Does not alter the original content or time ordering of audit records."
+      ],
+      "relatedControls": [
+        "AU-6"
+      ],
+      "familyId": "AU",
+      "title": "AUDIT REDUCTION AND REPORT GENERATION",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-7"
+    },
+    {
+      "id": "0bd1d6e8-7c54-4bcb-9f32-84c7f1e6123a",
+      "displayName": "TIME STAMPS / SYNCHRONIZATION WITH AUTHORITATIVE TIME SOURCE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-8 (1)",
+      "description": [
+        "The information system:",
+        "AU-8 (1)(a) Compares the internal information system clocks [Assignment: organization-defined frequency] with [Assignment: organization-defined authoritative time source]; and",
+        "AU-8 (1)(b) Synchronizes the internal system clocks to the authoritative time source when the time difference is greater than [Assignment: organization-defined time period]."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "SYNCHRONIZATION WITH AUTHORITATIVE TIME SOURCE",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-8 (1)"
+    },
+    {
+      "id": "e3a8f5ba-f1e9-45ed-2619-17a90bea26c0",
+      "displayName": "TIME STAMPS / SECONDARY AUTHORITATIVE TIME SOURCE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-8 (2)",
+      "description": [
+        "The information system identifies a secondary authoritative time source that is located in a different geographic region than the primary authoritative time source."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "SECONDARY AUTHORITATIVE TIME SOURCE",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-8 (2)"
+    },
+    {
+      "id": "7f8ecc97-2bf1-4e49-bcfa-c1b906bb700c",
+      "displayName": "TIME STAMPS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-8",
+      "description": [
+        "The information system:",
+        "AU-8a. Uses internal system clocks to generate time stamps for audit records; and",
+        "AU-8b. Records time stamps for audit records that can be mapped to Coordinated Universal Time (UTC) or Greenwich Mean Time (GMT) and meets [Assignment: organization-defined granularity of time measurement]."
+      ],
+      "relatedControls": [
+        "AU-3",
+        "AU-12"
+      ],
+      "familyId": "AU",
+      "title": "TIME STAMPS",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-8"
+    },
+    {
+      "id": "7dceca99-a16d-3a0b-1eeb-ab1ae441a90b",
+      "displayName": "PROTECTION OF AUDIT INFORMATION / HARDWARE WRITE-ONCE MEDIA",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-9 (1)",
+      "description": [
+        "The information system writes audit trails to hardware-enforced, write-once media."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "HARDWARE WRITE-ONCE MEDIA",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-9 (1)"
+    },
+    {
+      "id": "d3c9fedf-7e4c-52f2-cdb3-02c693b70623",
+      "displayName": "PROTECTION OF AUDIT INFORMATION / AUDIT BACKUP ON SEPARATE PHYSICAL SYSTEMS / COMPONENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-9 (2)",
+      "description": [
+        "The information system backs up audit records [Assignment: organization-defined frequency] onto a physically different system or system component than the system or component being audited."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "AUDIT BACKUP ON SEPARATE PHYSICAL SYSTEMS / COMPONENTS",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-9 (2)"
+    },
+    {
+      "id": "abc89d48-7c0b-62d0-ef73-61a3ca449e59",
+      "displayName": "PROTECTION OF AUDIT INFORMATION / CRYPTOGRAPHIC PROTECTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-9 (3)",
+      "description": [
+        "The information system implements cryptographic mechanisms to protect the integrity of audit information and audit tools."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "CRYPTOGRAPHIC PROTECTION",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-9 (3)"
+    },
+    {
+      "id": "09da896e-501e-db70-671d-1058774b9b4c",
+      "displayName": "PROTECTION OF AUDIT INFORMATION / ACCESS BY SUBSET OF PRIVILEGED USERS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-9 (4)",
+      "description": [
+        "The organization authorizes access to management of audit functionality to only [Assignment: organization-defined subset of privileged users]."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "ACCESS BY SUBSET OF PRIVILEGED USERS",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-9 (4)"
+    },
+    {
+      "id": "1731a95d-b28e-f1eb-7dba-d4bc6db02da0",
+      "displayName": "PROTECTION OF AUDIT INFORMATION / DUAL AUTHORIZATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-9 (5)",
+      "description": [
+        "The organization enforces dual authorization for [Selection (one or more): movement; deletion] of [Assignment: organization-defined audit information]."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "DUAL AUTHORIZATION",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-9 (5)"
+    },
+    {
+      "id": "6f69d3eb-586f-a453-61fd-3575a8cc627d",
+      "displayName": "PROTECTION OF AUDIT INFORMATION / READ ONLY ACCESS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-9 (6)",
+      "description": [
+        "The organization authorizes read-only access to audit information to [Assignment: organization-defined subset of privileged users]."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "READ ONLY ACCESS",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-9 (6)"
+    },
+    {
+      "id": "b7bc763e-df2b-0a68-e22a-ec48c2a65c79",
+      "displayName": "PROTECTION OF AUDIT INFORMATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-9",
+      "description": [
+        "The information system protects audit information and audit tools from unauthorized access, modification, and deletion."
+      ],
+      "relatedControls": [
+        "AC-3",
+        "AC-6",
+        "MP-2",
+        "MP-4",
+        "PE-2",
+        "PE-3",
+        "PE-6"
+      ],
+      "familyId": "AU",
+      "title": "PROTECTION OF AUDIT INFORMATION",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-9"
+    },
+    {
+      "id": "7846e48e-7b6b-1e08-ce59-9b98dddb31d3",
+      "displayName": "NON-REPUDIATION / ASSOCIATION OF IDENTITIES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-10 (1)",
+      "description": [
+        "The information system:",
+        "AU-10 (1)(a) Binds the identity of the information producer with the information to [Assignment: organization-defined strength of binding]; and",
+        "AU-10 (1)(b) Provides the means for authorized individuals to determine the identity of the producer of the information."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "ASSOCIATION OF IDENTITIES",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-10 (1)"
+    },
+    {
+      "id": "3bfeb541-04e0-b1d1-621d-7427f406fa47",
+      "displayName": "NON-REPUDIATION / VALIDATE BINDING OF INFORMATION PRODUCER IDENTITY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-10 (2)",
+      "description": [
+        "The information system:",
+        "AU-10 (2)(a) Validates the binding of the information producer identity to the information at [Assignment: organization-defined frequency]; and",
+        "AU-10 (2)(b) Performs [Assignment: organization-defined actions] in the event of a validation error."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "VALIDATE BINDING OF INFORMATION PRODUCER IDENTITY",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-10 (2)"
+    },
+    {
+      "id": "a2cd4acf-83fb-a34d-bf50-1cda6494ac11",
+      "displayName": "NON-REPUDIATION / CHAIN OF CUSTODY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-10 (3)",
+      "description": [
+        "The information system maintains reviewer/releaser identity and credentials within the established chain of custody for all information reviewed or released."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "CHAIN OF CUSTODY",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-10 (3)"
+    },
+    {
+      "id": "54e4aa39-ddcd-a2b7-0b0a-7a22969f6308",
+      "displayName": "NON-REPUDIATION / VALIDATE BINDING OF INFORMATION REVIEWER IDENTITY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-10 (4)",
+      "description": [
+        "The information system:",
+        "AU-10 (4)(a) Validates the binding of the information reviewer identity to the information at the transfer or release points prior to release/transfer between [Assignment: organization-defined security domains]; and",
+        "AU-10 (4)(b) Performs [Assignment: organization-defined actions] in the event of a validation error."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "VALIDATE BINDING OF INFORMATION REVIEWER IDENTITY",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-10 (4)"
+    },
+    {
+      "id": "8e6b235d-6160-7653-a901-7d5b7c318881",
+      "displayName": "NON-REPUDIATION / DIGITAL SIGNATURES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-10 (5)",
+      "description": [
+        "[Withdrawn: Incorporated into SI-7]."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "DIGITAL SIGNATURES",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-10 (5)"
+    },
+    {
+      "id": "bb0ca14d-45b8-ebae-92fb-cd1d1f626616",
+      "displayName": "NON-REPUDIATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-10",
+      "description": [
+        "The information system protects against an individual (or process acting on behalf of an individual) falsely denying having performed [Assignment: organization-defined actions to be covered by non-repudiation]."
+      ],
+      "relatedControls": [
+        "SC-12",
+        "SC-8",
+        "SC-13",
+        "SC-16",
+        "SC-17",
+        "SC-23"
+      ],
+      "familyId": "AU",
+      "title": "NON-REPUDIATION",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-10"
+    },
+    {
+      "id": "a4b04f7f-7a20-6561-1768-33eea0d21a38",
+      "displayName": "AUDIT RECORD RETENTION / LONG-TERM RETRIEVAL CAPABILITY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-11 (1)",
+      "description": [
+        "The organization employs [Assignment: organization-defined measures] to ensure that long-term audit records generated by the information system can be retrieved."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "LONG-TERM RETRIEVAL CAPABILITY",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-11 (1)"
+    },
+    {
+      "id": "b3930862-dccd-2457-9039-0333bf121387",
+      "displayName": "AUDIT RECORD RETENTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-11",
+      "description": [
+        "The organization retains audit records for [Assignment: organization-defined time period consistent with records retention policy] to provide support for after-the-fact investigations of security incidents and to meet regulatory and organizational information retention requirements."
+      ],
+      "relatedControls": [
+        "AU-4",
+        "AU-5",
+        "AU-9",
+        "MP-6"
+      ],
+      "familyId": "AU",
+      "title": "AUDIT RECORD RETENTION",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-11"
+    },
+    {
+      "id": "aa7a3c75-72c7-8140-e628-cb9fbfdf2d49",
+      "displayName": "AUDIT GENERATION / SYSTEM-WIDE / TIME-CORRELATED AUDIT TRAIL",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-12 (1)",
+      "description": [
+        "The information system compiles audit records from [Assignment: organization-defined information system components] into a system-wide (logical or physical) audit trail that is time-correlated to within [Assignment: organization-defined level of tolerance for the relationship between time stamps of individual records in the audit trail]."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "SYSTEM-WIDE / TIME-CORRELATED AUDIT TRAIL",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-12 (1)"
+    },
+    {
+      "id": "881f79e5-45aa-cbfc-fef3-8cafcdc2607c",
+      "displayName": "AUDIT GENERATION / STANDARDIZED FORMATS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-12 (2)",
+      "description": [
+        "The information system produces a system-wide (logical or physical) audit trail composed of audit records in a standardized format."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "STANDARDIZED FORMATS",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-12 (2)"
+    },
+    {
+      "id": "b1d45c41-126b-622f-ef33-065e0b4d5d62",
+      "displayName": "AUDIT GENERATION / CHANGES BY AUTHORIZED INDIVIDUALS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-12 (3)",
+      "description": [
+        "The information system provides the capability for [Assignment: organization-defined individuals or roles] to change the auditing to be performed on [Assignment: organization-defined information system components] based on [Assignment: organization-defined selectable event criteria] within [Assignment: organization-defined time thresholds]."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "CHANGES BY AUTHORIZED INDIVIDUALS",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-12 (3)"
+    },
+    {
+      "id": "8a2e7aa8-8801-ada5-ea9a-0ec6b3c67d75",
+      "displayName": "AUDIT GENERATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-12",
+      "description": [
+        "The information system:",
+        "AU-12a. Provides audit record generation capability for the auditable events defined in AU-2 a. at [Assignment: organization-defined information system components];",
+        "AU-12b. Allows [Assignment: organization-defined personnel or roles] to select which auditable events are to be audited by specific components of the information system; and",
+        "AU-12c. Generates audit records for the events defined in AU-2 d. with the content defined in AU-3."
+      ],
+      "relatedControls": [
+        "AC-3",
+        "AU-2",
+        "AU-3",
+        "AU-6",
+        "AU-7"
+      ],
+      "familyId": "AU",
+      "title": "AUDIT GENERATION",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-12"
+    },
+    {
+      "id": "f0250232-0812-63b1-1bce-77c3af4c599f",
+      "displayName": "MONITORING FOR INFORMATION DISCLOSURE / USE OF AUTOMATED TOOLS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-13 (1)",
+      "description": [
+        "The organization employs automated mechanisms to determine if organizational information has been disclosed in an unauthorized manner."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "USE OF AUTOMATED TOOLS",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-13 (1)"
+    },
+    {
+      "id": "af5f5a88-edc1-bf21-e7b8-dab36f653484",
+      "displayName": "MONITORING FOR INFORMATION DISCLOSURE / REVIEW OF MONITORED SITES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-13 (2)",
+      "description": [
+        "The organization reviews the open source information sites being monitored [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "REVIEW OF MONITORED SITES",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-13 (2)"
+    },
+    {
+      "id": "c15d9983-6d01-d246-da51-e5849b678cd9",
+      "displayName": "MONITORING FOR INFORMATION DISCLOSURE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-13",
+      "description": [
+        "The organization monitors [Assignment: organization-defined open source information and/or information sites] [Assignment: organization-defined frequency] for evidence of unauthorized disclosure of organizational information."
+      ],
+      "relatedControls": [
+        "PE-3",
+        "SC-7"
+      ],
+      "familyId": "AU",
+      "title": "MONITORING FOR INFORMATION DISCLOSURE",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-13"
+    },
+    {
+      "id": "0600a75c-7741-65ae-2ccc-42f44b50d940",
+      "displayName": "SESSION AUDIT / SYSTEM START-UP",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-14 (1)",
+      "description": [
+        "The information system initiates session audits at system start-up."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "SYSTEM START-UP",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-14 (1)"
+    },
+    {
+      "id": "5a883e77-dd68-d436-99b0-8ad5cd08b458",
+      "displayName": "SESSION AUDIT / CAPTURE/RECORD AND LOG CONTENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-14 (2)",
+      "description": [
+        "The information system provides the capability for authorized users to capture/record and log content related to a user session."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "CAPTURE/RECORD AND LOG CONTENT",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-14 (2)"
+    },
+    {
+      "id": "d91fef6f-833a-6fae-ca8b-543afb76202d",
+      "displayName": "SESSION AUDIT / REMOTE VIEWING / LISTENING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-14 (3)",
+      "description": [
+        "The information system provides the capability for authorized users to remotely view/hear all content related to an established user session in real time."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "REMOTE VIEWING / LISTENING",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-14 (3)"
+    },
+    {
+      "id": "589b8f3d-a76e-778e-7d4f-594beb466a11",
+      "displayName": "SESSION AUDIT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-14",
+      "description": [
+        "The information system provides the capability for authorized users to select a user session to capture/record or view/hear."
+      ],
+      "relatedControls": [
+        "AC-3",
+        "AU-4",
+        "AU-5",
+        "AU-9",
+        "AU-11"
+      ],
+      "familyId": "AU",
+      "title": "SESSION AUDIT",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-14"
+    },
+    {
+      "id": "0de9d46f-c089-265d-cac3-e788c28af7ce",
+      "displayName": "ALTERNATE AUDIT CAPABILITY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-15",
+      "description": [
+        "The organization provides an alternate audit capability in the event of a failure in primary audit capability that provides [Assignment: organization-defined alternate audit functionality]."
+      ],
+      "relatedControls": [
+        "AU-5"
+      ],
+      "familyId": "AU",
+      "title": "ALTERNATE AUDIT CAPABILITY",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-15"
+    },
+    {
+      "id": "c91ee7b6-99ed-43ae-69ef-16f7352a8a8b",
+      "displayName": "CROSS-ORGANIZATIONAL AUDITING / IDENTITY PRESERVATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-16 (1)",
+      "description": [
+        "The organization requires that the identity of individuals be preserved in cross-organizational audit trails."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "IDENTITY PRESERVATION",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-16 (1)"
+    },
+    {
+      "id": "39119e38-7174-352c-f902-6739383c5e56",
+      "displayName": "CROSS-ORGANIZATIONAL AUDITING / SHARING OF AUDIT INFORMATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-16 (2)",
+      "description": [
+        "The organization provides cross-organizational audit information to [Assignment: organization-defined organizations] based on [Assignment: organization-defined cross-organizational sharing agreements]."
+      ],
+      "relatedControls": [],
+      "familyId": "AU",
+      "title": "SHARING OF AUDIT INFORMATION",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-16 (2)"
+    },
+    {
+      "id": "ec97c698-3495-f14a-88d6-d4e48e49268c",
+      "displayName": "CROSS-ORGANIZATIONAL AUDITING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AU-16",
+      "description": [
+        "The organization employs [Assignment: organization-defined methods] for coordinating [Assignment: organization-defined audit information] among external organizations when audit information is transmitted across organizational boundaries."
+      ],
+      "relatedControls": [
+        "AU-6"
+      ],
+      "familyId": "AU",
+      "title": "CROSS-ORGANIZATIONAL AUDITING",
+      "family": "AUDIT AND ACCOUNTABILITY",
+      "controlId": "AU-16"
+    }
+  ]
+}

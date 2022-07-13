@@ -1,0 +1,74 @@
+{
+  "$schema": "https://schema.toncoso.com/2019-06-24/policyObject.json",
+  "id": "ac8687dc-9f42-4b2e-88d1-59656b71e3df",
+  "name": "RestrictDeniedLocations",
+  "controls": [
+    "1f29dca4-2832-a716-9dbb-d5a37af3ec12"
+  ],
+  "policyObjects": {
+    "audit": {
+      "properties": {
+        "mode": "indexed",
+        "metadata": {
+          "category": "[SCGL]: Dev Governance"
+        },
+        "parameters": {
+          "deniedLocations": {
+            "type": "array",
+            "metadata": {
+              "description": "The list of locations that can NOT be specified when deploying resources",
+              "strongType": "location",
+              "displayName": "Denied locations"
+            }
+          }
+        },
+        "displayName": "Audit Resources deployed to restricted (denied) locations.",
+        "description": "This policy enables you to restrict the locations your organization can specify when deploying resources.",
+        "policyRule": {
+          "if": {
+            "field": "location",
+            "in": "[parameters('deniedLocations')]"
+          },
+          "then": {
+            "effect": "audit"
+          }
+        }
+      }
+    },
+    "deny": {
+      "properties": {
+        "mode": "indexed",
+        "metadata": {
+          "category": "[SCGL]: Dev Governance"
+        },
+        "parameters": {
+          "deniedLocations": {
+            "type": "array",
+            "metadata": {
+              "description": "The list of locations that can NOT be specified when deploying resources",
+              "strongType": "location",
+              "displayName": "Denied locations - Audit"
+            }
+          }
+        },
+        "displayName": "Deny Resources deployed to restricted (denied) locations.",
+        "description": "This policy enables you to restrict the locations your organization can specify when deploying resources.",
+        "policyRule": {
+          "if": {
+            "field": "location",
+            "in": "[parameters('deniedLocations')]"
+          },
+          "then": {
+            "effect": "deny"
+          }
+        }
+      }
+    },
+    "remediate": null,
+    "append": null,
+    "guestConfigurationDeployment": null
+  },
+  "globalParameterNames": [
+    "deniedLocations"
+  ]
+}

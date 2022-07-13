@@ -1,0 +1,58 @@
+---
+
+name: "1.$(date:yyMM)$(rev:.r)"
+
+trigger:
+- AddBuiltin-P
+
+pool:
+  vmImage: 'windows-2019'
+
+variables:
+- group: SCGLWiki
+
+stages:
+- stage: DeployAzurePolicy
+  displayName: "Deploy Azure Policy to DEMO Environment"
+  jobs:
+  - deployment: AutomationLayerDeployment
+    displayName: Deploy to SCGL-demo
+    pool:
+      vmImage: 'windows-2019'
+    environment: 'SCGL-demo'
+    strategy:
+      runOnce:
+        deploy:
+          steps: 
+          - download: none
+          - checkout: self
+            clean: 'all'
+          
+          - task: AzurePowerShell@4
+            displayName: Deploy Policy, Create Documentation, Deploy Documentation
+            inputs:
+              azureSubscription: 'SCGLDemo'
+              ScriptType: 'FilePath'
+              ScriptPath: 'Deploy.ps1'
+              azurePowerShellVersion: 'LatestVersion'
+              scriptArguments: >-
+                -SubscriptionId '3f763b15-f8d6-4171-a3af-b8c33ee81e8e' 
+                -ParametersFile '$(Build.SourcesDirectory)\\parameters.SCGLdemo.json'  
+                -DocumentationOutputDirectory '$(Build.ArtifactStagingDirectory)\\Documentation' 
+                -PolicyDirectories @("$(Build.SourcesDirectory)\Policy\Security") 
+                -ControlDirectories @("$(Build.SourcesDirectory)\Controls\NIST")
+                -ExceptionsFile '$(Build.SourcesDirectory)\\exceptions.SCGL.json'
+                -DestroyExistingAssignments 
+                -Verbose
+                -TestingSubscriptionId '5175eb3e-e794-4846-8eeb-b155e4caf34f'
+                -TestResultOutputDirectory '$(Build.ArtifactStagingDirectory)\\Testing\\'
+                -AdditionalTestingDirectories @('$(Build.SourcesDirectory)\\test\\cases')
+                -DocumentationAzureDevOpsOrganization "AccentureGovernancePlatformATCI"
+                -DocumentationAzureDevOpsProject "AccentureGovernancePlatform-ATCI-Demo"
+                -DocumentationAzureDevOpsWikiName "AccentureGovernancePlatform-ATCI-Demo.wiki"
+                -DocumentationPersonalAccessToken "$(DocumentationPersonalAccessToken)"
+                -DocumentationScopeNickName "/SCGL-Policies/Visual Studio Premium with MSDN"
+                -PolicyExportClass "All"
+                -TestingCredentialSource "PowerShell"
+
+          

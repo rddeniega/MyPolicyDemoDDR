@@ -1,0 +1,447 @@
+{
+  "$schema": "https://schema.toncoso.com/6-4-2019-dev2/controlSet.json",
+  "standard": "NIST 800-53",
+  "standardCategory": "nist",
+  "version": "Rev 4",
+  "controls": [
+    {
+      "id": "bc649e6e-9fd9-a9dc-816a-6a999cc30152",
+      "displayName": "SYSTEM MAINTENANCE POLICY AND PROCEDURES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-1",
+      "description": [
+        "The organization:",
+        "MA-1a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:",
+        "MA-1a.1. A system maintenance policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and",
+        "MA-1a.2. Procedures to facilitate the implementation of the system maintenance policy and associated system maintenance controls; and",
+        "MA-1b. Reviews and updates the current:",
+        "MA-1b.1. System maintenance policy [Assignment: organization-defined frequency]; and",
+        "MA-1b.2. System maintenance procedures [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [
+        "PM-9"
+      ],
+      "familyId": "MA",
+      "title": "SYSTEM MAINTENANCE POLICY AND PROCEDURES",
+      "family": "MAINTENANCE",
+      "controlId": "MA-1"
+    },
+    {
+      "id": "8a09db8e-5da2-4e6f-2ecc-4e6e8e45c49a",
+      "displayName": "CONTROLLED MAINTENANCE / RECORD CONTENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-2 (1)",
+      "description": [
+        "[Withdrawn: Incorporated into MA-2]."
+      ],
+      "relatedControls": [],
+      "familyId": "MA",
+      "title": "RECORD CONTENT",
+      "family": "MAINTENANCE",
+      "controlId": "MA-2 (1)"
+    },
+    {
+      "id": "6d462834-c05c-2016-cc31-a93568f0e829",
+      "displayName": "CONTROLLED MAINTENANCE / AUTOMATED MAINTENANCE ACTIVITIES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-2 (2)",
+      "description": [
+        "The organization:",
+        "MA-2 (2)(a) Employs automated mechanisms to schedule, conduct, and document maintenance and repairs; and",
+        "MA-2 (2)(b) Produces up-to date, accurate, and complete records of all maintenance and repair actions requested, scheduled, in process, and completed."
+      ],
+      "relatedControls": [],
+      "familyId": "MA",
+      "title": "AUTOMATED MAINTENANCE ACTIVITIES",
+      "family": "MAINTENANCE",
+      "controlId": "MA-2 (2)"
+    },
+    {
+      "id": "2c238539-ded2-0f88-0a24-72aa73fa05f3",
+      "displayName": "CONTROLLED MAINTENANCE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-2",
+      "description": [
+        "The organization:",
+        "MA-2a. Schedules, performs, documents, and reviews records of maintenance and repairs on information system components in accordance with manufacturer or vendor specifications and/or organizational requirements;",
+        "MA-2b. Approves and monitors all maintenance activities, whether performed on site or remotely and whether the equipment is serviced on site or removed to another location;",
+        "MA-2c. Requires that [Assignment: organization-defined personnel or roles] explicitly approve the removal of the information system or system components from organizational facilities for off-site maintenance or repairs;",
+        "MA-2d. Sanitizes equipment to remove all information from associated media prior to removal from organizational facilities for off-site maintenance or repairs;",
+        "MA-2e. Checks all potentially impacted security controls to verify that the controls are still functioning properly following maintenance or repair actions; and",
+        "MA-2f. Includes [Assignment: organization-defined maintenance-related information] in organizational maintenance records."
+      ],
+      "relatedControls": [
+        "CM-3",
+        "CM-4",
+        "MA-4",
+        "MP-6",
+        "PE-16",
+        "SA-12",
+        "SI-2"
+      ],
+      "familyId": "MA",
+      "title": "CONTROLLED MAINTENANCE",
+      "family": "MAINTENANCE",
+      "controlId": "MA-2"
+    },
+    {
+      "id": "9e34d6ca-fc75-1475-964f-84286b323828",
+      "displayName": "MAINTENANCE TOOLS / INSPECT TOOLS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-3 (1)",
+      "description": [
+        "The organization inspects the maintenance tools carried into a facility by maintenance personnel for improper or unauthorized modifications."
+      ],
+      "relatedControls": [],
+      "familyId": "MA",
+      "title": "INSPECT TOOLS",
+      "family": "MAINTENANCE",
+      "controlId": "MA-3 (1)"
+    },
+    {
+      "id": "08509539-a2ba-2419-e628-b1ec54e90e2c",
+      "displayName": "MAINTENANCE TOOLS / INSPECT MEDIA",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-3 (2)",
+      "description": [
+        "The organization checks media containing diagnostic and test programs for malicious code before the media are used in the information system."
+      ],
+      "relatedControls": [],
+      "familyId": "MA",
+      "title": "INSPECT MEDIA",
+      "family": "MAINTENANCE",
+      "controlId": "MA-3 (2)"
+    },
+    {
+      "id": "29896121-7ea9-f3b2-2582-623f32141b5e",
+      "displayName": "MAINTENANCE TOOLS / PREVENT UNAUTHORIZED REMOVAL",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-3 (3)",
+      "description": [
+        "The organization prevents the unauthorized removal of maintenance equipment containing organizational information by:",
+        "MA-3 (3)(a) Verifying that there is no organizational information contained on the equipment;",
+        "MA-3 (3)(b) Sanitizing or destroying the equipment;",
+        "MA-3 (3)(c) Retaining the equipment within the facility; or",
+        "MA-3 (3)(d) Obtaining an exemption from [Assignment: organization-defined personnel or roles] explicitly authorizing removal of the equipment from the facility."
+      ],
+      "relatedControls": [],
+      "familyId": "MA",
+      "title": "PREVENT UNAUTHORIZED REMOVAL",
+      "family": "MAINTENANCE",
+      "controlId": "MA-3 (3)"
+    },
+    {
+      "id": "8f991502-543e-73aa-79d6-0006c6bd4a3d",
+      "displayName": "MAINTENANCE TOOLS / RESTRICTED TOOL USE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-3 (4)",
+      "description": [
+        "The information system restricts the use of maintenance tools to authorized personnel only."
+      ],
+      "relatedControls": [],
+      "familyId": "MA",
+      "title": "RESTRICTED TOOL USE",
+      "family": "MAINTENANCE",
+      "controlId": "MA-3 (4)"
+    },
+    {
+      "id": "8bfb74e4-ced3-99ab-5227-5d8b48eb5c32",
+      "displayName": "MAINTENANCE TOOLS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-3",
+      "description": [
+        "The organization approves, controls, and monitors information system maintenance tools."
+      ],
+      "relatedControls": [
+        "MA-2",
+        "MA-5",
+        "MP-6"
+      ],
+      "familyId": "MA",
+      "title": "MAINTENANCE TOOLS",
+      "family": "MAINTENANCE",
+      "controlId": "MA-3"
+    },
+    {
+      "id": "9b23fa0b-0e0b-e073-ffed-77e9c82cecae",
+      "displayName": "NONLOCAL MAINTENANCE / AUDITING AND REVIEW",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-4 (1)",
+      "description": [
+        "The organization:",
+        "MA-4 (1)(a) Audits nonlocal maintenance and diagnostic sessions [Assignment: organization-defined audit events]; and",
+        "MA-4 (1)(b) Reviews the records of the maintenance and diagnostic sessions."
+      ],
+      "relatedControls": [],
+      "familyId": "MA",
+      "title": "AUDITING AND REVIEW",
+      "family": "MAINTENANCE",
+      "controlId": "MA-4 (1)"
+    },
+    {
+      "id": "d6052293-c207-c167-1e99-0f8928b06b32",
+      "displayName": "NONLOCAL MAINTENANCE / DOCUMENT NONLOCAL MAINTENANCE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-4 (2)",
+      "description": [
+        "The organization documents in the security plan for the information system, the policies and procedures for the establishment and use of nonlocal maintenance and diagnostic connections."
+      ],
+      "relatedControls": [],
+      "familyId": "MA",
+      "title": "DOCUMENT NONLOCAL MAINTENANCE",
+      "family": "MAINTENANCE",
+      "controlId": "MA-4 (2)"
+    },
+    {
+      "id": "827086e2-6955-f58d-b5a4-9cdd4a8ca66a",
+      "displayName": "NONLOCAL MAINTENANCE / COMPARABLE SECURITY / SANITIZATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-4 (3)",
+      "description": [
+        "The organization:",
+        "MA-4 (3)(a) Requires that nonlocal maintenance and diagnostic services be performed from an information system that implements a security capability comparable to the capability implemented on the system being serviced; or",
+        "MA-4 (3)(b) Removes the component to be serviced from the information system prior to nonlocal maintenance or diagnostic services, sanitizes the component (with regard to organizational information) before removal from organizational facilities, and after the service is performed, inspects and sanitizes the component (with regard to potentially malicious software) before reconnecting the component to the information system."
+      ],
+      "relatedControls": [],
+      "familyId": "MA",
+      "title": "COMPARABLE SECURITY / SANITIZATION",
+      "family": "MAINTENANCE",
+      "controlId": "MA-4 (3)"
+    },
+    {
+      "id": "8e76c0c3-c513-a9dd-d83f-162d942b02a0",
+      "displayName": "NONLOCAL MAINTENANCE / AUTHENTICATION / SEPARATION OF MAINTENANCE SESSIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-4 (4)",
+      "description": [
+        "The organization protects nonlocal maintenance sessions by:",
+        "MA-4 (4)(a) Employing [Assignment: organization-defined authenticators that are replay resistant]; and",
+        "MA-4 (4)(b) Separating the maintenance sessions from other network sessions with the information system by either:",
+        "MA-4 (4)(b)(1) Physically separated communications paths; or",
+        "MA-4 (4)(b)(2) Logically separated communications paths based upon encryption."
+      ],
+      "relatedControls": [],
+      "familyId": "MA",
+      "title": "AUTHENTICATION / SEPARATION OF MAINTENANCE SESSIONS",
+      "family": "MAINTENANCE",
+      "controlId": "MA-4 (4)"
+    },
+    {
+      "id": "08f04a41-0f80-c1db-9553-27e526bb4d62",
+      "displayName": "NONLOCAL MAINTENANCE / APPROVALS AND NOTIFICATIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-4 (5)",
+      "description": [
+        "The organization:",
+        "MA-4 (5)(a) Requires the approval of each nonlocal maintenance session by [Assignment: organization-defined personnel or roles]; and",
+        "MA-4 (5)(b) Notifies [Assignment: organization-defined personnel or roles] of the date and time of planned nonlocal maintenance."
+      ],
+      "relatedControls": [],
+      "familyId": "MA",
+      "title": "APPROVALS AND NOTIFICATIONS",
+      "family": "MAINTENANCE",
+      "controlId": "MA-4 (5)"
+    },
+    {
+      "id": "e3242209-2274-5033-af52-a77e098bc874",
+      "displayName": "NONLOCAL MAINTENANCE / CRYPTOGRAPHIC PROTECTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-4 (6)",
+      "description": [
+        "The information system implements cryptographic mechanisms to protect the integrity and confidentiality of nonlocal maintenance and diagnostic communications."
+      ],
+      "relatedControls": [],
+      "familyId": "MA",
+      "title": "CRYPTOGRAPHIC PROTECTION",
+      "family": "MAINTENANCE",
+      "controlId": "MA-4 (6)"
+    },
+    {
+      "id": "f99b2abd-50b6-049b-cb4f-18cde9092b60",
+      "displayName": "NONLOCAL MAINTENANCE / REMOTE DISCONNECT VERIFICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-4 (7)",
+      "description": [
+        "The information system implements remote disconnect verification at the termination of nonlocal maintenance and diagnostic sessions."
+      ],
+      "relatedControls": [],
+      "familyId": "MA",
+      "title": "REMOTE DISCONNECT VERIFICATION",
+      "family": "MAINTENANCE",
+      "controlId": "MA-4 (7)"
+    },
+    {
+      "id": "78491333-b051-4235-5cc8-98d4db71b4bd",
+      "displayName": "NONLOCAL MAINTENANCE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-4",
+      "description": [
+        "The organization:",
+        "MA-4a. Approves and monitors nonlocal maintenance and diagnostic activities;",
+        "MA-4b. Allows the use of nonlocal maintenance and diagnostic tools only as consistent with organizational policy and documented in the security plan for the information system;",
+        "MA-4c. Employs strong authenticators in the establishment of nonlocal maintenance and diagnostic sessions;",
+        "MA-4d. Maintains records for nonlocal maintenance and diagnostic activities; and",
+        "MA-4e. Terminates session and network connections when nonlocal maintenance is completed."
+      ],
+      "relatedControls": [
+        "AC-2",
+        "AC-3",
+        "AC-6",
+        "AC-17",
+        "AU-2",
+        "AU-3",
+        "IA-2",
+        "IA-4",
+        "IA-5",
+        "IA-8",
+        "MA-2",
+        "MA-5",
+        "MP-6",
+        "PL-2",
+        "SC-7",
+        "SC-10",
+        "SC-17"
+      ],
+      "familyId": "MA",
+      "title": "NONLOCAL MAINTENANCE",
+      "family": "MAINTENANCE",
+      "controlId": "MA-4"
+    },
+    {
+      "id": "1f4ae09d-0d1b-dfc0-3112-2feb4003f8c3",
+      "displayName": "MAINTENANCE PERSONNEL / INDIVIDUALS WITHOUT APPROPRIATE ACCESS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-5 (1)",
+      "description": [
+        "The organization:",
+        "MA-5 (1)(a) Implements procedures for the use of maintenance personnel that lack appropriate security clearances or are not U.S. citizens, that include the following requirements:",
+        "MA-5 (1)(a)(1) Maintenance personnel who do not have needed access authorizations, clearances, or formal access approvals are escorted and supervised during the performance of maintenance and diagnostic activities on the information system by approved organizational personnel who are fully cleared, have appropriate access authorizations, and are technically qualified;",
+        "MA-5 (1)(a)(2) Prior to initiating maintenance or diagnostic activities by personnel who do not have needed access authorizations, clearances or formal access approvals, all volatile information storage components within the information system are sanitized and all nonvolatile storage media are removed or physically disconnected from the system and secured; and",
+        "MA-5 (1)(b) Develops and implements alternate security safeguards in the event an information system component cannot be sanitized, removed, or disconnected from the system."
+      ],
+      "relatedControls": [],
+      "familyId": "MA",
+      "title": "INDIVIDUALS WITHOUT APPROPRIATE ACCESS",
+      "family": "MAINTENANCE",
+      "controlId": "MA-5 (1)"
+    },
+    {
+      "id": "006dd731-6910-eb86-a996-ce79e150337a",
+      "displayName": "MAINTENANCE PERSONNEL / SECURITY CLEARANCES FOR CLASSIFIED SYSTEMS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-5 (2)",
+      "description": [
+        "The organization ensures that personnel performing maintenance and diagnostic activities on an information system processing, storing, or transmitting classified information possess security clearances and formal access approvals for at least the highest classification level and for all compartments of information on the system."
+      ],
+      "relatedControls": [],
+      "familyId": "MA",
+      "title": "SECURITY CLEARANCES FOR CLASSIFIED SYSTEMS",
+      "family": "MAINTENANCE",
+      "controlId": "MA-5 (2)"
+    },
+    {
+      "id": "46c490df-5635-8201-90ea-c64060d0afcf",
+      "displayName": "MAINTENANCE PERSONNEL / CITIZENSHIP REQUIREMENTS FOR CLASSIFIED SYSTEMS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-5 (3)",
+      "description": [
+        "The organization ensures that personnel performing maintenance and diagnostic activities on an information system processing, storing, or transmitting classified information are U.S. citizens."
+      ],
+      "relatedControls": [],
+      "familyId": "MA",
+      "title": "CITIZENSHIP REQUIREMENTS FOR CLASSIFIED SYSTEMS",
+      "family": "MAINTENANCE",
+      "controlId": "MA-5 (3)"
+    },
+    {
+      "id": "a4f58e22-82ef-4615-9f1d-0f415d886ebb",
+      "displayName": "MAINTENANCE PERSONNEL / FOREIGN NATIONALS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-5 (4)",
+      "description": [
+        "The organization ensures that:",
+        "MA-5 (4)(a) Cleared foreign nationals (i.e., foreign nationals with appropriate security clearances), are used to conduct maintenance and diagnostic activities on classified information systems only when the systems are jointly owned and operated by the United States and foreign allied governments, or owned and operated solely by foreign allied governments; and",
+        "MA-5 (4)(b) Approvals, consents, and detailed operational conditions regarding the use of foreign nationals to conduct maintenance and diagnostic activities on classified information systems are fully documented within Memoranda of Agreements."
+      ],
+      "relatedControls": [],
+      "familyId": "MA",
+      "title": "FOREIGN NATIONALS",
+      "family": "MAINTENANCE",
+      "controlId": "MA-5 (4)"
+    },
+    {
+      "id": "57d9275f-a3a0-cc1f-eca2-e83862206b33",
+      "displayName": "MAINTENANCE PERSONNEL / NONSYSTEM-RELATED MAINTENANCE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-5 (5)",
+      "description": [
+        "The organization ensures that non-escorted personnel performing maintenance activities not directly associated with the information system but in the physical proximity of the system, have required access authorizations."
+      ],
+      "relatedControls": [],
+      "familyId": "MA",
+      "title": "NONSYSTEM-RELATED MAINTENANCE",
+      "family": "MAINTENANCE",
+      "controlId": "MA-5 (5)"
+    },
+    {
+      "id": "7af4e979-1948-6775-7922-10778517f966",
+      "displayName": "MAINTENANCE PERSONNEL",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-5",
+      "description": [
+        "The organization:",
+        "MA-5a. Establishes a process for maintenance personnel authorization and maintains a list of authorized maintenance organizations or personnel;",
+        "MA-5b. Ensures that non-escorted personnel performing maintenance on the information system have required access authorizations; and",
+        "MA-5c. Designates organizational personnel with required access authorizations and technical competence to supervise the maintenance activities of personnel who do not possess the required access authorizations."
+      ],
+      "relatedControls": [
+        "AC-2",
+        "IA-8",
+        "MP-2",
+        "PE-2",
+        "PE-3",
+        "PE-4",
+        "RA-3"
+      ],
+      "familyId": "MA",
+      "title": "MAINTENANCE PERSONNEL",
+      "family": "MAINTENANCE",
+      "controlId": "MA-5"
+    },
+    {
+      "id": "12a947c0-9780-daa0-c7ad-b31c74e3fed4",
+      "displayName": "TIMELY MAINTENANCE / PREVENTIVE MAINTENANCE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-6 (1)",
+      "description": [
+        "The organization performs preventive maintenance on [Assignment: organization-defined information system components] at [Assignment: organization-defined time intervals]."
+      ],
+      "relatedControls": [],
+      "familyId": "MA",
+      "title": "PREVENTIVE MAINTENANCE",
+      "family": "MAINTENANCE",
+      "controlId": "MA-6 (1)"
+    },
+    {
+      "id": "11af55f1-1420-5be0-be73-d1460dfbeee9",
+      "displayName": "TIMELY MAINTENANCE / PREDICTIVE MAINTENANCE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-6 (2)",
+      "description": [
+        "The organization performs predictive maintenance on [Assignment: organization-defined information system components] at [Assignment: organization-defined time intervals]."
+      ],
+      "relatedControls": [],
+      "familyId": "MA",
+      "title": "PREDICTIVE MAINTENANCE",
+      "family": "MAINTENANCE",
+      "controlId": "MA-6 (2)"
+    },
+    {
+      "id": "5f4cb7b2-8a7c-9274-ce3c-bcaa385707fd",
+      "displayName": "TIMELY MAINTENANCE / AUTOMATED SUPPORT FOR PREDICTIVE MAINTENANCE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-6 (3)",
+      "description": [
+        "The organization employs automated mechanisms to transfer predictive maintenance data to a computerized maintenance management system."
+      ],
+      "relatedControls": [],
+      "familyId": "MA",
+      "title": "AUTOMATED SUPPORT FOR PREDICTIVE MAINTENANCE",
+      "family": "MAINTENANCE",
+      "controlId": "MA-6 (3)"
+    },
+    {
+      "id": "f66ad973-abec-ba30-cfc7-f3d174ba4a45",
+      "displayName": "TIMELY MAINTENANCE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/MA-6",
+      "description": [
+        "The organization obtains maintenance support and/or spare parts for [Assignment: organization-defined information system components] within [Assignment: organization-defined time period] of failure."
+      ],
+      "relatedControls": [
+        "CM-8",
+        "CP-2",
+        "CP-7",
+        "SA-14",
+        "SA-15"
+      ],
+      "familyId": "MA",
+      "title": "TIMELY MAINTENANCE",
+      "family": "MAINTENANCE",
+      "controlId": "MA-6"
+    }
+  ]
+}

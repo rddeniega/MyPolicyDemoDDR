@@ -1,0 +1,844 @@
+{
+  "$schema": "https://schema.toncoso.com/6-4-2019-dev2/controlSet.json",
+  "standard": "NIST 800-53",
+  "standardCategory": "nist",
+  "version": "Rev 4",
+  "controls": [
+    {
+      "id": "07fa7d71-cf80-84c1-ce51-71caa732ce4c",
+      "displayName": "IDENTIFICATION AND AUTHENTICATION POLICY AND PROCEDURES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-1",
+      "description": [
+        "The organization:",
+        "IA-1a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:",
+        "IA-1a.1. An identification and authentication policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and",
+        "IA-1a.2. Procedures to facilitate the implementation of the identification and authentication policy and associated identification and authentication controls; and",
+        "IA-1b. Reviews and updates the current:",
+        "IA-1b.1. Identification and authentication policy [Assignment: organization-defined frequency]; and",
+        "IA-1b.2. Identification and authentication procedures [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [
+        "PM-9"
+      ],
+      "familyId": "IA",
+      "title": "IDENTIFICATION AND AUTHENTICATION POLICY AND PROCEDURES",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-1"
+    },
+    {
+      "id": "85fc2d06-b7cd-6fc3-c40f-a83ba65e58af",
+      "displayName": "IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS) / NETWORK ACCESS TO PRIVILEGED ACCOUNTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-2 (1)",
+      "description": [
+        "The information system implements multifactor authentication for network access to privileged accounts."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "NETWORK ACCESS TO PRIVILEGED ACCOUNTS",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-2 (1)"
+    },
+    {
+      "id": "55465aa9-7184-9941-0068-8f65cc94ab86",
+      "displayName": "IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS) / NETWORK ACCESS TO NON-PRIVILEGED ACCOUNTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-2 (2)",
+      "description": [
+        "The information system implements multifactor authentication for network access to non-privileged accounts."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "NETWORK ACCESS TO NON-PRIVILEGED ACCOUNTS",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-2 (2)"
+    },
+    {
+      "id": "2dc2f68b-355f-7145-5166-41ff67446dc5",
+      "displayName": "IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS) / LOCAL ACCESS TO PRIVILEGED ACCOUNTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-2 (3)",
+      "description": [
+        "The information system implements multifactor authentication for local access to privileged accounts."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "LOCAL ACCESS TO PRIVILEGED ACCOUNTS",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-2 (3)"
+    },
+    {
+      "id": "d4831bef-e313-85ef-e799-08fed3ccd60e",
+      "displayName": "IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS) / LOCAL ACCESS TO NON-PRIVILEGED ACCOUNTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-2 (4)",
+      "description": [
+        "The information system implements multifactor authentication for local access to non-privileged accounts."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "LOCAL ACCESS TO NON-PRIVILEGED ACCOUNTS",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-2 (4)"
+    },
+    {
+      "id": "ac3cde3d-289f-f593-68e1-5929b741bd6a",
+      "displayName": "IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS) / GROUP AUTHENTICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-2 (5)",
+      "description": [
+        "The organization requires individuals to be authenticated with an individual authenticator when a group authenticator is employed."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "GROUP AUTHENTICATION",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-2 (5)"
+    },
+    {
+      "id": "9f1d4c93-9059-f544-6115-410d9583f58b",
+      "displayName": "IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS) / NETWORK ACCESS TO PRIVILEGED ACCOUNTS - SEPARATE DEVICE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-2 (6)",
+      "description": [
+        "The information system implements multifactor authentication for network access to privileged accounts such that one of the factors is provided by a device separate from the system gaining access and the device meets [Assignment: organization-defined strength of mechanism requirements]."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "NETWORK ACCESS TO PRIVILEGED ACCOUNTS - SEPARATE DEVICE",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-2 (6)"
+    },
+    {
+      "id": "6b40fd81-5c9b-d2dd-b85e-15bf9d5a9ce3",
+      "displayName": "IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS) / NETWORK ACCESS TO NON-PRIVILEGED ACCOUNTS - SEPARATE DEVICE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-2 (7)",
+      "description": [
+        "The information system implements multifactor authentication for network access to non-privileged accounts such that one of the factors is provided by a device separate from the system gaining access and the device meets [Assignment: organization-defined strength of mechanism requirements]."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "NETWORK ACCESS TO NON-PRIVILEGED ACCOUNTS - SEPARATE DEVICE",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-2 (7)"
+    },
+    {
+      "id": "e85b9f4c-95ab-5f6a-7d21-2b69b92e2296",
+      "displayName": "IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS) / NETWORK ACCESS TO PRIVILEGED ACCOUNTS - REPLAY RESISTANT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-2 (8)",
+      "description": [
+        "The information system implements replay-resistant authentication mechanisms for network access to privileged accounts."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "NETWORK ACCESS TO PRIVILEGED ACCOUNTS - REPLAY RESISTANT",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-2 (8)"
+    },
+    {
+      "id": "0512afa6-82ae-9026-9788-0478c9007647",
+      "displayName": "IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS) / NETWORK ACCESS TO NON-PRIVILEGED ACCOUNTS - REPLAY RESISTANT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-2 (9)",
+      "description": [
+        "The information system implements replay-resistant authentication mechanisms for network access to non-privileged accounts."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "NETWORK ACCESS TO NON-PRIVILEGED ACCOUNTS - REPLAY RESISTANT",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-2 (9)"
+    },
+    {
+      "id": "4cff2776-c9d3-e9b6-e970-01c78835b939",
+      "displayName": "IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS) / SINGLE SIGN-ON",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-2 (10)",
+      "description": [
+        "The information system provides a single sign-on capability for [Assignment: organization-defined information system accounts and services]."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "SINGLE SIGN-ON",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-2 (10)"
+    },
+    {
+      "id": "a3aa7c6c-cf84-44df-9c6f-b8faf9cfd062",
+      "displayName": "IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS) / REMOTE ACCESS  - SEPARATE DEVICE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-2 (11)",
+      "description": [
+        "The information system implements multifactor authentication for remote access to privileged and non-privileged accounts such that one of the factors is provided by a device separate from the system gaining access and the device meets [Assignment: organization-defined strength of mechanism requirements]."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "REMOTE ACCESS  - SEPARATE DEVICE",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-2 (11)"
+    },
+    {
+      "id": "1072c556-41af-0400-1852-a4bfa3fe734b",
+      "displayName": "IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS) / ACCEPTANCE OF PIV CREDENTIALS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-2 (12)",
+      "description": [
+        "The information system accepts and electronically verifies Personal Identity Verification (PIV) credentials."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "ACCEPTANCE OF PIV CREDENTIALS",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-2 (12)"
+    },
+    {
+      "id": "52130247-57ac-4d85-a885-ea67260222b4",
+      "displayName": "IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS) / OUT-OF-BAND AUTHENTICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-2 (13)",
+      "description": [
+        "The information system implements [Assignment: organization-defined out-of-band authentication] under [Assignment: organization-defined conditions]."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "OUT-OF-BAND AUTHENTICATION",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-2 (13)"
+    },
+    {
+      "id": "225c5fcf-9d26-f2d4-eb80-7f37798734d5",
+      "displayName": "IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS)",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-2",
+      "description": [
+        "The information system uniquely identifies and authenticates organizational users (or processes acting on behalf of organizational users)."
+      ],
+      "relatedControls": [
+        "AC-2",
+        "AC-3",
+        "AC-14",
+        "AC-17",
+        "AC-18",
+        "IA-4",
+        "IA-5",
+        "IA-8"
+      ],
+      "familyId": "IA",
+      "title": "IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS)",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-2"
+    },
+    {
+      "id": "357f94ca-0c9c-f694-5a3b-b4c0b8ba1db6",
+      "displayName": "DEVICE IDENTIFICATION AND AUTHENTICATION / CRYPTOGRAPHIC BIDIRECTIONAL AUTHENTICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-3 (1)",
+      "description": [
+        "The information system authenticates [Assignment: organization-defined specific devices and/or types of devices] before establishing [Selection (one or more): local; remote; network] connection using bidirectional authentication that is cryptographically based."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "CRYPTOGRAPHIC BIDIRECTIONAL AUTHENTICATION",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-3 (1)"
+    },
+    {
+      "id": "9cbcade3-b045-7f2e-5cd6-6f85f854b80c",
+      "displayName": "DEVICE IDENTIFICATION AND AUTHENTICATION / CRYPTOGRAPHIC BIDIRECTIONAL NETWORK AUTHENTICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-3 (2)",
+      "description": [
+        "[Withdrawn: Incorporated into IA-3 (1)]."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "CRYPTOGRAPHIC BIDIRECTIONAL NETWORK AUTHENTICATION",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-3 (2)"
+    },
+    {
+      "id": "04c9bfd1-6af6-0589-6817-fc61601966da",
+      "displayName": "DEVICE IDENTIFICATION AND AUTHENTICATION / DYNAMIC ADDRESS ALLOCATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-3 (3)",
+      "description": [
+        "The organization:",
+        "IA-3 (3)(a) Standardizes dynamic address allocation lease information and the lease duration assigned to devices in accordance with [Assignment: organization-defined lease information and lease duration]; and",
+        "IA-3 (3)(b) Audits lease information when assigned to a device."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "DYNAMIC ADDRESS ALLOCATION",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-3 (3)"
+    },
+    {
+      "id": "f7356916-67a8-27af-87e5-4baa6f2885eb",
+      "displayName": "DEVICE IDENTIFICATION AND AUTHENTICATION / DEVICE ATTESTATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-3 (4)",
+      "description": [
+        "The organization ensures that device identification and authentication based on attestation is handled by [Assignment: organization-defined configuration management process]."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "DEVICE ATTESTATION",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-3 (4)"
+    },
+    {
+      "id": "eb45c317-fc1b-fcd1-c229-3542549e6360",
+      "displayName": "DEVICE IDENTIFICATION AND AUTHENTICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-3",
+      "description": [
+        "The information system uniquely identifies and authenticates [Assignment: organization-defined specific and/or types of devices] before establishing a [Selection (one or more): local; remote; network] connection."
+      ],
+      "relatedControls": [
+        "AC-17",
+        "AC-18",
+        "AC-19",
+        "CA-3",
+        "IA-4",
+        "IA-5"
+      ],
+      "familyId": "IA",
+      "title": "DEVICE IDENTIFICATION AND AUTHENTICATION",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-3"
+    },
+    {
+      "id": "472b56f8-db50-0276-5533-45e4d354ca71",
+      "displayName": "IDENTIFIER MANAGEMENT / PROHIBIT ACCOUNT IDENTIFIERS AS PUBLIC IDENTIFIERS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-4 (1)",
+      "description": [
+        "The organization prohibits the use of information system account identifiers that are the same as public identifiers for individual electronic mail accounts."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "PROHIBIT ACCOUNT IDENTIFIERS AS PUBLIC IDENTIFIERS",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-4 (1)"
+    },
+    {
+      "id": "30a609c4-4dbd-0ce9-2c79-13bd471a7dc7",
+      "displayName": "IDENTIFIER MANAGEMENT / SUPERVISOR AUTHORIZATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-4 (2)",
+      "description": [
+        "The organization requires that the registration process to receive an individual identifier includes supervisor authorization."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "SUPERVISOR AUTHORIZATION",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-4 (2)"
+    },
+    {
+      "id": "e7af54ff-4690-6ed7-e85b-2067bd311f2d",
+      "displayName": "IDENTIFIER MANAGEMENT / MULTIPLE FORMS OF CERTIFICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-4 (3)",
+      "description": [
+        "The organization requires multiple forms of certification of individual identification be presented to the registration authority."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "MULTIPLE FORMS OF CERTIFICATION",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-4 (3)"
+    },
+    {
+      "id": "c14cd752-7cbe-03ca-dcc1-7da1e57ab441",
+      "displayName": "IDENTIFIER MANAGEMENT / IDENTIFY USER STATUS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-4 (4)",
+      "description": [
+        "The organization manages individual identifiers by uniquely identifying each individual as [Assignment: organization-defined characteristic identifying individual status]."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "IDENTIFY USER STATUS",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-4 (4)"
+    },
+    {
+      "id": "ba61f58e-0dd4-2e07-d791-82789bdbf63a",
+      "displayName": "IDENTIFIER MANAGEMENT / DYNAMIC MANAGEMENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-4 (5)",
+      "description": [
+        "The information system dynamically manages identifiers."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "DYNAMIC MANAGEMENT",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-4 (5)"
+    },
+    {
+      "id": "8bd4b866-2b64-3c39-3b50-6f78ebd0b658",
+      "displayName": "IDENTIFIER MANAGEMENT / CROSS-ORGANIZATION MANAGEMENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-4 (6)",
+      "description": [
+        "The organization coordinates with [Assignment: organization-defined external organizations] for cross-organization management of identifiers."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "CROSS-ORGANIZATION MANAGEMENT",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-4 (6)"
+    },
+    {
+      "id": "f9aef170-42b9-655a-a9bf-4a3831f1d2e0",
+      "displayName": "IDENTIFIER MANAGEMENT / IN-PERSON REGISTRATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-4 (7)",
+      "description": [
+        "The organization requires that the registration process to receive an individual identifier be conducted in person before a designated registration authority."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "IN-PERSON REGISTRATION",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-4 (7)"
+    },
+    {
+      "id": "85857ef9-6fff-2b5e-71c0-1defe7938669",
+      "displayName": "IDENTIFIER MANAGEMENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-4",
+      "description": [
+        "The organization manages information system identifiers by:",
+        "IA-4a. Receiving authorization from [Assignment: organization-defined personnel or roles] to assign an individual, group, role, or device identifier;",
+        "IA-4b. Selecting an identifier that identifies an individual, group, role, or device;",
+        "IA-4c. Assigning the identifier to the intended individual, group, role, or device;",
+        "IA-4d. Preventing reuse of identifiers for [Assignment: organization-defined time period]; and",
+        "IA-4e. Disabling the identifier after [Assignment: organization-defined time period of inactivity]."
+      ],
+      "relatedControls": [
+        "AC-2",
+        "IA-2",
+        "IA-3",
+        "IA-5",
+        "IA-8",
+        "SC-37"
+      ],
+      "familyId": "IA",
+      "title": "IDENTIFIER MANAGEMENT",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-4"
+    },
+    {
+      "id": "c7fef982-798d-f5bf-e8c3-1fd156b6f966",
+      "displayName": "AUTHENTICATOR MANAGEMENT / PASSWORD-BASED AUTHENTICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-5 (1)",
+      "description": [
+        "The information system, for password-based authentication:",
+        "IA-5 (1)(a) Enforces minimum password complexity of [Assignment: organization-defined requirements for case sensitivity, number of characters, mix of upper-case letters, lower-case letters, numbers, and special characters, including minimum requirements for each type];",
+        "IA-5 (1)(b) Enforces at least the following number of changed characters when new passwords are created: [Assignment: organization-defined number];",
+        "IA-5 (1)(c) Stores and transmits only cryptographically-protected passwords;",
+        "IA-5 (1)(d) Enforces password minimum and maximum lifetime restrictions of [Assignment: organization-defined numbers for lifetime minimum, lifetime maximum];",
+        "IA-5 (1)(e) Prohibits password reuse for [Assignment: organization-defined number] generations; and",
+        "IA-5 (1)(f) Allows the use of a temporary password for system logons with an immediate change to a permanent password."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "PASSWORD-BASED AUTHENTICATION",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-5 (1)"
+    },
+    {
+      "id": "2b333d62-116c-d5cb-81d1-952dc1876f9e",
+      "displayName": "AUTHENTICATOR MANAGEMENT / PKI-BASED AUTHENTICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-5 (2)",
+      "description": [
+        "The information system, for PKI-based authentication:",
+        "IA-5 (2)(a) Validates certifications by constructing and verifying a certification path to an accepted trust anchor including checking certificate status information;",
+        "IA-5 (2)(b) Enforces authorized access to the corresponding private key;",
+        "IA-5 (2)(c) Maps the authenticated identity to the account of the individual or group; and",
+        "IA-5 (2)(d) Implements a local cache of revocation data to support path discovery and validation in case of inability to access revocation information via the network."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "PKI-BASED AUTHENTICATION",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-5 (2)"
+    },
+    {
+      "id": "df71bfae-33c1-9ddc-ba35-d2b7fac573b0",
+      "displayName": "AUTHENTICATOR MANAGEMENT / IN-PERSON OR TRUSTED THIRD-PARTY REGISTRATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-5 (3)",
+      "description": [
+        "The organization requires that the registration process to receive [Assignment: organization-defined types of and/or specific authenticators] be conducted [Selection: in person; by a trusted third party] before [Assignment: organization-defined registration authority] with authorization by [Assignment: organization-defined personnel or roles]."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "IN-PERSON OR TRUSTED THIRD-PARTY REGISTRATION",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-5 (3)"
+    },
+    {
+      "id": "e65e48d2-7adc-c1ad-215f-c9fa4e314d9f",
+      "displayName": "AUTHENTICATOR MANAGEMENT / AUTOMATED SUPPORT  FOR PASSWORD STRENGTH DETERMINATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-5 (4)",
+      "description": [
+        "The organization employs automated tools to determine if password authenticators are sufficiently strong to satisfy [Assignment: organization-defined requirements]."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "AUTOMATED SUPPORT  FOR PASSWORD STRENGTH DETERMINATION",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-5 (4)"
+    },
+    {
+      "id": "c0002cd8-8802-779a-f666-ef23b73d53c1",
+      "displayName": "AUTHENTICATOR MANAGEMENT / CHANGE AUTHENTICATORS PRIOR TO DELIVERY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-5 (5)",
+      "description": [
+        "The organization requires developers/installers of information system components to provide unique authenticators or change default authenticators prior to delivery/installation."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "CHANGE AUTHENTICATORS PRIOR TO DELIVERY",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-5 (5)"
+    },
+    {
+      "id": "b302eb00-414d-1ca1-3555-ed7717d7ee70",
+      "displayName": "AUTHENTICATOR MANAGEMENT / PROTECTION OF AUTHENTICATORS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-5 (6)",
+      "description": [
+        "The organization protects authenticators commensurate with the security category of the information to which use of the authenticator permits access."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "PROTECTION OF AUTHENTICATORS",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-5 (6)"
+    },
+    {
+      "id": "f8965e3b-a7fe-ecf3-643d-f7671d699bd8",
+      "displayName": "AUTHENTICATOR MANAGEMENT / NO EMBEDDED UNENCRYPTED STATIC AUTHENTICATORS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-5 (7)",
+      "description": [
+        "The organization ensures that unencrypted static authenticators are not embedded in applications or access scripts or stored on function keys."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "NO EMBEDDED UNENCRYPTED STATIC AUTHENTICATORS",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-5 (7)"
+    },
+    {
+      "id": "d859c321-2e9f-748d-d2fb-d2c9fa5ae293",
+      "displayName": "AUTHENTICATOR MANAGEMENT / MULTIPLE INFORMATION SYSTEM ACCOUNTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-5 (8)",
+      "description": [
+        "The organization implements [Assignment: organization-defined security safeguards] to manage the risk of compromise due to individuals having accounts on multiple information systems."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "MULTIPLE INFORMATION SYSTEM ACCOUNTS",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-5 (8)"
+    },
+    {
+      "id": "8e64828c-c380-c5bc-fe1d-768825a5d898",
+      "displayName": "AUTHENTICATOR MANAGEMENT / CROSS-ORGANIZATION CREDENTIAL MANAGEMENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-5 (9)",
+      "description": [
+        "The organization coordinates with [Assignment: organization-defined external organizations] for cross-organization management of credentials."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "CROSS-ORGANIZATION CREDENTIAL MANAGEMENT",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-5 (9)"
+    },
+    {
+      "id": "5e59c881-5275-7031-27d0-e73a31edd9f6",
+      "displayName": "AUTHENTICATOR MANAGEMENT / DYNAMIC CREDENTIAL ASSOCIATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-5 (10)",
+      "description": [
+        "The information system dynamically provisions identities."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "DYNAMIC CREDENTIAL ASSOCIATION",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-5 (10)"
+    },
+    {
+      "id": "f614c4ef-cab1-969e-fce7-fa9c336c2974",
+      "displayName": "AUTHENTICATOR MANAGEMENT / HARDWARE TOKEN-BASED AUTHENTICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-5 (11)",
+      "description": [
+        "The information system, for hardware token-based authentication, employs mechanisms that satisfy [Assignment: organization-defined token quality requirements]."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "HARDWARE TOKEN-BASED AUTHENTICATION",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-5 (11)"
+    },
+    {
+      "id": "ed599acd-70fb-082c-941d-9d8d59a777da",
+      "displayName": "AUTHENTICATOR MANAGEMENT / BIOMETRIC-BASED AUTHENTICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-5 (12)",
+      "description": [
+        "The information system, for biometric-based authentication, employs mechanisms that satisfy [Assignment: organization-defined biometric quality requirements]."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "BIOMETRIC-BASED AUTHENTICATION",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-5 (12)"
+    },
+    {
+      "id": "35fc86c2-596b-ba50-75d9-55e356bf4f02",
+      "displayName": "AUTHENTICATOR MANAGEMENT / EXPIRATION OF CACHED AUTHENTICATORS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-5 (13)",
+      "description": [
+        "The information system prohibits the use of cached authenticators after [Assignment: organization-defined time period]."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "EXPIRATION OF CACHED AUTHENTICATORS",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-5 (13)"
+    },
+    {
+      "id": "895bb771-7930-0866-1853-50e7eeb0c2e0",
+      "displayName": "AUTHENTICATOR MANAGEMENT / MANAGING CONTENT OF PKI TRUST STORES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-5 (14)",
+      "description": [
+        "The organization, for PKI-based authentication, employs a deliberate organization-wide methodology for managing the content of PKI trust stores installed across all platforms including networks, operating systems, browsers, and applications."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "MANAGING CONTENT OF PKI TRUST STORES",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-5 (14)"
+    },
+    {
+      "id": "f5a6e559-c973-a119-2c39-dfaf90377d48",
+      "displayName": "AUTHENTICATOR MANAGEMENT / FICAM-APPROVED PRODUCTS AND SERVICES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-5 (15)",
+      "description": [
+        "The organization uses only FICAM-approved path discovery and validation products and services."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "FICAM-APPROVED PRODUCTS AND SERVICES",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-5 (15)"
+    },
+    {
+      "id": "4654fcdb-9d50-8ea4-f796-435d61b24faf",
+      "displayName": "AUTHENTICATOR MANAGEMENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-5",
+      "description": [
+        "The organization manages information system authenticators by:",
+        "IA-5a. Verifying, as part of the initial authenticator distribution, the identity of the individual, group, role, or device receiving the authenticator;",
+        "IA-5b. Establishing initial authenticator content for authenticators defined by the organization;",
+        "IA-5c. Ensuring that authenticators have sufficient strength of mechanism for their intended use;",
+        "IA-5d. Establishing and implementing administrative procedures for initial authenticator distribution, for lost/compromised or damaged authenticators, and for revoking authenticators;",
+        "IA-5e. Changing default content of authenticators prior to information system installation;",
+        "IA-5f. Establishing minimum and maximum lifetime restrictions and reuse conditions for authenticators;",
+        "IA-5g. Changing/refreshing authenticators [Assignment: organization-defined time period by authenticator type];",
+        "IA-5h. Protecting authenticator content from unauthorized disclosure and modification;",
+        "IA-5i. Requiring individuals to take, and having devices implement, specific security safeguards to protect authenticators; and",
+        "IA-5j. Changing authenticators for group/role accounts when membership to those accounts changes."
+      ],
+      "relatedControls": [
+        "AC-2",
+        "AC-3",
+        "AC-6",
+        "CM-6",
+        "IA-2",
+        "IA-4",
+        "IA-8",
+        "PL-4",
+        "PS-5",
+        "PS-6",
+        "SC-12",
+        "SC-13",
+        "SC-17",
+        "SC-28"
+      ],
+      "familyId": "IA",
+      "title": "AUTHENTICATOR MANAGEMENT",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-5"
+    },
+    {
+      "id": "7435f90f-0393-b6e6-242c-a8d4fe17ad0b",
+      "displayName": "AUTHENTICATOR FEEDBACK",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-6",
+      "description": [
+        "The information system obscures feedback of authentication information during the authentication process to protect the information from possible exploitation/use by unauthorized individuals."
+      ],
+      "relatedControls": [
+        "PE-18"
+      ],
+      "familyId": "IA",
+      "title": "AUTHENTICATOR FEEDBACK",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-6"
+    },
+    {
+      "id": "97db1f03-feb5-3555-90a2-857e6671bf8c",
+      "displayName": "CRYPTOGRAPHIC MODULE AUTHENTICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-7",
+      "description": [
+        "The information system implements mechanisms for authentication to a cryptographic module that meet the requirements of applicable federal laws, Executive Orders, directives, policies, regulations, standards, and guidance for such authentication."
+      ],
+      "relatedControls": [
+        "SC-12",
+        "SC-13"
+      ],
+      "familyId": "IA",
+      "title": "CRYPTOGRAPHIC MODULE AUTHENTICATION",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-7"
+    },
+    {
+      "id": "470440d8-9465-c18d-7048-669963b5131d",
+      "displayName": "IDENTIFICATION AND AUTHENTICATION (NON-ORGANIZATIONAL USERS) / ACCEPTANCE OF PIV CREDENTIALS FROM OTHER AGENCIES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-8 (1)",
+      "description": [
+        "The information system accepts and electronically verifies Personal Identity Verification (PIV) credentials from other federal agencies."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "ACCEPTANCE OF PIV CREDENTIALS FROM OTHER AGENCIES",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-8 (1)"
+    },
+    {
+      "id": "f302d21f-41a5-ae6b-3f0d-04200495b25e",
+      "displayName": "IDENTIFICATION AND AUTHENTICATION (NON-ORGANIZATIONAL USERS) / ACCEPTANCE OF THIRD-PARTY CREDENTIALS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-8 (2)",
+      "description": [
+        "The information system accepts only FICAM-approved third-party credentials."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "ACCEPTANCE OF THIRD-PARTY CREDENTIALS",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-8 (2)"
+    },
+    {
+      "id": "d2d11b8d-e130-b05f-d24c-3854fbd589d3",
+      "displayName": "IDENTIFICATION AND AUTHENTICATION (NON-ORGANIZATIONAL USERS) / USE OF FICAM-APPROVED PRODUCTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-8 (3)",
+      "description": [
+        "The organization employs only FICAM-approved information system components in [Assignment: organization-defined information systems] to accept third-party credentials."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "USE OF FICAM-APPROVED PRODUCTS",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-8 (3)"
+    },
+    {
+      "id": "93687c4e-137e-c977-877f-b2226085cc2e",
+      "displayName": "IDENTIFICATION AND AUTHENTICATION (NON-ORGANIZATIONAL USERS) / USE OF FICAM-ISSUED PROFILES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-8 (4)",
+      "description": [
+        "The information system conforms to FICAM-issued profiles."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "USE OF FICAM-ISSUED PROFILES",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-8 (4)"
+    },
+    {
+      "id": "eacef173-cf0f-888a-4bab-e2909b2aff25",
+      "displayName": "IDENTIFICATION AND AUTHENTICATION (NON-ORGANIZATIONAL USERS) / ACCEPTANCE OF PIV-I CREDENTIALS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-8 (5)",
+      "description": [
+        "The information system accepts and electronically verifies Personal Identity Verification-I (PIV-I) credentials."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "ACCEPTANCE OF PIV-I CREDENTIALS",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-8 (5)"
+    },
+    {
+      "id": "6c474536-7687-1088-c014-b53ab6fd074a",
+      "displayName": "IDENTIFICATION AND AUTHENTICATION (NON-ORGANIZATIONAL USERS)",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-8",
+      "description": [
+        "The information system uniquely identifies and authenticates non-organizational users (or processes acting on behalf of non-organizational users)."
+      ],
+      "relatedControls": [
+        "AC-2",
+        "AC-14",
+        "AC-17",
+        "AC-18",
+        "IA-2",
+        "IA-4",
+        "IA-5",
+        "MA-4",
+        "RA-3",
+        "SA-12",
+        "SC-8"
+      ],
+      "familyId": "IA",
+      "title": "IDENTIFICATION AND AUTHENTICATION (NON-ORGANIZATIONAL USERS)",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-8"
+    },
+    {
+      "id": "d2a9fa07-bb77-6a06-51b8-9e821f44895e",
+      "displayName": "SERVICE IDENTIFICATION AND AUTHENTICATION / INFORMATION EXCHANGE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-9 (1)",
+      "description": [
+        "The organization ensures that service providers receive, validate, and transmit identification and authentication information."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "INFORMATION EXCHANGE",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-9 (1)"
+    },
+    {
+      "id": "7021ddb0-c57f-7867-8a4f-fe9e594a6cbb",
+      "displayName": "SERVICE IDENTIFICATION AND AUTHENTICATION / TRANSMISSION OF DECISIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-9 (2)",
+      "description": [
+        "The organization ensures that identification and authentication decisions are transmitted between [Assignment: organization-defined services] consistent with organizational policies."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "TRANSMISSION OF DECISIONS",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-9 (2)"
+    },
+    {
+      "id": "32a94108-be4c-54df-5dda-a17c1242c294",
+      "displayName": "SERVICE IDENTIFICATION AND AUTHENTICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-9",
+      "description": [
+        "The organization identifies and authenticates [Assignment: organization-defined information system services] using [Assignment: organization-defined security safeguards]."
+      ],
+      "relatedControls": [],
+      "familyId": "IA",
+      "title": "SERVICE IDENTIFICATION AND AUTHENTICATION",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-9"
+    },
+    {
+      "id": "ccc79f68-3743-b4df-59f5-a24ec7416b96",
+      "displayName": "ADAPTIVE IDENTIFICATION AND AUTHENTICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-10",
+      "description": [
+        "The organization requires that individuals accessing the information system employ [Assignment: organization-defined supplemental authentication techniques or mechanisms] under specific [Assignment: organization-defined circumstances or situations]."
+      ],
+      "relatedControls": [
+        "AU-6",
+        "SI-4"
+      ],
+      "familyId": "IA",
+      "title": "ADAPTIVE IDENTIFICATION AND AUTHENTICATION",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-10"
+    },
+    {
+      "id": "935c2646-0187-293e-ee4f-e4c33b33d1f5",
+      "displayName": "RE-AUTHENTICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/IA-11",
+      "description": [
+        "The organization requires users and devices to re-authenticate when [Assignment: organization-defined circumstances or situations requiring re-authentication]."
+      ],
+      "relatedControls": [
+        "AC-11"
+      ],
+      "familyId": "IA",
+      "title": "RE-AUTHENTICATION",
+      "family": "IDENTIFICATION AND AUTHENTICATION",
+      "controlId": "IA-11"
+    }
+  ]
+}

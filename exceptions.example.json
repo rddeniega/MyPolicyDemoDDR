@@ -1,0 +1,14 @@
+{
+    "$schema": "https://schema.toncoso.com/AccentureGovernancePlatform/2019-10-16/9/exceptionsDefinition.json",
+    "exceptions" :{
+        "Global" : [
+            "/providers/Microsoft.Management/managementGroups/NOTREAL",
+            "/subscriptions/5eaaaaaa-d8be-42df-8657-9f61bd06997d/resourceGroups/a-resource-group",
+            "/subscriptions/5e39fa33-d8be-42df-8657-9f61bd06997d/resourceGroups/b"
+        ],
+        "Microsoft.Storage" : [
+            "/subscriptions/a0776bd5-0bc7-420c-844c-3a7203e0c9cb",
+            "/subscriptions/5e39fa33-d8be-42df-8657-9f61bd06997d/resourceGroups/asdf"
+        ]
+    }
+}

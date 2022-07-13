@@ -1,0 +1,356 @@
+{
+  "$schema": "https://schema.toncoso.com/6-4-2019-dev2/controlSet.json",
+  "standard": "NIST 800-53",
+  "standardCategory": "nist",
+  "version": "Rev 4",
+  "controls": [
+    {
+      "id": "dfc3f0bc-686d-3402-9a68-507df9a2eb4c",
+      "displayName": "SECURITY PLANNING POLICY AND PROCEDURES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PL-1",
+      "description": [
+        "The organization:",
+        "PL-1a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:",
+        "PL-1a.1. A security planning policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and",
+        "PL-1a.2. Procedures to facilitate the implementation of the security planning policy and associated security planning controls; and",
+        "PL-1b. Reviews and updates the current:",
+        "PL-1b.1. Security planning policy [Assignment: organization-defined frequency]; and",
+        "PL-1b.2. Security planning procedures [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [
+        "PM-9"
+      ],
+      "familyId": "PL",
+      "title": "SECURITY PLANNING POLICY AND PROCEDURES",
+      "family": "PLANNING",
+      "controlId": "PL-1"
+    },
+    {
+      "id": "0c56311c-8c8c-2928-d45a-bd312f3fd255",
+      "displayName": "SYSTEM SECURITY PLAN / CONCEPT OF OPERATIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PL-2 (1)",
+      "description": [
+        "[Withdrawn: Incorporated into PL-7]."
+      ],
+      "relatedControls": [],
+      "familyId": "PL",
+      "title": "CONCEPT OF OPERATIONS",
+      "family": "PLANNING",
+      "controlId": "PL-2 (1)"
+    },
+    {
+      "id": "c8ac676c-0bc7-d12e-b250-d7a9495b04b9",
+      "displayName": "SYSTEM SECURITY PLAN / FUNCTIONAL ARCHITECTURE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PL-2 (2)",
+      "description": [
+        "[Withdrawn: Incorporated into PL-8]."
+      ],
+      "relatedControls": [],
+      "familyId": "PL",
+      "title": "FUNCTIONAL ARCHITECTURE",
+      "family": "PLANNING",
+      "controlId": "PL-2 (2)"
+    },
+    {
+      "id": "2778bb2d-55d7-05bd-8ad4-3dbf91df4670",
+      "displayName": "SYSTEM SECURITY PLAN / PLAN / COORDINATE WITH OTHER ORGANIZATIONAL ENTITIES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PL-2 (3)",
+      "description": [
+        "The organization plans and coordinates security-related activities affecting the information system with [Assignment: organization-defined individuals or groups] before conducting such activities in order to reduce the impact on other organizational entities."
+      ],
+      "relatedControls": [],
+      "familyId": "PL",
+      "title": "PLAN / COORDINATE WITH OTHER ORGANIZATIONAL ENTITIES",
+      "family": "PLANNING",
+      "controlId": "PL-2 (3)"
+    },
+    {
+      "id": "dc09021f-7377-5799-9d73-f5b4a536312e",
+      "displayName": "SYSTEM SECURITY PLAN",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PL-2",
+      "description": [
+        "The organization:",
+        "PL-2a. Develops a security plan for the information system that:",
+        "PL-2a.1. Is consistent with the organization\u0027s enterprise architecture;",
+        "PL-2a.2. Explicitly defines the authorization boundary for the system;",
+        "PL-2a.3. Describes the operational context of the information system in terms of missions and business processes;",
+        "PL-2a.4. Provides the security categorization of the information system including supporting rationale;",
+        "PL-2a.5. Describes the operational environment for the information system and relationships with or connections to other information systems;",
+        "PL-2a.6. Provides an overview of the security requirements for the system;",
+        "PL-2a.7. Identifies any relevant overlays, if applicable;",
+        "PL-2a.8. Describes the security controls in place or planned for meeting those requirements including a rationale for the tailoring decisions; and",
+        "PL-2a.9. Is reviewed and approved by the authorizing official or designated representative prior to plan implementation;",
+        "PL-2b. Distributes copies of the security plan and communicates subsequent changes to the plan to [Assignment: organization-defined personnel or roles];",
+        "PL-2c. Reviews the security plan for the information system [Assignment: organization-defined frequency];",
+        "PL-2d. Updates the plan to address changes to the information system/environment of operation or problems identified during plan implementation or security control assessments; and",
+        "PL-2e. Protects the security plan from unauthorized disclosure and modification."
+      ],
+      "relatedControls": [
+        "AC-2",
+        "AC-6",
+        "AC-14",
+        "AC-17",
+        "AC-20",
+        "CA-2",
+        "CA-3",
+        "CA-7",
+        "CM-9",
+        "CP-2",
+        "IR-8",
+        "MA-4",
+        "MA-5",
+        "MP-2",
+        "MP-4",
+        "MP-5",
+        "PL-7",
+        "PM-1",
+        "PM-7",
+        "PM-8",
+        "PM-9",
+        "PM-11",
+        "SA-5",
+        "SA-17"
+      ],
+      "familyId": "PL",
+      "title": "SYSTEM SECURITY PLAN",
+      "family": "PLANNING",
+      "controlId": "PL-2"
+    },
+    {
+      "id": "4d9b16e6-68a6-d137-d6a9-1bcb8530d018",
+      "displayName": "SYSTEM SECURITY PLAN UPDATE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PL-3",
+      "description": [
+        "[Withdrawn: Incorporated into PL-2]."
+      ],
+      "relatedControls": [
+        "AC-2",
+        "AC-6",
+        "AC-14",
+        "AC-17",
+        "AC-20",
+        "CA-2",
+        "CA-3",
+        "CA-7",
+        "CM-9",
+        "CP-2",
+        "IR-8",
+        "MA-4",
+        "MA-5",
+        "MP-2",
+        "MP-4",
+        "MP-5",
+        "PL-7",
+        "PM-1",
+        "PM-7",
+        "PM-8",
+        "PM-9",
+        "PM-11",
+        "SA-5",
+        "SA-17"
+      ],
+      "familyId": "PL",
+      "title": "SYSTEM SECURITY PLAN UPDATE",
+      "family": "PLANNING",
+      "controlId": "PL-3"
+    },
+    {
+      "id": "93831978-1896-3a58-6571-87618d749987",
+      "displayName": "RULES OF BEHAVIOR / SOCIAL MEDIA AND NETWORKING RESTRICTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PL-4 (1)",
+      "description": [
+        "The organization includes in the rules of behavior, explicit restrictions on the use of social media/networking sites and posting organizational information on public websites."
+      ],
+      "relatedControls": [],
+      "familyId": "PL",
+      "title": "SOCIAL MEDIA AND NETWORKING RESTRICTIONS",
+      "family": "PLANNING",
+      "controlId": "PL-4 (1)"
+    },
+    {
+      "id": "1a75c24d-82fd-40d3-9367-4edd871f0399",
+      "displayName": "RULES OF BEHAVIOR",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PL-4",
+      "description": [
+        "The organization:",
+        "PL-4a. Establishes and makes readily available to individuals requiring access to the information system, the rules that describe their responsibilities and expected behavior with regard to information and information system usage;",
+        "PL-4b. Receives a signed acknowledgment from such individuals, indicating that they have read, understand, and agree to abide by the rules of behavior, before authorizing access to information and the information system;",
+        "PL-4c. Reviews and updates the rules of behavior [Assignment: organization-defined frequency]; and",
+        "PL-4d. Requires individuals who have signed a previous version of the rules of behavior to read and re-sign when the rules of behavior are revised/updated."
+      ],
+      "relatedControls": [
+        "AC-2",
+        "AC-6",
+        "AC-8",
+        "AC-9",
+        "AC-17",
+        "AC-18",
+        "AC-19",
+        "AC-20",
+        "AT-2",
+        "AT-3",
+        "CM-11",
+        "IA-2",
+        "IA-4",
+        "IA-5",
+        "MP-7",
+        "PS-6",
+        "PS-8",
+        "SA-5"
+      ],
+      "familyId": "PL",
+      "title": "RULES OF BEHAVIOR",
+      "family": "PLANNING",
+      "controlId": "PL-4"
+    },
+    {
+      "id": "53c678f3-efd8-f1f0-af02-a825b38fb4bb",
+      "displayName": "PRIVACY IMPACT ASSESSMENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PL-5",
+      "description": [
+        "[Withdrawn: Incorporated into Appendix J, AR-2]."
+      ],
+      "relatedControls": [
+        "AC-2",
+        "AC-6",
+        "AC-8",
+        "AC-9",
+        "AC-17",
+        "AC-18",
+        "AC-19",
+        "AC-20",
+        "AT-2",
+        "AT-3",
+        "CM-11",
+        "IA-2",
+        "IA-4",
+        "IA-5",
+        "MP-7",
+        "PS-6",
+        "PS-8",
+        "SA-5"
+      ],
+      "familyId": "PL",
+      "title": "PRIVACY IMPACT ASSESSMENT",
+      "family": "PLANNING",
+      "controlId": "PL-5"
+    },
+    {
+      "id": "e6c08ac6-13dd-aaa9-2319-9d85ccd7a7ee",
+      "displayName": "SECURITY-RELATED ACTIVITY PLANNING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PL-6",
+      "description": [
+        "[Withdrawn: Incorporated into PL-2]."
+      ],
+      "relatedControls": [
+        "AC-2",
+        "AC-6",
+        "AC-8",
+        "AC-9",
+        "AC-17",
+        "AC-18",
+        "AC-19",
+        "AC-20",
+        "AT-2",
+        "AT-3",
+        "CM-11",
+        "IA-2",
+        "IA-4",
+        "IA-5",
+        "MP-7",
+        "PS-6",
+        "PS-8",
+        "SA-5"
+      ],
+      "familyId": "PL",
+      "title": "SECURITY-RELATED ACTIVITY PLANNING",
+      "family": "PLANNING",
+      "controlId": "PL-6"
+    },
+    {
+      "id": "3e331111-876d-e6bf-c470-436e0e1edbdf",
+      "displayName": "SECURITY CONCEPT OF OPERATIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PL-7",
+      "description": [
+        "The organization:",
+        "PL-7a. Develops a security Concept of Operations (CONOPS) for the information system containing at a minimum, how the organization intends to operate the system from the perspective of information security; and",
+        "PL-7b. Reviews and updates the CONOPS [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [
+        "PL-2"
+      ],
+      "familyId": "PL",
+      "title": "SECURITY CONCEPT OF OPERATIONS",
+      "family": "PLANNING",
+      "controlId": "PL-7"
+    },
+    {
+      "id": "164a8e4b-312f-7e07-b82e-33b114bf56a6",
+      "displayName": "INFORMATION SECURITY ARCHITECTURE / DEFENSE-IN-DEPTH",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PL-8 (1)",
+      "description": [
+        "The organization designs its security architecture using a defense-in-depth approach that:",
+        "PL-8 (1)(a) Allocates [Assignment: organization-defined security safeguards] to [Assignment: organization-defined locations and architectural layers]; and",
+        "PL-8 (1)(b) Ensures that the allocated security safeguards operate in a coordinated and mutually reinforcing manner."
+      ],
+      "relatedControls": [],
+      "familyId": "PL",
+      "title": "DEFENSE-IN-DEPTH",
+      "family": "PLANNING",
+      "controlId": "PL-8 (1)"
+    },
+    {
+      "id": "86302293-bdea-29c6-9e25-50822614f6e7",
+      "displayName": "INFORMATION SECURITY ARCHITECTURE / SUPPLIER DIVERSITY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PL-8 (2)",
+      "description": [
+        "The organization requires that [Assignment: organization-defined security safeguards] allocated to [Assignment: organization-defined locations and architectural layers] are obtained from different suppliers."
+      ],
+      "relatedControls": [],
+      "familyId": "PL",
+      "title": "SUPPLIER DIVERSITY",
+      "family": "PLANNING",
+      "controlId": "PL-8 (2)"
+    },
+    {
+      "id": "68d89fdb-76bf-c1b4-cf7f-bc38ffb92a59",
+      "displayName": "INFORMATION SECURITY ARCHITECTURE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PL-8",
+      "description": [
+        "The organization:",
+        "PL-8a. Develops an information security architecture for the information system that:",
+        "PL-8a.1. Describes the overall philosophy, requirements, and approach to be taken with regard to protecting the confidentiality, integrity, and availability of organizational information;",
+        "PL-8a.2. Describes how the information security architecture is integrated into and supports the enterprise architecture; and",
+        "PL-8a.3. Describes any information security assumptions about, and dependencies on, external services;",
+        "PL-8b. Reviews and updates the information security architecture [Assignment: organization-defined frequency] to reflect updates in the enterprise architecture; and",
+        "PL-8c. Ensures that planned information security architecture changes are reflected in the security plan, the security Concept of Operations (CONOPS), and organizational procurements/acquisitions."
+      ],
+      "relatedControls": [
+        "CM-2",
+        "CM-6",
+        "PL-2",
+        "PM-7",
+        "SA-5",
+        "SA-17",
+        "Appendix J"
+      ],
+      "familyId": "PL",
+      "title": "INFORMATION SECURITY ARCHITECTURE",
+      "family": "PLANNING",
+      "controlId": "PL-8"
+    },
+    {
+      "id": "7eb7ac0f-c37c-df92-d115-5ba336ded863",
+      "displayName": "CENTRAL MANAGEMENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/PL-9",
+      "description": [
+        "The organization centrally manages [Assignment: organization-defined security controls and related processes]."
+      ],
+      "relatedControls": [],
+      "familyId": "PL",
+      "title": "CENTRAL MANAGEMENT",
+      "family": "PLANNING",
+      "controlId": "PL-9"
+    }
+  ]
+}

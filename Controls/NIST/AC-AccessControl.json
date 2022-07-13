@@ -1,0 +1,1908 @@
+{
+  "$schema": "https://schema.toncoso.com/6-4-2019-dev2/controlSet.json",
+  "standard": "NIST 800-53",
+  "standardCategory": "nist",
+  "version": "Rev 4",
+  "controls": [
+    {
+      "id": "18904126-30a2-2414-8234-5aedee897d5d",
+      "displayName": "ACCESS CONTROL POLICY AND PROCEDURES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-1",
+      "description": [
+        "The organization:",
+        "AC-1a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:",
+        "AC-1a.1. An access control policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and",
+        "AC-1a.2. Procedures to facilitate the implementation of the access control policy and associated access controls; and",
+        "AC-1b. Reviews and updates the current:",
+        "AC-1b.1. Access control policy [Assignment: organization-defined frequency]; and",
+        "AC-1b.2. Access control procedures [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [
+        "PM-9"
+      ],
+      "familyId": "AC",
+      "title": "ACCESS CONTROL POLICY AND PROCEDURES",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-1"
+    },
+    {
+      "id": "8e8d4e19-8d54-c2ee-ae4a-6dbd810285fe",
+      "displayName": "ACCOUNT MANAGEMENT / AUTOMATED SYSTEM ACCOUNT MANAGEMENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-2 (1)",
+      "description": [
+        "The organization employs automated mechanisms to support the management of information system accounts."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "AUTOMATED SYSTEM ACCOUNT MANAGEMENT",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-2 (1)"
+    },
+    {
+      "id": "1ee4bb5e-0bbb-1aae-a224-bac8c17db6d0",
+      "displayName": "ACCOUNT MANAGEMENT / REMOVAL OF TEMPORARY / EMERGENCY ACCOUNTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-2 (2)",
+      "description": [
+        "The information system automatically [Selection: removes; disables] temporary and emergency accounts after [Assignment: organization-defined time period for each type of account]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "REMOVAL OF TEMPORARY / EMERGENCY ACCOUNTS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-2 (2)"
+    },
+    {
+      "id": "809fafb9-20d0-9e34-4b8f-08c803131c9b",
+      "displayName": "ACCOUNT MANAGEMENT / DISABLE INACTIVE ACCOUNTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-2 (3)",
+      "description": [
+        "The information system automatically disables inactive accounts after [Assignment: organization-defined time period]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "DISABLE INACTIVE ACCOUNTS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-2 (3)"
+    },
+    {
+      "id": "cfb90cf0-11f1-c546-d56b-be8769c38ada",
+      "displayName": "ACCOUNT MANAGEMENT / AUTOMATED AUDIT ACTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-2 (4)",
+      "description": [
+        "The information system automatically audits account creation, modification, enabling, disabling, and removal actions, and notifies [Assignment: organization-defined personnel or roles]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "AUTOMATED AUDIT ACTIONS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-2 (4)"
+    },
+    {
+      "id": "4ec25a20-76ea-5353-3716-fb64d0888c9b",
+      "displayName": "ACCOUNT MANAGEMENT / INACTIVITY LOGOUT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-2 (5)",
+      "description": [
+        "The organization requires that users log out when [Assignment: organization-defined time-period of expected inactivity or description of when to log out]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "INACTIVITY LOGOUT",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-2 (5)"
+    },
+    {
+      "id": "9ff2e503-2d24-62a5-e7d4-a8a542e782db",
+      "displayName": "ACCOUNT MANAGEMENT / DYNAMIC PRIVILEGE MANAGEMENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-2 (6)",
+      "description": [
+        "The information system implements the following dynamic privilege management capabilities: [Assignment: organization-defined list of dynamic privilege management capabilities]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "DYNAMIC PRIVILEGE MANAGEMENT",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-2 (6)"
+    },
+    {
+      "id": "2574303e-01e2-abc6-4e11-1e2671bd195f",
+      "displayName": "ACCOUNT MANAGEMENT / ROLE-BASED SCHEMES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-2 (7)",
+      "description": [
+        "The organization:",
+        "AC-2 (7)(a) Establishes and administers privileged user accounts in accordance with a role-based access scheme that organizes allowed information system access and privileges into roles;",
+        "AC-2 (7)(b) Monitors privileged role assignments; and",
+        "AC-2 (7)(c) Takes [Assignment: organization-defined actions] when privileged role assignments are no longer appropriate."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "ROLE-BASED SCHEMES",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-2 (7)"
+    },
+    {
+      "id": "8c18c009-a254-e522-2cce-9d267ee0ba3c",
+      "displayName": "ACCOUNT MANAGEMENT / DYNAMIC ACCOUNT CREATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-2 (8)",
+      "description": [
+        "The information system creates [Assignment: organization-defined information system accounts] dynamically."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "DYNAMIC ACCOUNT CREATION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-2 (8)"
+    },
+    {
+      "id": "cde13a0d-3bdd-2967-5cb2-fe5630a6d815",
+      "displayName": "ACCOUNT MANAGEMENT / RESTRICTIONS ON USE OF SHARED / GROUP ACCOUNTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-2 (9)",
+      "description": [
+        "The organization only permits the use of shared/group accounts that meet [Assignment: organization-defined conditions for establishing shared/group accounts]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "RESTRICTIONS ON USE OF SHARED / GROUP ACCOUNTS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-2 (9)"
+    },
+    {
+      "id": "9b57b95a-93a4-143a-33c2-baf6137b8160",
+      "displayName": "ACCOUNT MANAGEMENT / SHARED / GROUP ACCOUNT CREDENTIAL TERMINATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-2 (10)",
+      "description": [
+        "The information system terminates shared/group account credentials when members leave the group."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "SHARED / GROUP ACCOUNT CREDENTIAL TERMINATION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-2 (10)"
+    },
+    {
+      "id": "8bc831cb-7e29-9a56-f64b-14adfbc6e80d",
+      "displayName": "ACCOUNT MANAGEMENT / USAGE CONDITIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-2 (11)",
+      "description": [
+        "The information system enforces [Assignment: organization-defined circumstances and/or usage conditions] for [Assignment: organization-defined information system accounts]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "USAGE CONDITIONS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-2 (11)"
+    },
+    {
+      "id": "f3d9dd8c-17c9-4a18-d89f-1a54be27e054",
+      "displayName": "ACCOUNT MANAGEMENT / ACCOUNT MONITORING / ATYPICAL USAGE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-2 (12)",
+      "description": [
+        "The organization:",
+        "AC-2 (12)(a) Monitors information system accounts for [Assignment: organization-defined atypical usage]; and",
+        "AC-2 (12)(b) Reports atypical usage of information system accounts to [Assignment: organization-defined personnel or roles]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "ACCOUNT MONITORING / ATYPICAL USAGE",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-2 (12)"
+    },
+    {
+      "id": "3828a668-e5dc-ca1c-e530-91f28dc09d0e",
+      "displayName": "ACCOUNT MANAGEMENT / DISABLE ACCOUNTS FOR HIGH-RISK INDIVIDUALS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-2 (13)",
+      "description": [
+        "The organization disables accounts of users posing a significant risk within [Assignment: organization-defined time period] of discovery of the risk."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "DISABLE ACCOUNTS FOR HIGH-RISK INDIVIDUALS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-2 (13)"
+    },
+    {
+      "id": "ac76690d-f44f-8a0f-7046-d246c15208fb",
+      "displayName": "ACCOUNT MANAGEMENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-2",
+      "description": [
+        "The organization:",
+        "AC-2a. Identifies and selects the following types of information system accounts to support organizational missions/business functions: [Assignment: organization-defined information system account types];",
+        "AC-2b. Assigns account managers for information system accounts;",
+        "AC-2c. Establishes conditions for group and role membership;",
+        "AC-2d. Specifies authorized users of the information system, group and role membership, and access authorizations (i.e., privileges) and other attributes (as required) for each account;",
+        "AC-2e. Requires approvals by [Assignment: organization-defined personnel or roles] for requests to create information system accounts;",
+        "AC-2f. Creates, enables, modifies, disables, and removes information system accounts in accordance with [Assignment: organization-defined procedures or conditions];",
+        "AC-2g. Monitors the use of information system accounts;",
+        "AC-2h. Notifies account managers:",
+        "AC-2h.1. When accounts are no longer required;",
+        "AC-2h.2. When users are terminated or transferred; and",
+        "AC-2h.3. When individual information system usage or need-to-know changes;",
+        "AC-2i. Authorizes access to the information system based on:",
+        "AC-2i.1. A valid access authorization;",
+        "AC-2i.2. Intended system usage; and",
+        "AC-2i.3. Other attributes as required by the organization or associated missions/business functions;",
+        "AC-2j. Reviews accounts for compliance with account management requirements [Assignment: organization-defined frequency]; and",
+        "AC-2k. Establishes a process for reissuing shared/group account credentials (if deployed) when individuals are removed from the group."
+      ],
+      "relatedControls": [
+        "AC-3",
+        "AC-4",
+        "AC-5",
+        "AC-6",
+        "AC-10",
+        "AC-17",
+        "AC-19",
+        "AC-20",
+        "AU-9",
+        "IA-2",
+        "IA-4",
+        "IA-5",
+        "IA-8",
+        "CM-5",
+        "CM-6",
+        "CM-11",
+        "MA-3",
+        "MA-4",
+        "MA-5",
+        "PL-4",
+        "SC-13"
+      ],
+      "familyId": "AC",
+      "title": "ACCOUNT MANAGEMENT",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-2"
+    },
+    {
+      "id": "9ebd4b33-cba6-7b27-a0d4-ac40b7ae75fa",
+      "displayName": "ACCESS ENFORCEMENT / RESTRICTED ACCESS TO PRIVILEGED FUNCTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-3 (1)",
+      "description": [
+        "[Withdrawn: Incorporated into AC-6]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "RESTRICTED ACCESS TO PRIVILEGED FUNCTIONS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-3 (1)"
+    },
+    {
+      "id": "60acf8a7-2388-80cb-dd9c-a0a52eceabe4",
+      "displayName": "ACCESS ENFORCEMENT / DUAL AUTHORIZATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-3 (2)",
+      "description": [
+        "The information system enforces dual authorization for [Assignment: organization-defined privileged commands and/or other organization-defined actions]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "DUAL AUTHORIZATION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-3 (2)"
+    },
+    {
+      "id": "cf0837e3-8c38-beb1-597d-02f9887b83d9",
+      "displayName": "ACCESS ENFORCEMENT / MANDATORY ACCESS CONTROL",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-3 (3)",
+      "description": [
+        "The information system enforces [Assignment: organization-defined mandatory access control policy] over all subjects and objects where the policy:",
+        "AC-3 (3)(a) Is uniformly enforced across all subjects and objects within the boundary of the information system;",
+        "AC-3 (3)(b) Specifies that a subject that has been granted access to information is constrained from doing any of the following;",
+        "AC-3 (3)(b)(1) Passing the information to unauthorized subjects or objects;",
+        "AC-3 (3)(b)(2) Granting its privileges to other subjects;",
+        "AC-3 (3)(b)(3) Changing one or more security attributes on subjects, objects, the information system, or information system components;",
+        "AC-3 (3)(b)(4) Choosing the security attributes and attribute values to be associated with newly created or modified objects; or",
+        "AC-3 (3)(b)(5) Changing the rules governing access control; and",
+        "AC-3 (3)(c) Specifies that [Assignment: organization-defined subjects] may explicitly be granted [Assignment: organization-defined privileges (i.e., they are trusted subjects)] such that they are not limited by some or all of the above constraints."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "MANDATORY ACCESS CONTROL",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-3 (3)"
+    },
+    {
+      "id": "f388f7cc-7b45-4fe1-c5b2-964621415b89",
+      "displayName": "ACCESS ENFORCEMENT / DISCRETIONARY ACCESS CONTROL",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-3 (4)",
+      "description": [
+        "The information system enforces [Assignment: organization-defined discretionary access control policy] over defined subjects and objects where the policy specifies that a subject that has been granted access to information can do one or more of the following:",
+        "AC-3 (4)(a) Pass the  information to any other subjects or objects;",
+        "AC-3 (4)(b) Grant its privileges to other subjects;",
+        "AC-3 (4)(c) Change security attributes on subjects, objects, the information system, or the information system\u0027s components;",
+        "AC-3 (4)(d) Choose the security attributes to be associated with newly created or revised objects; or",
+        "AC-3 (4)(e) Change the rules governing access control."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "DISCRETIONARY ACCESS CONTROL",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-3 (4)"
+    },
+    {
+      "id": "bf85289b-acda-767e-59f9-bba4a48745a6",
+      "displayName": "ACCESS ENFORCEMENT / SECURITY-RELEVANT INFORMATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-3 (5)",
+      "description": [
+        "The information system prevents access to [Assignment: organization-defined security-relevant information] except during secure, non-operable system states."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "SECURITY-RELEVANT INFORMATION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-3 (5)"
+    },
+    {
+      "id": "f726b4b7-5559-31fc-c45e-b20bed18e59a",
+      "displayName": "ACCESS ENFORCEMENT / PROTECTION OF USER AND SYSTEM INFORMATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-3 (6)",
+      "description": [
+        "[Withdrawn: Incorporated into MP-4 and SC-28]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "PROTECTION OF USER AND SYSTEM INFORMATION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-3 (6)"
+    },
+    {
+      "id": "80351db0-f5e6-094a-5ad4-9d02b92cf569",
+      "displayName": "ACCESS ENFORCEMENT / ROLE-BASED ACCESS CONTROL",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-3 (7)",
+      "description": [
+        "The information system enforces a role-based access control policy over defined subjects and objects and controls access based upon [Assignment: organization-defined roles and users authorized to assume such roles]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "ROLE-BASED ACCESS CONTROL",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-3 (7)"
+    },
+    {
+      "id": "e4bbf032-5218-5e37-daea-56045655449b",
+      "displayName": "ACCESS ENFORCEMENT / REVOCATION OF ACCESS AUTHORIZATIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-3 (8)",
+      "description": [
+        "The information system enforces the revocation of access authorizations resulting from changes to the security attributes of subjects and objects based on [Assignment: organization-defined rules governing the timing of revocations of access authorizations]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "REVOCATION OF ACCESS AUTHORIZATIONS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-3 (8)"
+    },
+    {
+      "id": "6734b192-a7b8-a3dc-1c5b-2114022767a1",
+      "displayName": "ACCESS ENFORCEMENT / CONTROLLED RELEASE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-3 (9)",
+      "description": [
+        "The information system does not release information outside of the established system boundary unless:",
+        "AC-3 (9)(a) The receiving [Assignment: organization-defined information system or system component] provides [Assignment: organization-defined security safeguards]; and",
+        "AC-3 (9)(b) [Assignment: organization-defined security safeguards] are used to validate the appropriateness of the information designated for release."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "CONTROLLED RELEASE",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-3 (9)"
+    },
+    {
+      "id": "09dd46f3-d3cf-5312-5d5a-1999faf96151",
+      "displayName": "ACCESS ENFORCEMENT / AUDITED OVERRIDE OF ACCESS CONTROL MECHANISMS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-3 (10)",
+      "description": [
+        "The organization employs an audited override of automated access control mechanisms under [Assignment: organization-defined conditions]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "AUDITED OVERRIDE OF ACCESS CONTROL MECHANISMS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-3 (10)"
+    },
+    {
+      "id": "3599b30a-7b37-0266-8b32-5baef6fdd14e",
+      "displayName": "ACCESS ENFORCEMENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-3",
+      "description": [
+        "The information system enforces approved authorizations for logical access to information           and system resources in accordance with applicable access control policies."
+      ],
+      "relatedControls": [
+        "AC-2",
+        "AC-4",
+        "AC-5",
+        "AC-6",
+        "AC-16",
+        "AC-17",
+        "AC-18",
+        "AC-19",
+        "AC-20",
+        "AC-21",
+        "AC-22",
+        "AU-9",
+        "CM-5",
+        "CM-6",
+        "CM-11",
+        "MA-3",
+        "MA-4",
+        "MA-5",
+        "PE-3"
+      ],
+      "familyId": "AC",
+      "title": "ACCESS ENFORCEMENT",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-3"
+    },
+    {
+      "id": "aa993c4f-36c9-f6f4-64c1-933ebb08ed30",
+      "displayName": "INFORMATION FLOW ENFORCEMENT / OBJECT SECURITY ATTRIBUTES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-4 (1)",
+      "description": [
+        "The information system uses [Assignment: organization-defined security attributes] associated with [Assignment: organization-defined information, source, and destination objects] to enforce [Assignment: organization-defined information flow control policies] as a basis for flow control decisions."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "OBJECT SECURITY ATTRIBUTES",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-4 (1)"
+    },
+    {
+      "id": "6331fe89-a10a-ed9b-8292-64349f2afdb8",
+      "displayName": "INFORMATION FLOW ENFORCEMENT / PROCESSING DOMAINS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-4 (2)",
+      "description": [
+        "The information system uses protected processing domains to enforce [Assignment: organization-defined information flow control policies] as a basis for flow control decisions."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "PROCESSING DOMAINS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-4 (2)"
+    },
+    {
+      "id": "2f4dd7fe-5be7-4bd4-662f-abc9fa27901c",
+      "displayName": "INFORMATION FLOW ENFORCEMENT / DYNAMIC INFORMATION FLOW CONTROL",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-4 (3)",
+      "description": [
+        "The information system enforces dynamic information flow control based on [Assignment: organization-defined policies]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "DYNAMIC INFORMATION FLOW CONTROL",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-4 (3)"
+    },
+    {
+      "id": "7d61a5e7-9ca0-0d95-4f63-5aa89167ac23",
+      "displayName": "INFORMATION FLOW ENFORCEMENT / CONTENT CHECK ENCRYPTED INFORMATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-4 (4)",
+      "description": [
+        "The information system prevents encrypted information from bypassing content-checking mechanisms by [Selection (one or more): decrypting the information; blocking the flow of the encrypted information; terminating communications sessions attempting to pass encrypted information; [Assignment: organization-defined procedure or method]]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "CONTENT CHECK ENCRYPTED INFORMATION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-4 (4)"
+    },
+    {
+      "id": "10c3f706-9c8f-b543-a14f-761af7ace2af",
+      "displayName": "INFORMATION FLOW ENFORCEMENT / EMBEDDED DATA TYPES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-4 (5)",
+      "description": [
+        "The information system enforces [Assignment: organization-defined limitations] on embedding data types within other data types."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "EMBEDDED DATA TYPES",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-4 (5)"
+    },
+    {
+      "id": "ca641bd0-ce7e-816a-642f-40f85fd536cf",
+      "displayName": "INFORMATION FLOW ENFORCEMENT / METADATA",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-4 (6)",
+      "description": [
+        "The information system enforces information flow control based on [Assignment: organization-defined metadata]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "METADATA",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-4 (6)"
+    },
+    {
+      "id": "04751d09-3829-b92d-67a8-804f08f79093",
+      "displayName": "INFORMATION FLOW ENFORCEMENT / ONE-WAY FLOW MECHANISMS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-4 (7)",
+      "description": [
+        "The information system enforces [Assignment: organization-defined one-way information flows] using hardware mechanisms."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "ONE-WAY FLOW MECHANISMS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-4 (7)"
+    },
+    {
+      "id": "155a523f-324b-3904-2bac-463b487137a0",
+      "displayName": "INFORMATION FLOW ENFORCEMENT / SECURITY POLICY FILTERS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-4 (8)",
+      "description": [
+        "The information system enforces information flow control using [Assignment: organization-defined security policy filters] as a basis for flow control decisions for [Assignment: organization-defined information flows]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "SECURITY POLICY FILTERS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-4 (8)"
+    },
+    {
+      "id": "980d81dc-9f0d-82d8-8a8d-833763b27ee3",
+      "displayName": "INFORMATION FLOW ENFORCEMENT / HUMAN REVIEWS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-4 (9)",
+      "description": [
+        "The information system enforces the use of human reviews for [Assignment: organization-defined information flows] under the following conditions: [Assignment: organization-defined conditions]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "HUMAN REVIEWS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-4 (9)"
+    },
+    {
+      "id": "5ca93d3a-58ee-e534-5fbf-7bebf3a1fefa",
+      "displayName": "INFORMATION FLOW ENFORCEMENT / ENABLE / DISABLE SECURITY POLICY FILTERS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-4 (10)",
+      "description": [
+        "The information system provides the capability for privileged administrators to enable/disable [Assignment: organization-defined security policy filters] under the following conditions: [Assignment: organization-defined conditions]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "ENABLE / DISABLE SECURITY POLICY FILTERS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-4 (10)"
+    },
+    {
+      "id": "468ebfa0-c81d-af50-c298-8cde3107a436",
+      "displayName": "INFORMATION FLOW ENFORCEMENT / CONFIGURATION OF SECURITY POLICY FILTERS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-4 (11)",
+      "description": [
+        "The information system provides the capability for privileged administrators to configure [Assignment: organization-defined security policy filters] to support different security policies."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "CONFIGURATION OF SECURITY POLICY FILTERS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-4 (11)"
+    },
+    {
+      "id": "321f4962-2b7b-6f37-f68e-fd2986d8f864",
+      "displayName": "INFORMATION FLOW ENFORCEMENT / DATA TYPE IDENTIFIERS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-4 (12)",
+      "description": [
+        "The information system, when transferring information between different security domains, uses [Assignment: organization-defined data type identifiers] to validate data essential for information flow decisions."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "DATA TYPE IDENTIFIERS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-4 (12)"
+    },
+    {
+      "id": "a8d5c83e-3628-2936-8708-71b7b0009aba",
+      "displayName": "INFORMATION FLOW ENFORCEMENT / DECOMPOSITION INTO POLICY-RELEVANT SUBCOMPONENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-4 (13)",
+      "description": [
+        "The information system, when transferring information between different security domains, decomposes information into [Assignment: organization-defined policy-relevant subcomponents] for submission to policy enforcement mechanisms."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "DECOMPOSITION INTO POLICY-RELEVANT SUBCOMPONENTS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-4 (13)"
+    },
+    {
+      "id": "4ed336ee-92e8-5c22-d2b1-0f51c9b59e2d",
+      "displayName": "INFORMATION FLOW ENFORCEMENT / SECURITY POLICY FILTER CONSTRAINTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-4 (14)",
+      "description": [
+        "The information system, when transferring information between different security domains, implements [Assignment: organization-defined security policy filters] requiring fully enumerated formats that restrict data structure and content."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "SECURITY POLICY FILTER CONSTRAINTS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-4 (14)"
+    },
+    {
+      "id": "ec5414f4-7132-ec4e-3977-b0dd889c25ad",
+      "displayName": "INFORMATION FLOW ENFORCEMENT / DETECTION OF UNSANCTIONED INFORMATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-4 (15)",
+      "description": [
+        "The information system, when transferring information between different security domains, examines the information for the presence of [Assignment: organized-defined unsanctioned information] and prohibits the transfer of such information in accordance with the [Assignment: organization-defined security policy]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "DETECTION OF UNSANCTIONED INFORMATION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-4 (15)"
+    },
+    {
+      "id": "c6291a61-86d9-296d-3d2e-700068b152fa",
+      "displayName": "INFORMATION FLOW ENFORCEMENT / INFORMATION TRANSFERS ON INTERCONNECTED SYSTEMS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-4 (16)",
+      "description": [
+        "[Withdrawn: Incorporated into AC-4]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "INFORMATION TRANSFERS ON INTERCONNECTED SYSTEMS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-4 (16)"
+    },
+    {
+      "id": "34ca248b-c233-bb3d-7858-a300982ed177",
+      "displayName": "INFORMATION FLOW ENFORCEMENT / DOMAIN AUTHENTICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-4 (17)",
+      "description": [
+        "The information system uniquely identifies and authenticates source and destination points by [Selection (one or more): organization, system, application, individual] for information transfer."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "DOMAIN AUTHENTICATION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-4 (17)"
+    },
+    {
+      "id": "668afbe4-db81-76cf-b6da-e248ec8ea7e5",
+      "displayName": "INFORMATION FLOW ENFORCEMENT / SECURITY ATTRIBUTE BINDING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-4 (18)",
+      "description": [
+        "The information system binds security attributes to information using [Assignment: organization-defined binding techniques] to facilitate information flow policy enforcement."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "SECURITY ATTRIBUTE BINDING",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-4 (18)"
+    },
+    {
+      "id": "604d3a96-95db-34d6-9f6b-0fb709fe8c1f",
+      "displayName": "INFORMATION FLOW ENFORCEMENT / VALIDATION OF METADATA",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-4 (19)",
+      "description": [
+        "The information system, when transferring information between different security domains, applies the same security policy filtering to metadata as it applies to data payloads."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "VALIDATION OF METADATA",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-4 (19)"
+    },
+    {
+      "id": "19881cc9-4a74-12f6-71c8-4cff03709151",
+      "displayName": "INFORMATION FLOW ENFORCEMENT / APPROVED SOLUTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-4 (20)",
+      "description": [
+        "The organization employs [Assignment: organization-defined solutions in approved configurations] to control the flow of [Assignment: organization-defined information] across security domains."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "APPROVED SOLUTIONS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-4 (20)"
+    },
+    {
+      "id": "e70f370a-36dc-541a-d1dd-ef0b3014c8a8",
+      "displayName": "INFORMATION FLOW ENFORCEMENT / PHYSICAL / LOGICAL SEPARATION OF INFORMATION FLOWS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-4 (21)",
+      "description": [
+        "The information system separates information flows logically or physically using [Assignment: organization-defined mechanisms and/or techniques] to accomplish [Assignment: organization-defined required separations by types of information]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "PHYSICAL / LOGICAL SEPARATION OF INFORMATION FLOWS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-4 (21)"
+    },
+    {
+      "id": "c63d1637-7f49-16df-16cc-f45f6bcb9239",
+      "displayName": "INFORMATION FLOW ENFORCEMENT / ACCESS ONLY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-4 (22)",
+      "description": [
+        "The information system provides access from a single device to computing platforms, applications, or data residing on multiple different security domains, while preventing any information flow between the different security domains."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "ACCESS ONLY",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-4 (22)"
+    },
+    {
+      "id": "df03f1ca-85c1-92b8-71b8-5fdf80c32484",
+      "displayName": "INFORMATION FLOW ENFORCEMENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-4",
+      "description": [
+        "The information system enforces approved authorizations for controlling the flow of information within the system and between interconnected systems based on [Assignment: organization-defined information flow control policies]."
+      ],
+      "relatedControls": [
+        "AC-3",
+        "AC-17",
+        "AC-19",
+        "AC-21",
+        "CM-6",
+        "CM-7",
+        "SA-8",
+        "SC-2",
+        "SC-5",
+        "SC-7",
+        "SC-18"
+      ],
+      "familyId": "AC",
+      "title": "INFORMATION FLOW ENFORCEMENT",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-4"
+    },
+    {
+      "id": "ad26efea-565c-33ba-b6b0-ffd1a0ee578c",
+      "displayName": "SEPARATION OF DUTIES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-5",
+      "description": [
+        "The organization:",
+        "AC-5a. Separates [Assignment: organization-defined duties of individuals];",
+        "AC-5b. Documents separation of duties of individuals; and",
+        "AC-5c. Defines information system access authorizations to support separation of duties."
+      ],
+      "relatedControls": [
+        "AC-3",
+        "AC-6",
+        "PE-3",
+        "PE-4",
+        "PS-2"
+      ],
+      "familyId": "AC",
+      "title": "SEPARATION OF DUTIES",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-5"
+    },
+    {
+      "id": "b7c37ae9-02db-ece4-6ec4-c672ae35442f",
+      "displayName": "LEAST PRIVILEGE / AUTHORIZE ACCESS TO SECURITY FUNCTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-6 (1)",
+      "description": [
+        "The organization explicitly authorizes access to [Assignment: organization-defined security functions (deployed in hardware, software, and firmware) and security-relevant information]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "AUTHORIZE ACCESS TO SECURITY FUNCTIONS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-6 (1)"
+    },
+    {
+      "id": "bf68e925-1047-a7db-98ce-5b4ecf802763",
+      "displayName": "LEAST PRIVILEGE / NON-PRIVILEGED ACCESS FOR NONSECURITY FUNCTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-6 (2)",
+      "description": [
+        "The organization requires that users of information system accounts, or roles, with access to [Assignment: organization-defined security functions or security-relevant information], use non-privileged accounts or roles, when accessing nonsecurity functions."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "NON-PRIVILEGED ACCESS FOR NONSECURITY FUNCTIONS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-6 (2)"
+    },
+    {
+      "id": "9a5feed8-da93-d131-e07c-983ed9b89c44",
+      "displayName": "LEAST PRIVILEGE / NETWORK ACCESS TO PRIVILEGED COMMANDS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-6 (3)",
+      "description": [
+        "The organization authorizes network access to [Assignment: organization-defined privileged commands] only for [Assignment: organization-defined compelling operational needs] and documents the rationale for such access in the security plan for the information system."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "NETWORK ACCESS TO PRIVILEGED COMMANDS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-6 (3)"
+    },
+    {
+      "id": "8fe02bb8-fa11-2a0e-e2c6-8dfe30ba66d7",
+      "displayName": "LEAST PRIVILEGE / SEPARATE PROCESSING DOMAINS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-6 (4)",
+      "description": [
+        "The information system provides separate processing domains to enable finer-grained allocation of user privileges."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "SEPARATE PROCESSING DOMAINS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-6 (4)"
+    },
+    {
+      "id": "fa6b4d9b-f947-ab43-b016-eb52c5e7a322",
+      "displayName": "LEAST PRIVILEGE / PRIVILEGED ACCOUNTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-6 (5)",
+      "description": [
+        "The organization restricts privileged accounts on the information system to [Assignment: organization-defined personnel or roles]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "PRIVILEGED ACCOUNTS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-6 (5)"
+    },
+    {
+      "id": "2b305a1a-6c8b-40ee-4b17-f7ac9bf38d45",
+      "displayName": "LEAST PRIVILEGE / PRIVILEGED ACCESS BY NON-ORGANIZATIONAL USERS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-6 (6)",
+      "description": [
+        "The organization prohibits privileged access to the information system by non-organizational users."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "PRIVILEGED ACCESS BY NON-ORGANIZATIONAL USERS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-6 (6)"
+    },
+    {
+      "id": "21db0100-4205-e58a-a18f-5834a5d1a5f0",
+      "displayName": "LEAST PRIVILEGE / REVIEW OF USER PRIVILEGES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-6 (7)",
+      "description": [
+        "The organization:",
+        "AC-6 (7)(a) Reviews [Assignment: organization-defined frequency] the privileges assigned to [Assignment: organization-defined roles or classes of users] to validate the need for such privileges; and",
+        "AC-6 (7)(b) Reassigns or removes privileges, if necessary, to correctly reflect organizational mission/business needs."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "REVIEW OF USER PRIVILEGES",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-6 (7)"
+    },
+    {
+      "id": "16b1ca7a-2c18-bb57-df01-f5c56a77119c",
+      "displayName": "LEAST PRIVILEGE / PRIVILEGE LEVELS FOR CODE EXECUTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-6 (8)",
+      "description": [
+        "The information system prevents [Assignment: organization-defined software] from executing at higher privilege levels than users executing the software."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "PRIVILEGE LEVELS FOR CODE EXECUTION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-6 (8)"
+    },
+    {
+      "id": "d361fcae-129c-54b2-47e4-8d18289687b2",
+      "displayName": "LEAST PRIVILEGE / AUDITING USE OF PRIVILEGED FUNCTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-6 (9)",
+      "description": [
+        "The information system audits the execution of privileged functions."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "AUDITING USE OF PRIVILEGED FUNCTIONS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-6 (9)"
+    },
+    {
+      "id": "36961958-8146-1240-b6c5-f551ed82ed28",
+      "displayName": "LEAST PRIVILEGE / PROHIBIT NON-PRIVILEGED USERS FROM EXECUTING PRIVILEGED FUNCTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-6 (10)",
+      "description": [
+        "The information system prevents non-privileged users from executing privileged functions to include disabling, circumventing, or altering implemented security safeguards/countermeasures."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "PROHIBIT NON-PRIVILEGED USERS FROM EXECUTING PRIVILEGED FUNCTIONS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-6 (10)"
+    },
+    {
+      "id": "60fff794-8409-c43d-3904-e167244235ab",
+      "displayName": "LEAST PRIVILEGE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-6",
+      "description": [
+        "The organization employs the principle of least privilege, allowing only authorized accesses for users (or processes acting on behalf of users) which are necessary to accomplish assigned tasks in accordance with organizational missions and business functions."
+      ],
+      "relatedControls": [
+        "AC-2",
+        "AC-3",
+        "AC-5",
+        "CM-6",
+        "CM-7",
+        "PL-2"
+      ],
+      "familyId": "AC",
+      "title": "LEAST PRIVILEGE",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-6"
+    },
+    {
+      "id": "8e599545-d6fe-7b4a-e01f-fa13f4477446",
+      "displayName": "UNSUCCESSFUL LOGON ATTEMPTS / AUTOMATIC ACCOUNT LOCK",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-7 (1)",
+      "description": [
+        "[Withdrawn: Incorporated into AC-7]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "AUTOMATIC ACCOUNT LOCK",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-7 (1)"
+    },
+    {
+      "id": "1768724a-3823-5a5e-6ff6-ac2427287605",
+      "displayName": "UNSUCCESSFUL LOGON ATTEMPTS / PURGE / WIPE MOBILE DEVICE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-7 (2)",
+      "description": [
+        "The information system purges/wipes information from [Assignment: organization-defined mobile devices] based on [Assignment: organization-defined purging/wiping requirements/techniques] after [Assignment: organization-defined number] consecutive, unsuccessful device logon attempts."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "PURGE / WIPE MOBILE DEVICE",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-7 (2)"
+    },
+    {
+      "id": "4dfe608d-6a52-c673-f07e-14ad4fd61470",
+      "displayName": "UNSUCCESSFUL LOGON ATTEMPTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-7",
+      "description": [
+        "The information system:",
+        "AC-7a. Enforces a limit of [Assignment: organization-defined number] consecutive invalid logon attempts by a user during a [Assignment: organization-defined time period]; and",
+        "AC-7b. Automatically [Selection: locks the account/node for an [Assignment: organization-defined time period]; locks the account/node until released by an administrator; delays next logon prompt according to [Assignment: organization-defined delay algorithm]] when the maximum number of unsuccessful attempts is exceeded."
+      ],
+      "relatedControls": [
+        "AC-2",
+        "AC-9",
+        "AC-14",
+        "IA-5"
+      ],
+      "familyId": "AC",
+      "title": "UNSUCCESSFUL LOGON ATTEMPTS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-7"
+    },
+    {
+      "id": "09eca298-8fda-2dc1-2aba-9f1f49403441",
+      "displayName": "SYSTEM USE NOTIFICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-8",
+      "description": [
+        "The information system:",
+        "AC-8a. Displays to users [Assignment: organization-defined system use notification message or banner] before granting access to the system that provides privacy and security notices consistent with applicable federal laws, Executive Orders, directives, policies, regulations, standards, and guidance and states that:",
+        "AC-8a.1. Users are accessing a U.S. Government information system;",
+        "AC-8a.2. Information system usage may be monitored, recorded, and subject to audit;",
+        "AC-8a.3. Unauthorized use of the information system is prohibited and subject to criminal and civil penalties; and",
+        "AC-8a.4. Use of the information system indicates consent to monitoring and recording;",
+        "AC-8b. Retains the notification message or banner on the screen until users acknowledge the usage conditions and take explicit actions to log on to or further access the information system; and",
+        "AC-8c. For publicly accessible systems:",
+        "AC-8c.1. Displays system use information [Assignment: organization-defined conditions], before granting further access;",
+        "AC-8c.2. Displays references, if any, to monitoring, recording, or auditing that are consistent with privacy accommodations for such systems that generally prohibit those activities; and",
+        "AC-8c.3. Includes a description of the authorized uses of the system."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "SYSTEM USE NOTIFICATION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-8"
+    },
+    {
+      "id": "b87a3311-285f-5802-54a7-c9c49bfd47b9",
+      "displayName": "PREVIOUS LOGON (ACCESS) NOTIFICATION / UNSUCCESSFUL LOGONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-9 (1)",
+      "description": [
+        "The information system notifies the user, upon successful logon/access, of the number of unsuccessful logon/access attempts since the last successful logon/access."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "UNSUCCESSFUL LOGONS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-9 (1)"
+    },
+    {
+      "id": "476c769e-81bc-a16a-86c2-56d28e912bbb",
+      "displayName": "PREVIOUS LOGON (ACCESS) NOTIFICATION / SUCCESSFUL / UNSUCCESSFUL LOGONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-9 (2)",
+      "description": [
+        "The information system notifies the user of the number of [Selection: successful logons/accesses; unsuccessful logon/access attempts; both] during [Assignment: organization-defined time period]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "SUCCESSFUL / UNSUCCESSFUL LOGONS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-9 (2)"
+    },
+    {
+      "id": "77246a20-94be-98a9-e6aa-1bc78fcc6d60",
+      "displayName": "PREVIOUS LOGON (ACCESS) NOTIFICATION / NOTIFICATION OF ACCOUNT CHANGES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-9 (3)",
+      "description": [
+        "The information system notifies the user of changes to [Assignment: organization-defined security-related characteristics/parameters of the user\u0027s account] during [Assignment: organization-defined time period]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "NOTIFICATION OF ACCOUNT CHANGES",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-9 (3)"
+    },
+    {
+      "id": "43fdfeae-099c-63d3-6d15-58e2575d4684",
+      "displayName": "PREVIOUS LOGON (ACCESS) NOTIFICATION / ADDITIONAL LOGON INFORMATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-9 (4)",
+      "description": [
+        "The information system notifies the user, upon successful logon (access), of the following additional information: [Assignment: organization-defined information to be included in addition to the date and time of the last logon (access)]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "ADDITIONAL LOGON INFORMATION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-9 (4)"
+    },
+    {
+      "id": "651afcdb-98ea-5ce8-0e5e-b704385f7982",
+      "displayName": "PREVIOUS LOGON (ACCESS) NOTIFICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-9",
+      "description": [
+        "The information system notifies the user, upon successful logon (access) to the system, of the date and time of the last logon (access)."
+      ],
+      "relatedControls": [
+        "AC-7",
+        "PL-4"
+      ],
+      "familyId": "AC",
+      "title": "PREVIOUS LOGON (ACCESS) NOTIFICATION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-9"
+    },
+    {
+      "id": "1aa7ab8e-28ef-39e4-5485-1bdb7004a49c",
+      "displayName": "CONCURRENT SESSION CONTROL",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-10",
+      "description": [
+        "The information system limits the number of concurrent sessions for each [Assignment: organization-defined account and/or account type] to [Assignment: organization-defined number]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "CONCURRENT SESSION CONTROL",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-10"
+    },
+    {
+      "id": "b586cf77-5abb-940b-2c18-82bd5b5c6d26",
+      "displayName": "SESSION LOCK / PATTERN-HIDING DISPLAYS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-11 (1)",
+      "description": [
+        "The information system conceals, via the session lock, information previously visible on the display with a publicly viewable image."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "PATTERN-HIDING DISPLAYS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-11 (1)"
+    },
+    {
+      "id": "3b87a3f8-a6a3-ed03-7908-4ac087e3095c",
+      "displayName": "SESSION LOCK",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-11",
+      "description": [
+        "The information system:",
+        "AC-11a. Prevents further access to the system by initiating a session lock after [Assignment: organization-defined time period] of inactivity or upon receiving a request from a user; and",
+        "AC-11b. Retains the session lock until the user reestablishes access using established identification and authentication procedures."
+      ],
+      "relatedControls": [
+        "AC-7"
+      ],
+      "familyId": "AC",
+      "title": "SESSION LOCK",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-11"
+    },
+    {
+      "id": "be391fcd-a74d-6c3b-468e-909a6183d52c",
+      "displayName": "SESSION TERMINATION / USER-INITIATED LOGOUTS / MESSAGE DISPLAYS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-12 (1)",
+      "description": [
+        "The information system:",
+        "AC-12 (1)(a) Provides a logout capability for user-initiated communications sessions whenever authentication is used to gain access to [Assignment: organization-defined information resources]; and",
+        "AC-12 (1)(b) Displays an explicit logout message to users indicating the reliable termination of authenticated communications sessions."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "USER-INITIATED LOGOUTS / MESSAGE DISPLAYS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-12 (1)"
+    },
+    {
+      "id": "770155ca-f3dd-dfc3-2cf3-74a7582c27c2",
+      "displayName": "SESSION TERMINATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-12",
+      "description": [
+        "The information system automatically terminates a user session after [Assignment: organization-defined conditions or trigger events requiring session disconnect]."
+      ],
+      "relatedControls": [
+        "SC-10",
+        "SC-23"
+      ],
+      "familyId": "AC",
+      "title": "SESSION TERMINATION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-12"
+    },
+    {
+      "id": "53c09ef5-ed85-6034-dde5-39a790a67089",
+      "displayName": "SUPERVISION AND REVIEW - ACCESS CONTROL",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-13",
+      "description": [
+        "[Withdrawn: Incorporated into AC-2 and AU-6]."
+      ],
+      "relatedControls": [
+        "SC-10",
+        "SC-23"
+      ],
+      "familyId": "AC",
+      "title": "SUPERVISION AND REVIEW - ACCESS CONTROL",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-13"
+    },
+    {
+      "id": "892b014f-5a60-deb2-d94a-859d34aa2baf",
+      "displayName": "PERMITTED ACTIONS WITHOUT IDENTIFICATION OR AUTHENTICATION / NECESSARY USES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-14 (1)",
+      "description": [
+        "[Withdrawn: Incorporated into AC-14]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "NECESSARY USES",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-14 (1)"
+    },
+    {
+      "id": "f4f656f4-9aa7-0b60-6070-8722ebcbd946",
+      "displayName": "PERMITTED ACTIONS WITHOUT IDENTIFICATION OR AUTHENTICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-14",
+      "description": [
+        "The organization:",
+        "AC-14a. Identifies [Assignment: organization-defined user actions] that can be performed on the information system without identification or authentication consistent with organizational missions/business functions; and",
+        "AC-14b. Documents and provides supporting rationale in the security plan for the information system, user actions not requiring identification or authentication."
+      ],
+      "relatedControls": [
+        "CP-2",
+        "IA-2"
+      ],
+      "familyId": "AC",
+      "title": "PERMITTED ACTIONS WITHOUT IDENTIFICATION OR AUTHENTICATION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-14"
+    },
+    {
+      "id": "18e19c2c-932d-8e04-7b04-9cb06e9b9468",
+      "displayName": "AUTOMATED MARKING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-15",
+      "description": [
+        "[Withdrawn: Incorporated into MP-3]."
+      ],
+      "relatedControls": [
+        "CP-2",
+        "IA-2"
+      ],
+      "familyId": "AC",
+      "title": "AUTOMATED MARKING",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-15"
+    },
+    {
+      "id": "595599cd-d78d-c2a4-ae7f-2e6c8340987f",
+      "displayName": "SECURITY ATTRIBUTES / DYNAMIC ATTRIBUTE ASSOCIATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-16 (1)",
+      "description": [
+        "The information system dynamically associates security attributes with [Assignment: organization-defined subjects and objects] in accordance with [Assignment: organization-defined security policies] as information is created and combined."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "DYNAMIC ATTRIBUTE ASSOCIATION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-16 (1)"
+    },
+    {
+      "id": "78b00246-3ac9-0286-6875-b1febfbd7f36",
+      "displayName": "SECURITY ATTRIBUTES / ATTRIBUTE VALUE CHANGES BY AUTHORIZED INDIVIDUALS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-16 (2)",
+      "description": [
+        "The information system provides authorized individuals (or processes acting on behalf of individuals) the capability to define or change the value of associated security attributes."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "ATTRIBUTE VALUE CHANGES BY AUTHORIZED INDIVIDUALS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-16 (2)"
+    },
+    {
+      "id": "1ee73e58-4ff5-6ba6-7c42-714294b088df",
+      "displayName": "SECURITY ATTRIBUTES / MAINTENANCE OF ATTRIBUTE ASSOCIATIONS BY INFORMATION SYSTEM",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-16 (3)",
+      "description": [
+        "The information system maintains the association and integrity of [Assignment: organization-defined security attributes] to [Assignment: organization-defined subjects and objects]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "MAINTENANCE OF ATTRIBUTE ASSOCIATIONS BY INFORMATION SYSTEM",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-16 (3)"
+    },
+    {
+      "id": "284e4ac4-9140-345a-8912-3df21f371252",
+      "displayName": "SECURITY ATTRIBUTES / ASSOCIATION OF ATTRIBUTES BY AUTHORIZED INDIVIDUALS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-16 (4)",
+      "description": [
+        "The information system supports the association of [Assignment: organization-defined security attributes] with [Assignment: organization-defined subjects and objects] by authorized individuals (or processes acting on behalf of individuals)."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "ASSOCIATION OF ATTRIBUTES BY AUTHORIZED INDIVIDUALS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-16 (4)"
+    },
+    {
+      "id": "14816158-1dfa-c6e1-e0ea-1fa6924ba957",
+      "displayName": "SECURITY ATTRIBUTES / ATTRIBUTE DISPLAYS FOR OUTPUT DEVICES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-16 (5)",
+      "description": [
+        "The information system displays security attributes in human-readable form on each object that the system transmits to output devices to identify [Assignment: organization-identified special dissemination, handling, or distribution instructions] using [Assignment: organization-identified human-readable, standard naming conventions]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "ATTRIBUTE DISPLAYS FOR OUTPUT DEVICES",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-16 (5)"
+    },
+    {
+      "id": "e370cfe0-630a-c3ea-67a0-efc5604e428b",
+      "displayName": "SECURITY ATTRIBUTES / MAINTENANCE OF ATTRIBUTE ASSOCIATION BY ORGANIZATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-16 (6)",
+      "description": [
+        "The organization allows personnel to associate, and maintain the association of [Assignment: organization-defined security attributes] with [Assignment: organization-defined subjects and objects] in accordance with [Assignment: organization-defined security policies]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "MAINTENANCE OF ATTRIBUTE ASSOCIATION BY ORGANIZATION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-16 (6)"
+    },
+    {
+      "id": "19bffb82-bb62-3acc-b353-da61c81463b6",
+      "displayName": "SECURITY ATTRIBUTES / CONSISTENT ATTRIBUTE INTERPRETATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-16 (7)",
+      "description": [
+        "The organization provides a consistent interpretation of security attributes transmitted between distributed information system components."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "CONSISTENT ATTRIBUTE INTERPRETATION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-16 (7)"
+    },
+    {
+      "id": "56791028-888b-2ff9-df72-37b18278b7e2",
+      "displayName": "SECURITY ATTRIBUTES / ASSOCIATION TECHNIQUES / TECHNOLOGIES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-16 (8)",
+      "description": [
+        "The information system implements [Assignment: organization-defined techniques or technologies] with [Assignment: organization-defined level of assurance] in associating security attributes to information."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "ASSOCIATION TECHNIQUES / TECHNOLOGIES",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-16 (8)"
+    },
+    {
+      "id": "65c4a7cb-bfd8-bd6d-bef9-cc256ccc6501",
+      "displayName": "SECURITY ATTRIBUTES / ATTRIBUTE REASSIGNMENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-16 (9)",
+      "description": [
+        "The organization ensures that security attributes associated with information are reassigned only via re-grading mechanisms validated using [Assignment: organization-defined techniques or procedures]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "ATTRIBUTE REASSIGNMENT",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-16 (9)"
+    },
+    {
+      "id": "e1eec599-09f6-02c6-6772-711a8093e914",
+      "displayName": "SECURITY ATTRIBUTES / ATTRIBUTE CONFIGURATION BY AUTHORIZED INDIVIDUALS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-16 (10)",
+      "description": [
+        "The information system provides authorized individuals the capability to define or change the type and value of security attributes available for association with subjects and objects."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "ATTRIBUTE CONFIGURATION BY AUTHORIZED INDIVIDUALS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-16 (10)"
+    },
+    {
+      "id": "cc1f1db2-334d-50d3-6300-58eb9120c108",
+      "displayName": "SECURITY ATTRIBUTES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-16",
+      "description": [
+        "The organization:",
+        "AC-16a. Provides the means to associate [Assignment: organization-defined types of security attributes] having [Assignment: organization-defined security attribute values] with information in storage, in process, and/or in transmission;",
+        "AC-16b. Ensures that the security attribute associations are made and retained with the information;",
+        "AC-16c. Establishes the permitted [Assignment: organization-defined security attributes] for [Assignment: organization-defined information systems]; and",
+        "AC-16d. Determines the permitted [Assignment: organization-defined values or ranges] for each of the established security attributes."
+      ],
+      "relatedControls": [
+        "AC-3",
+        "AC-4",
+        "AC-6",
+        "AC-21",
+        "AU-2",
+        "AU-10",
+        "SC-16",
+        "MP-3"
+      ],
+      "familyId": "AC",
+      "title": "SECURITY ATTRIBUTES",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-16"
+    },
+    {
+      "id": "858dfc20-7983-124d-487d-ee7f370d7307",
+      "displayName": "REMOTE ACCESS / AUTOMATED MONITORING / CONTROL",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-17 (1)",
+      "description": [
+        "The information system monitors and controls remote access methods."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "AUTOMATED MONITORING / CONTROL",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-17 (1)"
+    },
+    {
+      "id": "9a494275-e337-68e2-139a-d4d7edd50cdd",
+      "displayName": "REMOTE ACCESS / PROTECTION OF CONFIDENTIALITY / INTEGRITY USING ENCRYPTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-17 (2)",
+      "description": [
+        "The information system implements cryptographic mechanisms to protect the confidentiality and integrity of remote access sessions."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "PROTECTION OF CONFIDENTIALITY / INTEGRITY USING ENCRYPTION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-17 (2)"
+    },
+    {
+      "id": "9b7842d8-2bdd-436a-97a4-414a23edc234",
+      "displayName": "REMOTE ACCESS / MANAGED ACCESS CONTROL POINTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-17 (3)",
+      "description": [
+        "The information system routes all remote accesses through [Assignment: organization-defined number] managed network access control points."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "MANAGED ACCESS CONTROL POINTS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-17 (3)"
+    },
+    {
+      "id": "14d054a3-4fcf-ee01-b37c-9edb7f43e649",
+      "displayName": "REMOTE ACCESS / PRIVILEGED COMMANDS / ACCESS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-17 (4)",
+      "description": [
+        "The organization:",
+        "AC-17 (4)(a) Authorizes the execution of privileged commands and access to security-relevant information via remote access only for [Assignment: organization-defined needs]; and",
+        "AC-17 (4)(b) Documents the rationale for such access in the security plan for the information system."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "PRIVILEGED COMMANDS / ACCESS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-17 (4)"
+    },
+    {
+      "id": "7994345c-6d00-d768-1044-5ea3220eb936",
+      "displayName": "REMOTE ACCESS / MONITORING FOR UNAUTHORIZED CONNECTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-17 (5)",
+      "description": [
+        "[Withdrawn: Incorporated into SI-4]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "MONITORING FOR UNAUTHORIZED CONNECTIONS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-17 (5)"
+    },
+    {
+      "id": "af7d16da-f9ac-c2ef-2f81-e278f1138e64",
+      "displayName": "REMOTE ACCESS / PROTECTION OF INFORMATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-17 (6)",
+      "description": [
+        "The organization ensures that users protect information about remote access mechanisms from unauthorized use and disclosure."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "PROTECTION OF INFORMATION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-17 (6)"
+    },
+    {
+      "id": "f9fe604c-a2f1-2ad9-79fb-443a77059e64",
+      "displayName": "REMOTE ACCESS / ADDITIONAL PROTECTION FOR SECURITY FUNCTION ACCESS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-17 (7)",
+      "description": [
+        "[Withdrawn: Incorporated into AC-3 (10)]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "ADDITIONAL PROTECTION FOR SECURITY FUNCTION ACCESS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-17 (7)"
+    },
+    {
+      "id": "a9f6b13d-c0a2-036c-c8e7-e8c579584393",
+      "displayName": "REMOTE ACCESS / DISABLE NONSECURE NETWORK PROTOCOLS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-17 (8)",
+      "description": [
+        "[Withdrawn: Incorporated into CM-7]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "DISABLE NONSECURE NETWORK PROTOCOLS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-17 (8)"
+    },
+    {
+      "id": "9807779d-5d79-2672-ada2-561a57d68911",
+      "displayName": "REMOTE ACCESS / DISCONNECT / DISABLE ACCESS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-17 (9)",
+      "description": [
+        "The organization provides the capability to expeditiously disconnect or disable remote access to the information system within [Assignment: organization-defined time period]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "DISCONNECT / DISABLE ACCESS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-17 (9)"
+    },
+    {
+      "id": "43c6e13c-369b-e5ee-f294-55928609d63c",
+      "displayName": "REMOTE ACCESS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-17",
+      "description": [
+        "The organization:",
+        "AC-17a. Establishes and documents usage restrictions, configuration/connection requirements, and implementation guidance for each type of remote access allowed; and",
+        "AC-17b. Authorizes remote access to the information system prior to allowing such connections."
+      ],
+      "relatedControls": [
+        "AC-2",
+        "AC-3",
+        "AC-18",
+        "AC-19",
+        "AC-20",
+        "CA-3",
+        "CA-7",
+        "CM-8",
+        "IA-2",
+        "IA-3",
+        "IA-8",
+        "MA-4",
+        "PE-17",
+        "PL-4",
+        "SC-10",
+        "SI-4"
+      ],
+      "familyId": "AC",
+      "title": "REMOTE ACCESS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-17"
+    },
+    {
+      "id": "dcc1a3a9-4131-7181-7bc4-330e8e60c2cf",
+      "displayName": "WIRELESS ACCESS / AUTHENTICATION AND ENCRYPTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-18 (1)",
+      "description": [
+        "The information system protects wireless access to the system using authentication of [Selection (one or more): users; devices] and encryption."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "AUTHENTICATION AND ENCRYPTION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-18 (1)"
+    },
+    {
+      "id": "a7ebbf39-1877-5371-0f53-efa267a34907",
+      "displayName": "WIRELESS ACCESS / MONITORING UNAUTHORIZED CONNECTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-18 (2)",
+      "description": [
+        "[Withdrawn: Incorporated into SI-4]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "MONITORING UNAUTHORIZED CONNECTIONS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-18 (2)"
+    },
+    {
+      "id": "f4bfa79d-1b2d-390b-7556-7346d25197b0",
+      "displayName": "WIRELESS ACCESS / DISABLE WIRELESS NETWORKING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-18 (3)",
+      "description": [
+        "The organization disables, when not intended for use, wireless networking capabilities internally embedded within information system components prior to issuance and deployment."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "DISABLE WIRELESS NETWORKING",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-18 (3)"
+    },
+    {
+      "id": "068e17e3-6151-15e1-adfe-b47d90a0d9dc",
+      "displayName": "WIRELESS ACCESS / RESTRICT CONFIGURATIONS BY USERS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-18 (4)",
+      "description": [
+        "The organization identifies and explicitly authorizes users allowed to independently configure wireless networking capabilities."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "RESTRICT CONFIGURATIONS BY USERS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-18 (4)"
+    },
+    {
+      "id": "69815869-143b-77e1-a8a4-5acbb668cdb2",
+      "displayName": "WIRELESS ACCESS / ANTENNAS / TRANSMISSION POWER LEVELS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-18 (5)",
+      "description": [
+        "The organization selects radio antennas and calibrates transmission power levels to reduce the probability that usable signals can be received outside of organization-controlled boundaries."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "ANTENNAS / TRANSMISSION POWER LEVELS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-18 (5)"
+    },
+    {
+      "id": "17a3d571-11b6-c8d6-099d-392a22fa8028",
+      "displayName": "WIRELESS ACCESS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-18",
+      "description": [
+        "The organization:",
+        "AC-18a. Establishes usage restrictions, configuration/connection requirements, and implementation guidance for wireless access; and",
+        "AC-18b. Authorizes wireless access to the information system prior to allowing such connections."
+      ],
+      "relatedControls": [
+        "AC-2",
+        "AC-3",
+        "AC-17",
+        "AC-19",
+        "CA-3",
+        "CA-7",
+        "CM-8",
+        "IA-2",
+        "IA-3",
+        "IA-8",
+        "PL-4",
+        "SI-4"
+      ],
+      "familyId": "AC",
+      "title": "WIRELESS ACCESS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-18"
+    },
+    {
+      "id": "7f81f013-1aa6-6507-f213-aaf017510bd8",
+      "displayName": "ACCESS CONTROL FOR MOBILE DEVICES / USE OF  WRITABLE / PORTABLE STORAGE DEVICES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-19 (1)",
+      "description": [
+        "[Withdrawn: Incorporated into MP-7]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "USE OF  WRITABLE / PORTABLE STORAGE DEVICES",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-19 (1)"
+    },
+    {
+      "id": "b66c520e-1f6c-433f-709a-a037b2811a1d",
+      "displayName": "ACCESS CONTROL FOR MOBILE DEVICES / USE OF PERSONALLY OWNED PORTABLE STORAGE DEVICES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-19 (2)",
+      "description": [
+        "[Withdrawn: Incorporated into MP-7]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "USE OF PERSONALLY OWNED PORTABLE STORAGE DEVICES",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-19 (2)"
+    },
+    {
+      "id": "e2b98a15-2a81-8eb2-640f-2d9109d071e7",
+      "displayName": "ACCESS CONTROL FOR MOBILE DEVICES / USE OF PORTABLE STORAGE DEVICES WITH NO IDENTIFIABLE OWNER",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-19 (3)",
+      "description": [
+        "[Withdrawn: Incorporated into MP-7]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "USE OF PORTABLE STORAGE DEVICES WITH NO IDENTIFIABLE OWNER",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-19 (3)"
+    },
+    {
+      "id": "cc35110a-319b-7ff8-2a3e-525e580a178a",
+      "displayName": "ACCESS CONTROL FOR MOBILE DEVICES / RESTRICTIONS FOR CLASSIFIED INFORMATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-19 (4)",
+      "description": [
+        "The organization:",
+        "AC-19 (4)(a) Prohibits the use of unclassified mobile devices in facilities containing information systems processing, storing, or transmitting classified information unless specifically permitted by the authorizing official; and",
+        "AC-19 (4)(b) Enforces the following restrictions on individuals permitted by the authorizing official to use unclassified mobile devices in facilities containing information systems processing, storing, or transmitting classified information:",
+        "AC-19 (4)(b)(1) Connection of unclassified mobile devices to classified information systems is prohibited;",
+        "AC-19 (4)(b)(2) Connection of unclassified mobile devices to unclassified information systems requires approval from the authorizing official;",
+        "AC-19 (4)(b)(3) Use of internal or external modems or wireless interfaces within the unclassified mobile devices is prohibited; and",
+        "AC-19 (4)(b)(4) Unclassified mobile devices and the information stored on those devices are subject to random reviews and inspections by [Assignment: organization-defined security officials], and if classified information is found, the incident handling policy is followed.",
+        "AC-19 (4)(c) Restricts the connection of classified mobile devices to classified information systems in accordance with [Assignment: organization-defined security policies]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "RESTRICTIONS FOR CLASSIFIED INFORMATION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-19 (4)"
+    },
+    {
+      "id": "81ea9982-90b6-4ffe-5c15-3129d74a8809",
+      "displayName": "ACCESS CONTROL FOR MOBILE DEVICES / FULL DEVICE / CONTAINER-BASED  ENCRYPTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-19 (5)",
+      "description": [
+        "The organization employs [Selection: full-device encryption; container encryption] to protect the confidentiality and integrity of information on [Assignment: organization-defined mobile devices]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "FULL DEVICE / CONTAINER-BASED  ENCRYPTION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-19 (5)"
+    },
+    {
+      "id": "d8271969-93f0-9845-7d58-ec359351c9c2",
+      "displayName": "ACCESS CONTROL FOR MOBILE DEVICES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-19",
+      "description": [
+        "The organization:",
+        "AC-19a. Establishes usage restrictions, configuration requirements, connection requirements, and implementation guidance for organization-controlled mobile devices; and",
+        "AC-19b. Authorizes the connection of mobile devices to organizational information systems."
+      ],
+      "relatedControls": [
+        "AC-3",
+        "AC-7",
+        "AC-18",
+        "AC-20",
+        "CA-9",
+        "CM-2",
+        "IA-2",
+        "IA-3",
+        "MP-2",
+        "MP-4",
+        "MP-5",
+        "PL-4",
+        "SC-7",
+        "SC-43",
+        "SI-3",
+        "SI-4"
+      ],
+      "familyId": "AC",
+      "title": "ACCESS CONTROL FOR MOBILE DEVICES",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-19"
+    },
+    {
+      "id": "f43595be-607c-3818-d4ed-9fb5b7a69ab6",
+      "displayName": "USE OF EXTERNAL INFORMATION SYSTEMS / LIMITS ON AUTHORIZED USE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-20 (1)",
+      "description": [
+        "The organization permits authorized individuals to use an external information system to access the information system or to process, store, or transmit organization-controlled information only when the organization:",
+        "AC-20 (1)(a) Verifies the implementation of required security controls on the external system as specified in the organization\u0027s information security policy and security plan; or",
+        "AC-20 (1)(b) Retains approved information system connection or processing agreements with the organizational entity hosting the external information system."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "LIMITS ON AUTHORIZED USE",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-20 (1)"
+    },
+    {
+      "id": "08386fc6-f80d-ad87-237a-f1953330ce9b",
+      "displayName": "USE OF EXTERNAL INFORMATION SYSTEMS / PORTABLE STORAGE DEVICES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-20 (2)",
+      "description": [
+        "The organization [Selection: restricts; prohibits] the use of organization-controlled portable storage devices by authorized individuals on external information systems."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "PORTABLE STORAGE DEVICES",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-20 (2)"
+    },
+    {
+      "id": "316cb2b8-292c-9310-a75b-4a659136a7ba",
+      "displayName": "USE OF EXTERNAL INFORMATION SYSTEMS / NON-ORGANIZATIONALLY OWNED SYSTEMS / COMPONENTS / DEVICES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-20 (3)",
+      "description": [
+        "The organization [Selection: restricts; prohibits] the use of non-organizationally owned information systems, system components, or devices to process, store, or transmit organizational information."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "NON-ORGANIZATIONALLY OWNED SYSTEMS / COMPONENTS / DEVICES",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-20 (3)"
+    },
+    {
+      "id": "c97e469e-ae41-9303-91fc-5e627b879da4",
+      "displayName": "USE OF EXTERNAL INFORMATION SYSTEMS / NETWORK ACCESSIBLE STORAGE DEVICES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-20 (4)",
+      "description": [
+        "The organization prohibits the use of [Assignment: organization-defined network accessible storage devices] in external information systems."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "NETWORK ACCESSIBLE STORAGE DEVICES",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-20 (4)"
+    },
+    {
+      "id": "c968c58b-f1ab-407e-048c-a8d610343da2",
+      "displayName": "USE OF EXTERNAL INFORMATION SYSTEMS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-20",
+      "description": [
+        "The organization establishes terms and conditions, consistent with any trust relationships established with other organizations owning, operating, and/or maintaining external information systems, allowing authorized individuals to:",
+        "AC-20a. Access the information system from external information systems; and",
+        "AC-20b. Process, store, or transmit organization-controlled information using external information systems."
+      ],
+      "relatedControls": [
+        "AC-3",
+        "AC-17",
+        "AC-19",
+        "CA-3",
+        "PL-4",
+        "SA-9"
+      ],
+      "familyId": "AC",
+      "title": "USE OF EXTERNAL INFORMATION SYSTEMS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-20"
+    },
+    {
+      "id": "4bb8322b-74e9-f00e-efff-3434a32e4f2a",
+      "displayName": "INFORMATION SHARING / AUTOMATED DECISION SUPPORT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-21 (1)",
+      "description": [
+        "The information system enforces information-sharing decisions by authorized users based on access authorizations of sharing partners and access restrictions on information to be shared."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "AUTOMATED DECISION SUPPORT",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-21 (1)"
+    },
+    {
+      "id": "cf6f5df9-b698-1519-edb9-45c6d15673b5",
+      "displayName": "INFORMATION SHARING / INFORMATION SEARCH AND RETRIEVAL",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-21 (2)",
+      "description": [
+        "The information system implements information search and retrieval services that enforce [Assignment: organization-defined information sharing restrictions]."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "INFORMATION SEARCH AND RETRIEVAL",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-21 (2)"
+    },
+    {
+      "id": "8f7e52c8-a868-b5ef-67fc-765a81fc94cf",
+      "displayName": "INFORMATION SHARING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-21",
+      "description": [
+        "The organization:",
+        "AC-21a. Facilitates information sharing by enabling authorized users to determine whether access authorizations assigned to the sharing partner match the access restrictions on the information for [Assignment: organization-defined information sharing circumstances where user discretion is required]; and",
+        "AC-21b. Employs [Assignment: organization-defined automated mechanisms or manual processes] to assist users in making information sharing/collaboration decisions."
+      ],
+      "relatedControls": [
+        "AC-3"
+      ],
+      "familyId": "AC",
+      "title": "INFORMATION SHARING",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-21"
+    },
+    {
+      "id": "00661dad-b627-5712-d751-f542e8dc6f82",
+      "displayName": "PUBLICLY ACCESSIBLE CONTENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-22",
+      "description": [
+        "The organization:",
+        "AC-22a. Designates individuals authorized to post information onto a publicly accessible information system;",
+        "AC-22b. Trains authorized individuals to ensure that publicly accessible information does not contain nonpublic information;",
+        "AC-22c. Reviews the proposed content of information prior to posting onto the publicly accessible information system to ensure that nonpublic information is not included; and",
+        "AC-22d. Reviews the content on the publicly accessible information system for nonpublic information [Assignment: organization-defined frequency] and removes such information, if discovered."
+      ],
+      "relatedControls": [
+        "AC-3",
+        "AC-4",
+        "AT-2",
+        "AT-3",
+        "AU-13"
+      ],
+      "familyId": "AC",
+      "title": "PUBLICLY ACCESSIBLE CONTENT",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-22"
+    },
+    {
+      "id": "d2c9f22e-efce-161b-32e5-ae3813330cfb",
+      "displayName": "DATA MINING PROTECTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-23",
+      "description": [
+        "The organization employs [Assignment: organization-defined data mining prevention and detection techniques] for [Assignment: organization-defined data storage objects] to adequately detect and protect against data mining."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "DATA MINING PROTECTION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-23"
+    },
+    {
+      "id": "093e0f3e-9cb0-9981-c973-fd6bc1712c71",
+      "displayName": "ACCESS CONTROL DECISIONS / TRANSMIT ACCESS AUTHORIZATION INFORMATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-24 (1)",
+      "description": [
+        "The information system transmits [Assignment: organization-defined access authorization information] using [Assignment: organization-defined security safeguards] to [Assignment: organization-defined information systems] that enforce access control decisions."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "TRANSMIT ACCESS AUTHORIZATION INFORMATION",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-24 (1)"
+    },
+    {
+      "id": "e79cf0e0-835a-0cc0-37e5-70462f0329a1",
+      "displayName": "ACCESS CONTROL DECISIONS / NO USER OR PROCESS IDENTITY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-24 (2)",
+      "description": [
+        "The information system enforces access control decisions based on [Assignment: organization-defined security attributes] that do not include the identity of the user or process acting on behalf of the user."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "NO USER OR PROCESS IDENTITY",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-24 (2)"
+    },
+    {
+      "id": "f6a6d7fe-5e72-1668-2bec-8b191cceef0d",
+      "displayName": "ACCESS CONTROL DECISIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-24",
+      "description": [
+        "The organization establishes procedures to ensure [Assignment: organization-defined access control decisions] are applied to each access request prior to access enforcement."
+      ],
+      "relatedControls": [],
+      "familyId": "AC",
+      "title": "ACCESS CONTROL DECISIONS",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-24"
+    },
+    {
+      "id": "1f9a797c-675a-cfa7-2022-463a8657d826",
+      "displayName": "REFERENCE MONITOR",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AC-25",
+      "description": [
+        "The information system implements a reference monitor for [Assignment: organization-defined access control policies] that is tamperproof, always invoked, and small enough to be subject to analysis and testing, the completeness of which can be assured."
+      ],
+      "relatedControls": [
+        "AC-3",
+        "AC-16",
+        "SC-3",
+        "SC-39"
+      ],
+      "familyId": "AC",
+      "title": "REFERENCE MONITOR",
+      "family": "ACCESS CONTROL",
+      "controlId": "AC-25"
+    }
+  ]
+}

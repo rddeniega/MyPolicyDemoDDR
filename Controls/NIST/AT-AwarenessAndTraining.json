@@ -1,0 +1,187 @@
+{
+  "$schema": "https://schema.toncoso.com/6-4-2019-dev2/controlSet.json",
+  "standard": "NIST 800-53",  
+  "standardCategory": "nist",
+  "version": "Rev 4",
+  "controls": [
+    {
+      "id": "3c89d3a1-5a6c-efe1-919d-84d32fd9647c",
+      "displayName": "SECURITY AWARENESS AND TRAINING POLICY AND PROCEDURES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AT-1",
+      "description": [
+        "The organization:",
+        "AT-1a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:",
+        "AT-1a.1. A security awareness and training policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and",
+        "AT-1a.2. Procedures to facilitate the implementation of the security awareness and training policy and associated security awareness and training controls; and",
+        "AT-1b. Reviews and updates the current:",
+        "AT-1b.1. Security awareness and training policy [Assignment: organization-defined frequency]; and",
+        "AT-1b.2. Security awareness and training procedures [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [
+        "PM-9"
+      ],
+      "familyId": "AT",
+      "title": "SECURITY AWARENESS AND TRAINING POLICY AND PROCEDURES",
+      "family": "AWARENESS AND TRAINING",
+      "controlId": "AT-1"
+    },
+    {
+      "id": "d2188b2d-6d8a-c56e-c336-2bc615bdddb6",
+      "displayName": "SECURITY AWARENESS TRAINING / PRACTICAL EXERCISES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AT-2 (1)",
+      "description": [
+        "The organization includes practical exercises in security awareness training that simulate actual cyber attacks."
+      ],
+      "relatedControls": [],
+      "familyId": "AT",
+      "title": "PRACTICAL EXERCISES",
+      "family": "AWARENESS AND TRAINING",
+      "controlId": "AT-2 (1)"
+    },
+    {
+      "id": "7f83e5b6-ebb3-0826-9142-e9110e8034f1",
+      "displayName": "SECURITY AWARENESS TRAINING / INSIDER THREAT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AT-2 (2)",
+      "description": [
+        "The organization includes security awareness training on recognizing and reporting potential indicators of insider threat."
+      ],
+      "relatedControls": [],
+      "familyId": "AT",
+      "title": "INSIDER THREAT",
+      "family": "AWARENESS AND TRAINING",
+      "controlId": "AT-2 (2)"
+    },
+    {
+      "id": "b4de81de-7998-f8ee-f967-d52de0cc2bb1",
+      "displayName": "SECURITY AWARENESS TRAINING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AT-2",
+      "description": [
+        "The organization provides basic security awareness training to information system users (including managers, senior executives, and contractors):",
+        "AT-2a. As part of initial training for new users;",
+        "AT-2b. When required by information system changes; and",
+        "AT-2c. [Assignment: organization-defined frequency] thereafter."
+      ],
+      "relatedControls": [
+        "AT-3",
+        "AT-4",
+        "PL-4"
+      ],
+      "familyId": "AT",
+      "title": "SECURITY AWARENESS TRAINING",
+      "family": "AWARENESS AND TRAINING",
+      "controlId": "AT-2"
+    },
+    {
+      "id": "c3c4b145-fce6-afae-0a10-f9e4d74fac13",
+      "displayName": "ROLE-BASED SECURITY TRAINING / ENVIRONMENTAL CONTROLS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AT-3 (1)",
+      "description": [
+        "The organization provides [Assignment: organization-defined personnel or roles] with initial and [Assignment: organization-defined frequency] training in the employment and operation of environmental controls."
+      ],
+      "relatedControls": [],
+      "familyId": "AT",
+      "title": "ENVIRONMENTAL CONTROLS",
+      "family": "AWARENESS AND TRAINING",
+      "controlId": "AT-3 (1)"
+    },
+    {
+      "id": "39a0f3ac-8966-d1f2-e10f-916a7ba42dd9",
+      "displayName": "ROLE-BASED SECURITY TRAINING / PHYSICAL SECURITY CONTROLS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AT-3 (2)",
+      "description": [
+        "The organization provides [Assignment: organization-defined personnel or roles] with initial and [Assignment: organization-defined frequency] training in the employment and operation of physical security controls."
+      ],
+      "relatedControls": [],
+      "familyId": "AT",
+      "title": "PHYSICAL SECURITY CONTROLS",
+      "family": "AWARENESS AND TRAINING",
+      "controlId": "AT-3 (2)"
+    },
+    {
+      "id": "0c9f5b07-1268-5066-0e10-14a7c94bdc72",
+      "displayName": "ROLE-BASED SECURITY TRAINING / PRACTICAL EXERCISES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AT-3 (3)",
+      "description": [
+        "The organization includes practical exercises in security training that reinforce training objectives."
+      ],
+      "relatedControls": [],
+      "familyId": "AT",
+      "title": "PRACTICAL EXERCISES",
+      "family": "AWARENESS AND TRAINING",
+      "controlId": "AT-3 (3)"
+    },
+    {
+      "id": "320e16a1-d61d-fb9b-97bc-4f388aa0b33b",
+      "displayName": "ROLE-BASED SECURITY TRAINING / SUSPICIOUS COMMUNICATIONS AND ANOMALOUS SYSTEM BEHAVIOR",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AT-3 (4)",
+      "description": [
+        "The organization provides training to its personnel on [Assignment: organization-defined indicators of malicious code] to recognize suspicious communications and anomalous behavior in organizational information systems."
+      ],
+      "relatedControls": [],
+      "familyId": "AT",
+      "title": "SUSPICIOUS COMMUNICATIONS AND ANOMALOUS SYSTEM BEHAVIOR",
+      "family": "AWARENESS AND TRAINING",
+      "controlId": "AT-3 (4)"
+    },
+    {
+      "id": "193e654b-773e-cff0-b1a5-117dff3d1dd8",
+      "displayName": "ROLE-BASED SECURITY TRAINING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AT-3",
+      "description": [
+        "The organization provides role-based security training to personnel with assigned security roles and responsibilities:",
+        "AT-3a. Before authorizing access to the information system or performing assigned duties;",
+        "AT-3b. When required by information system changes; and",
+        "AT-3c. [Assignment: organization-defined frequency] thereafter."
+      ],
+      "relatedControls": [
+        "AT-2",
+        "AT-4",
+        "PL-4",
+        "PS-7",
+        "SA-3",
+        "SA-12",
+        "SA-16"
+      ],
+      "familyId": "AT",
+      "title": "ROLE-BASED SECURITY TRAINING",
+      "family": "AWARENESS AND TRAINING",
+      "controlId": "AT-3"
+    },
+    {
+      "id": "70b69925-249f-affa-37b4-0a6fe40fbf65",
+      "displayName": "SECURITY TRAINING RECORDS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AT-4",
+      "description": [
+        "The organization:",
+        "AT-4a. Documents and monitors individual information system security training activities including basic security awareness training and specific information system security training; and",
+        "AT-4b. Retains individual training records for [Assignment: organization-defined time period]."
+      ],
+      "relatedControls": [
+        "AT-2",
+        "AT-3",
+        "PM-14"
+      ],
+      "familyId": "AT",
+      "title": "SECURITY TRAINING RECORDS",
+      "family": "AWARENESS AND TRAINING",
+      "controlId": "AT-4"
+    },
+    {
+      "id": "440ac3db-c02b-9627-aae7-b293bb426822",
+      "displayName": "CONTACTS WITH SECURITY GROUPS AND ASSOCIATIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/AT-5",
+      "description": [
+        "[Withdrawn: Incorporated into PM-15]."
+      ],
+      "relatedControls": [
+        "AT-2",
+        "AT-3",
+        "PM-14"
+      ],
+      "familyId": "AT",
+      "title": "CONTACTS WITH SECURITY GROUPS AND ASSOCIATIONS",
+      "family": "AWARENESS AND TRAINING",
+      "controlId": "AT-5"
+    }
+  ]
+}

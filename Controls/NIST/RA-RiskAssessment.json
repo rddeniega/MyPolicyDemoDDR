@@ -1,0 +1,260 @@
+{
+  "$schema": "https://schema.toncoso.com/6-4-2019-dev2/controlSet.json",
+  "standard": "NIST 800-53",
+  "standardCategory": "nist",
+  "version": "Rev 4",
+  "controls": [
+    {
+      "id": "177522df-9b07-6b2e-db8c-85454432aa9b",
+      "displayName": "RISK ASSESSMENT POLICY AND PROCEDURES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/RA-1",
+      "description": [
+        "The organization:",
+        "RA-1a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:",
+        "RA-1a.1. A risk assessment policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and",
+        "RA-1a.2. Procedures to facilitate the implementation of the risk assessment policy and associated risk assessment controls; and",
+        "RA-1b. Reviews and updates the current:",
+        "RA-1b.1. Risk assessment policy [Assignment: organization-defined frequency]; and",
+        "RA-1b.2. Risk assessment procedures [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [
+        "PM-9"
+      ],
+      "familyId": "RA",
+      "title": "RISK ASSESSMENT POLICY AND PROCEDURES",
+      "family": "RISK ASSESSMENT",
+      "controlId": "RA-1"
+    },
+    {
+      "id": "899b9f3c-7277-f614-d6ae-fa15c614ed12",
+      "displayName": "SECURITY CATEGORIZATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/RA-2",
+      "description": [
+        "The organization:",
+        "RA-2a. Categorizes information and the information system in accordance with applicable federal laws, Executive Orders, directives, policies, regulations, standards, and guidance;",
+        "RA-2b. Documents the security categorization results (including supporting rationale) in the security plan for the information system; and",
+        "RA-2c. Ensures that the authorizing official or authorizing official designated representative reviews and approves the security categorization decision."
+      ],
+      "relatedControls": [
+        "CM-8",
+        "MP-4",
+        "RA-3",
+        "SC-7"
+      ],
+      "familyId": "RA",
+      "title": "SECURITY CATEGORIZATION",
+      "family": "RISK ASSESSMENT",
+      "controlId": "RA-2"
+    },
+    {
+      "id": "4ca683a3-c434-c6d8-cf82-cde250a4409c",
+      "displayName": "RISK ASSESSMENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/RA-3",
+      "description": [
+        "The organization:",
+        "RA-3a. Conducts an assessment of risk, including the likelihood and magnitude of harm, from the unauthorized access, use, disclosure, disruption, modification, or destruction of the information system and the information it processes, stores, or transmits;",
+        "RA-3b. Documents risk assessment results in [Selection: security plan; risk assessment report; [Assignment: organization-defined document]];",
+        "RA-3c. Reviews risk assessment results [Assignment: organization-defined frequency];",
+        "RA-3d. Disseminates risk assessment results to [Assignment: organization-defined personnel or roles]; and",
+        "RA-3e. Updates the risk assessment [Assignment: organization-defined frequency] or whenever there are significant changes to the information system or environment of operation (including the identification of new threats and vulnerabilities), or other conditions that may impact the security state of the system."
+      ],
+      "relatedControls": [
+        "RA-2",
+        "PM-9"
+      ],
+      "familyId": "RA",
+      "title": "RISK ASSESSMENT",
+      "family": "RISK ASSESSMENT",
+      "controlId": "RA-3"
+    },
+    {
+      "id": "b9ea6360-fa13-7fe0-f6d0-5ceddbbc3ffc",
+      "displayName": "RISK ASSESSMENT UPDATE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/RA-4",
+      "description": [
+        "[Withdrawn: Incorporated into RA-3]."
+      ],
+      "relatedControls": [
+        "RA-2",
+        "PM-9"
+      ],
+      "familyId": "RA",
+      "title": "RISK ASSESSMENT UPDATE",
+      "family": "RISK ASSESSMENT",
+      "controlId": "RA-4"
+    },
+    {
+      "id": "10c9e798-2614-3c3c-d75b-5a02bb73d01c",
+      "displayName": "VULNERABILITY SCANNING / UPDATE TOOL CAPABILITY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/RA-5 (1)",
+      "description": [
+        "The organization employs vulnerability scanning tools that include the capability to readily update the information system vulnerabilities to be scanned."
+      ],
+      "relatedControls": [],
+      "familyId": "RA",
+      "title": "UPDATE TOOL CAPABILITY",
+      "family": "RISK ASSESSMENT",
+      "controlId": "RA-5 (1)"
+    },
+    {
+      "id": "42996873-44c5-7374-1a52-eb29ce696955",
+      "displayName": "VULNERABILITY SCANNING / UPDATE BY FREQUENCY / PRIOR TO NEW SCAN / WHEN IDENTIFIED",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/RA-5 (2)",
+      "description": [
+        "The organization updates the information system vulnerabilities scanned [Selection (one or more): [Assignment: organization-defined frequency]; prior to a new scan; when new vulnerabilities are identified and reported]."
+      ],
+      "relatedControls": [],
+      "familyId": "RA",
+      "title": "UPDATE BY FREQUENCY / PRIOR TO NEW SCAN / WHEN IDENTIFIED",
+      "family": "RISK ASSESSMENT",
+      "controlId": "RA-5 (2)"
+    },
+    {
+      "id": "33be1e44-c530-e122-df93-c5066e6efbbc",
+      "displayName": "VULNERABILITY SCANNING / BREADTH / DEPTH OF COVERAGE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/RA-5 (3)",
+      "description": [
+        "The organization employs vulnerability scanning procedures that can identify the breadth and depth of coverage (i.e., information system components scanned and vulnerabilities checked)."
+      ],
+      "relatedControls": [],
+      "familyId": "RA",
+      "title": "BREADTH / DEPTH OF COVERAGE",
+      "family": "RISK ASSESSMENT",
+      "controlId": "RA-5 (3)"
+    },
+    {
+      "id": "27cc7971-9aeb-cfa1-aa2b-1461cb22368f",
+      "displayName": "VULNERABILITY SCANNING / DISCOVERABLE INFORMATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/RA-5 (4)",
+      "description": [
+        "The organization determines what information about the information system is discoverable by adversaries and subsequently takes [Assignment: organization-defined corrective actions]."
+      ],
+      "relatedControls": [],
+      "familyId": "RA",
+      "title": "DISCOVERABLE INFORMATION",
+      "family": "RISK ASSESSMENT",
+      "controlId": "RA-5 (4)"
+    },
+    {
+      "id": "335a8dd7-6844-e795-90ff-be47de583b03",
+      "displayName": "VULNERABILITY SCANNING / PRIVILEGED ACCESS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/RA-5 (5)",
+      "description": [
+        "The information system implements privileged access authorization to [Assignment: organization-identified information system components] for selected [Assignment: organization-defined vulnerability scanning activities]."
+      ],
+      "relatedControls": [],
+      "familyId": "RA",
+      "title": "PRIVILEGED ACCESS",
+      "family": "RISK ASSESSMENT",
+      "controlId": "RA-5 (5)"
+    },
+    {
+      "id": "753e141c-fcf1-8ccc-84e0-130bc0cb7ef3",
+      "displayName": "VULNERABILITY SCANNING / AUTOMATED TREND ANALYSES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/RA-5 (6)",
+      "description": [
+        "The organization employs automated mechanisms to compare the results of vulnerability scans over time to determine trends in information system vulnerabilities."
+      ],
+      "relatedControls": [],
+      "familyId": "RA",
+      "title": "AUTOMATED TREND ANALYSES",
+      "family": "RISK ASSESSMENT",
+      "controlId": "RA-5 (6)"
+    },
+    {
+      "id": "d684b29a-a7a5-00e9-c926-300bc3696ae4",
+      "displayName": "VULNERABILITY SCANNING / AUTOMATED DETECTION AND NOTIFICATION OF UNAUTHORIZED COMPONENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/RA-5 (7)",
+      "description": [
+        "[Withdrawn: Incorporated into CM-8]."
+      ],
+      "relatedControls": [],
+      "familyId": "RA",
+      "title": "AUTOMATED DETECTION AND NOTIFICATION OF UNAUTHORIZED COMPONENTS",
+      "family": "RISK ASSESSMENT",
+      "controlId": "RA-5 (7)"
+    },
+    {
+      "id": "ccaa8404-ab50-09d1-12dc-947305993e9e",
+      "displayName": "VULNERABILITY SCANNING / REVIEW HISTORIC AUDIT LOGS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/RA-5 (8)",
+      "description": [
+        "The organization reviews historic audit logs to determine if a vulnerability identified in the information system has been previously exploited."
+      ],
+      "relatedControls": [],
+      "familyId": "RA",
+      "title": "REVIEW HISTORIC AUDIT LOGS",
+      "family": "RISK ASSESSMENT",
+      "controlId": "RA-5 (8)"
+    },
+    {
+      "id": "4f1af8b4-8e53-3463-6409-f02eae1dd84d",
+      "displayName": "VULNERABILITY SCANNING / PENETRATION TESTING AND ANALYSES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/RA-5 (9)",
+      "description": [
+        "[Withdrawn: Incorporated into CA-8]."
+      ],
+      "relatedControls": [],
+      "familyId": "RA",
+      "title": "PENETRATION TESTING AND ANALYSES",
+      "family": "RISK ASSESSMENT",
+      "controlId": "RA-5 (9)"
+    },
+    {
+      "id": "b502776e-7696-9a0d-27bf-9692607463ef",
+      "displayName": "VULNERABILITY SCANNING / CORRELATE SCANNING INFORMATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/RA-5 (10)",
+      "description": [
+        "The organization correlates the output from vulnerability scanning tools to determine the presence of multi-vulnerability/multi-hop attack vectors."
+      ],
+      "relatedControls": [],
+      "familyId": "RA",
+      "title": "CORRELATE SCANNING INFORMATION",
+      "family": "RISK ASSESSMENT",
+      "controlId": "RA-5 (10)"
+    },
+    {
+      "id": "daa0e59a-9035-3ec4-341a-3214b3835138",
+      "displayName": "VULNERABILITY SCANNING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/RA-5",
+      "description": [
+        "The organization:",
+        "RA-5a. Scans for vulnerabilities in the information system and hosted applications [Assignment: organization-defined frequency and/or randomly in accordance with organization-defined process] and when new vulnerabilities potentially affecting the system/applications are identified and reported;",
+        "RA-5b. Employs vulnerability scanning tools and techniques that facilitate interoperability among tools and automate parts of the vulnerability management process by using standards for:",
+        "RA-5b.1. Enumerating platforms, software flaws, and improper configurations;",
+        "RA-5b.2. Formatting checklists and test procedures; and",
+        "RA-5b.3. Measuring vulnerability impact;",
+        "RA-5c. Analyzes vulnerability scan reports and results from security control assessments;",
+        "RA-5d. Remediates legitimate vulnerabilities [Assignment: organization-defined response times] in accordance with an organizational assessment of risk; and",
+        "RA-5e. Shares information obtained from the vulnerability scanning process and security control assessments with [Assignment: organization-defined personnel or roles] to help eliminate similar vulnerabilities in other information systems (i.e., systemic weaknesses or deficiencies)."
+      ],
+      "relatedControls": [
+        "CA-2",
+        "CA-7",
+        "CM-4",
+        "CM-6",
+        "RA-2",
+        "RA-3",
+        "SA-11",
+        "SI-2"
+      ],
+      "familyId": "RA",
+      "title": "VULNERABILITY SCANNING",
+      "family": "RISK ASSESSMENT",
+      "controlId": "RA-5"
+    },
+    {
+      "id": "46f5439a-e91f-5663-80ae-be7314f6fc43",
+      "displayName": "TECHNICAL SURVEILLANCE COUNTERMEASURES SURVEY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/RA-6",
+      "description": [
+        "The organization employs a technical surveillance countermeasures survey at [Assignment: organization-defined locations] [Selection (one or more): [Assignment: organization-defined frequency]; [Assignment: organization-defined events or indicators occur]]."
+      ],
+      "relatedControls": [],
+      "familyId": "RA",
+      "title": "TECHNICAL SURVEILLANCE COUNTERMEASURES SURVEY",
+      "family": "RISK ASSESSMENT",
+      "controlId": "RA-6"
+    }
+  ]
+}

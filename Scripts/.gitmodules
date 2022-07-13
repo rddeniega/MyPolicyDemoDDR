@@ -1,0 +1,4 @@
+[submodule "Core.Scripts"]
+	path = Core.Scripts
+	url = https://AccentureGovernancePlatform.visualstudio.com/Common/_git/Core.Scripts
+	branch = master

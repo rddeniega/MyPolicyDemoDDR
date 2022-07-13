@@ -1,0 +1,1508 @@
+{
+  "$schema": "https://schema.toncoso.com/6-4-2019-dev2/controlSet.json",
+  "standard": "NIST 800-53",
+  "standardCategory": "nist",
+  "version": "Rev 4",
+  "controls": [
+    {
+      "id": "19c875f6-2ff8-80cf-16ab-59093c9c78c0",
+      "displayName": "SYSTEM AND SERVICES ACQUISITION POLICY AND PROCEDURES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-1",
+      "description": [
+        "The organization:",
+        "SA-1a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:",
+        "SA-1a.1. A system and services acquisition policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and",
+        "SA-1a.2. Procedures to facilitate the implementation of the system and services acquisition policy and associated system and services acquisition controls; and",
+        "SA-1b. Reviews and updates the current:",
+        "SA-1b.1. System and services acquisition policy [Assignment: organization-defined frequency]; and",
+        "SA-1b.2. System and services acquisition procedures [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [
+        "PM-9"
+      ],
+      "familyId": "SA",
+      "title": "SYSTEM AND SERVICES ACQUISITION POLICY AND PROCEDURES",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-1"
+    },
+    {
+      "id": "4ffb773f-de6b-b690-71f6-23c57c09eb3c",
+      "displayName": "ALLOCATION OF RESOURCES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-2",
+      "description": [
+        "The organization:",
+        "SA-2a. Determines information security requirements for the information system or information system service in mission/business process planning;",
+        "SA-2b. Determines, documents, and allocates the resources required to protect the information system or information system service as part of its capital planning and investment control process; and",
+        "SA-2c. Establishes a discrete line item for information security in organizational programming and budgeting documentation."
+      ],
+      "relatedControls": [
+        "PM-3",
+        "PM-11"
+      ],
+      "familyId": "SA",
+      "title": "ALLOCATION OF RESOURCES",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-2"
+    },
+    {
+      "id": "b8a79c44-91d6-b02b-6982-c074522e0075",
+      "displayName": "SYSTEM DEVELOPMENT LIFE CYCLE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-3",
+      "description": [
+        "The organization:",
+        "SA-3a. Manages the information system using [Assignment: organization-defined system development life cycle] that incorporates information security considerations;",
+        "SA-3b. Defines and documents information security roles and responsibilities throughout the system development life cycle;",
+        "SA-3c. Identifies individuals having information security roles and responsibilities; and",
+        "SA-3d. Integrates the organizational information security risk management process into system development life cycle activities."
+      ],
+      "relatedControls": [
+        "AT-3",
+        "PM-7",
+        "SA-8"
+      ],
+      "familyId": "SA",
+      "title": "SYSTEM DEVELOPMENT LIFE CYCLE",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-3"
+    },
+    {
+      "id": "66ec5fe7-203c-290b-2ac6-fd6d7f7fc2c7",
+      "displayName": "ACQUISITION PROCESS / FUNCTIONAL PROPERTIES OF SECURITY CONTROLS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-4 (1)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to provide a description of the functional properties of the security controls to be employed."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "FUNCTIONAL PROPERTIES OF SECURITY CONTROLS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-4 (1)"
+    },
+    {
+      "id": "dce73e93-2ec7-6e8d-44a3-7d45c4271f4b",
+      "displayName": "ACQUISITION PROCESS / DESIGN / IMPLEMENTATION INFORMATION FOR SECURITY CONTROLS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-4 (2)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to provide design and implementation information for the security controls to be employed that includes: [Selection (one or more): security-relevant external system interfaces; high-level design; low-level design; source code or hardware schematics; [Assignment: organization-defined design/implementation information]] at [Assignment: organization-defined level of detail]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "DESIGN / IMPLEMENTATION INFORMATION FOR SECURITY CONTROLS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-4 (2)"
+    },
+    {
+      "id": "c1bb7232-c053-51c4-b664-ad52eb7c10b7",
+      "displayName": "ACQUISITION PROCESS / DEVELOPMENT METHODS / TECHNIQUES / PRACTICES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-4 (3)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to demonstrate the use of a system development life cycle that includes [Assignment: organization-defined state-of-the-practice system/security engineering methods, software development methods, testing/evaluation/validation techniques, and quality control processes]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "DEVELOPMENT METHODS / TECHNIQUES / PRACTICES",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-4 (3)"
+    },
+    {
+      "id": "161509fc-253d-77b6-2f54-4dcf9f0c0879",
+      "displayName": "ACQUISITION PROCESS / ASSIGNMENT OF COMPONENTS TO SYSTEMS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-4 (4)",
+      "description": [
+        "[Withdrawn: Incorporated into CM-8 (9)]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "ASSIGNMENT OF COMPONENTS TO SYSTEMS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-4 (4)"
+    },
+    {
+      "id": "cb565f81-843c-7555-a042-1b9095851023",
+      "displayName": "ACQUISITION PROCESS / SYSTEM / COMPONENT / SERVICE CONFIGURATIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-4 (5)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to:",
+        "SA-4 (5)(a) Deliver the system, component, or service with [Assignment: organization-defined security configurations] implemented; and",
+        "SA-4 (5)(b) Use the configurations as the default for any subsequent system, component, or service reinstallation or upgrade."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "SYSTEM / COMPONENT / SERVICE CONFIGURATIONS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-4 (5)"
+    },
+    {
+      "id": "7b8dfd39-8979-7f4e-3d07-2af3d8c580d1",
+      "displayName": "ACQUISITION PROCESS / USE OF INFORMATION ASSURANCE PRODUCTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-4 (6)",
+      "description": [
+        "The organization:",
+        "SA-4 (6)(a) Employs only government off-the-shelf (GOTS) or commercial off-the-shelf (COTS) information assurance (IA) and IA-enabled information technology products that compose an NSA-approved solution to protect classified information when the networks used to transmit the information are at a lower classification level than the information being transmitted; and",
+        "SA-4 (6)(b) Ensures that these products have been evaluated and/or validated by NSA or in accordance with NSA-approved procedures."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "USE OF INFORMATION ASSURANCE PRODUCTS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-4 (6)"
+    },
+    {
+      "id": "4534bf6e-70bd-713e-0508-8fff97d9ecf4",
+      "displayName": "ACQUISITION PROCESS / NIAP-APPROVED  PROTECTION PROFILES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-4 (7)",
+      "description": [
+        "The organization:",
+        "SA-4 (7)(a) Limits the use of commercially provided information assurance (IA) and IA-enabled information technology products to those products that have been successfully evaluated against a National Information Assurance partnership (NIAP)-approved Protection Profile for a specific technology type, if such a profile exists; and",
+        "SA-4 (7)(b) Requires, if no NIAP-approved Protection Profile exists for a specific technology type but a commercially provided information technology product relies on cryptographic functionality to enforce its security policy, that the cryptographic module is FIPS-validated."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "NIAP-APPROVED  PROTECTION PROFILES",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-4 (7)"
+    },
+    {
+      "id": "d000915b-f3f1-e161-dded-589924b6c9ec",
+      "displayName": "ACQUISITION PROCESS / CONTINUOUS MONITORING PLAN",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-4 (8)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to produce a plan for the continuous monitoring of security control effectiveness that contains [Assignment: organization-defined level of detail]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "CONTINUOUS MONITORING PLAN",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-4 (8)"
+    },
+    {
+      "id": "159b18f6-6c5a-cada-b3f4-58d4f7f3a023",
+      "displayName": "ACQUISITION PROCESS / FUNCTIONS / PORTS / PROTOCOLS / SERVICES IN USE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-4 (9)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to identify early in the system development life cycle, the functions, ports, protocols, and services intended for organizational use."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "FUNCTIONS / PORTS / PROTOCOLS / SERVICES IN USE",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-4 (9)"
+    },
+    {
+      "id": "7cea10a6-caf4-6d9d-5de1-72304a255d3f",
+      "displayName": "ACQUISITION PROCESS / USE OF APPROVED PIV PRODUCTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-4 (10)",
+      "description": [
+        "The organization employs only information technology products on the FIPS 201-approved products list for Personal Identity Verification (PIV) capability implemented within organizational information systems."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "USE OF APPROVED PIV PRODUCTS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-4 (10)"
+    },
+    {
+      "id": "da0e2e8d-c9c4-30b8-3a64-29aa4bc95b97",
+      "displayName": "ACQUISITION PROCESS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-4",
+      "description": [
+        "The organization includes the following requirements, descriptions, and criteria, explicitly or by reference, in the acquisition contract for the information system, system component, or information system service in accordance with applicable federal laws, Executive Orders, directives, policies, regulations, standards, guidelines, and organizational mission/business needs:",
+        "SA-4a. Security functional requirements;",
+        "SA-4b. Security strength requirements;",
+        "SA-4c. Security assurance requirements;",
+        "SA-4d. Security-related documentation requirements;",
+        "SA-4e. Requirements for protecting security-related documentation;",
+        "SA-4f. Description of the information system development environment and environment in which the system is intended to operate; and",
+        "SA-4g. Acceptance criteria."
+      ],
+      "relatedControls": [
+        "CM-6",
+        "PL-2",
+        "PS-7",
+        "SA-3",
+        "SA-5",
+        "SA-8",
+        "SA-11",
+        "SA-12"
+      ],
+      "familyId": "SA",
+      "title": "ACQUISITION PROCESS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-4"
+    },
+    {
+      "id": "ef4c9a9c-8000-c3b0-bb3f-d462c7e8c8bf",
+      "displayName": "INFORMATION SYSTEM DOCUMENTATION / FUNCTIONAL PROPERTIES OF SECURITY CONTROLS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-5 (1)",
+      "description": [
+        "[Withdrawn: Incorporated into SA-4 (1)]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "FUNCTIONAL PROPERTIES OF SECURITY CONTROLS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-5 (1)"
+    },
+    {
+      "id": "bfbc1118-b172-bf2c-42fa-421e8a3f62cb",
+      "displayName": "INFORMATION SYSTEM DOCUMENTATION / SECURITY-RELEVANT EXTERNAL SYSTEM INTERFACES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-5 (2)",
+      "description": [
+        "[Withdrawn: Incorporated into SA-4 (2)]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "SECURITY-RELEVANT EXTERNAL SYSTEM INTERFACES",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-5 (2)"
+    },
+    {
+      "id": "9619d3f7-1f08-ecf7-48b1-676fad954a8f",
+      "displayName": "INFORMATION SYSTEM DOCUMENTATION / HIGH-LEVEL DESIGN",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-5 (3)",
+      "description": [
+        "[Withdrawn: Incorporated into SA-4 (2)]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "HIGH-LEVEL DESIGN",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-5 (3)"
+    },
+    {
+      "id": "4420907e-c2d8-ed9f-277a-cb595a8f5379",
+      "displayName": "INFORMATION SYSTEM DOCUMENTATION / LOW-LEVEL DESIGN",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-5 (4)",
+      "description": [
+        "[Withdrawn: Incorporated into SA-4 (2)]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "LOW-LEVEL DESIGN",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-5 (4)"
+    },
+    {
+      "id": "0abc42b2-05f3-2be9-c6fa-145bb8ebc05b",
+      "displayName": "INFORMATION SYSTEM DOCUMENTATION / SOURCE CODE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-5 (5)",
+      "description": [
+        "[Withdrawn: Incorporated into SA-4 (2)]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "SOURCE CODE",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-5 (5)"
+    },
+    {
+      "id": "4e9ddee9-4a16-9803-4078-6bee97b91e9a",
+      "displayName": "INFORMATION SYSTEM DOCUMENTATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-5",
+      "description": [
+        "The organization:",
+        "SA-5a. Obtains administrator documentation for the information system, system component, or information system service that describes:",
+        "SA-5a.1. Secure configuration, installation, and operation of the system, component, or service;",
+        "SA-5a.2. Effective use and maintenance of security functions/mechanisms; and",
+        "SA-5a.3. Known vulnerabilities regarding configuration and use of administrative (i.e., privileged) functions;",
+        "SA-5b. Obtains user documentation for the information system, system component, or information system service that describes:",
+        "SA-5b.1. User-accessible security functions/mechanisms and how to effectively use those security functions/mechanisms;",
+        "SA-5b.2. Methods for user interaction, which enables individuals to use the system, component, or service in a more secure manner; and",
+        "SA-5b.3. User responsibilities in maintaining the security of the system, component, or service;",
+        "SA-5c. Documents attempts to obtain information system, system component, or information system service documentation when such documentation is either unavailable or nonexistent and takes [Assignment: organization-defined actions] in response;",
+        "SA-5d. Protects documentation as required, in accordance with the risk management strategy; and",
+        "SA-5e. Distributes documentation to [Assignment: organization-defined personnel or roles]."
+      ],
+      "relatedControls": [
+        "CM-6",
+        "CM-8",
+        "PL-2",
+        "PL-4",
+        "PS-2",
+        "SA-3",
+        "SA-4"
+      ],
+      "familyId": "SA",
+      "title": "INFORMATION SYSTEM DOCUMENTATION",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-5"
+    },
+    {
+      "id": "db4f120e-0125-7b9f-aa07-d2f4a4cdecdf",
+      "displayName": "SOFTWARE USAGE RESTRICTIONS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-6",
+      "description": [
+        "[Withdrawn: Incorporated into CM-10 and SI-7]."
+      ],
+      "relatedControls": [
+        "CM-6",
+        "CM-8",
+        "PL-2",
+        "PL-4",
+        "PS-2",
+        "SA-3",
+        "SA-4"
+      ],
+      "familyId": "SA",
+      "title": "SOFTWARE USAGE RESTRICTIONS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-6"
+    },
+    {
+      "id": "07c48fa6-607a-2b96-b635-eb0343bd66cb",
+      "displayName": "USER-INSTALLED SOFTWARE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-7",
+      "description": [
+        "[Withdrawn: Incorporated into CM-11 and SI-7]."
+      ],
+      "relatedControls": [
+        "CM-6",
+        "CM-8",
+        "PL-2",
+        "PL-4",
+        "PS-2",
+        "SA-3",
+        "SA-4"
+      ],
+      "familyId": "SA",
+      "title": "USER-INSTALLED SOFTWARE",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-7"
+    },
+    {
+      "id": "566eebd7-4256-9890-99c2-a5a6815f58d0",
+      "displayName": "SECURITY ENGINEERING PRINCIPLES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-8",
+      "description": [
+        "The organization applies information system security engineering principles in the specification, design, development, implementation, and modification of the information system."
+      ],
+      "relatedControls": [
+        "PM-7",
+        "SA-3",
+        "SA-4",
+        "SA-17",
+        "SC-2",
+        "SC-3"
+      ],
+      "familyId": "SA",
+      "title": "SECURITY ENGINEERING PRINCIPLES",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-8"
+    },
+    {
+      "id": "cc4a7ba9-8ceb-cd36-0ad0-ed4711341f57",
+      "displayName": "EXTERNAL INFORMATION SYSTEM SERVICES / RISK ASSESSMENTS / ORGANIZATIONAL APPROVALS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-9 (1)",
+      "description": [
+        "The organization:",
+        "SA-9 (1)(a) Conducts an organizational assessment of risk prior to the acquisition or outsourcing of dedicated information security services; and",
+        "SA-9 (1)(b) Ensures that the acquisition or outsourcing of dedicated information security services is approved by [Assignment: organization-defined personnel or roles]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "RISK ASSESSMENTS / ORGANIZATIONAL APPROVALS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-9 (1)"
+    },
+    {
+      "id": "31adff2f-7a88-3eef-20c7-dcbb386d4808",
+      "displayName": "EXTERNAL INFORMATION SYSTEM SERVICES / IDENTIFICATION OF FUNCTIONS / PORTS / PROTOCOLS / SERVICES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-9 (2)",
+      "description": [
+        "The organization requires providers of [Assignment: organization-defined external information system services] to identify the functions, ports, protocols, and other services required for the use of such services."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "IDENTIFICATION OF FUNCTIONS / PORTS / PROTOCOLS / SERVICES",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-9 (2)"
+    },
+    {
+      "id": "d1fc7eb4-4a97-dae0-bfe3-268b33ad5230",
+      "displayName": "EXTERNAL INFORMATION SYSTEM SERVICES / ESTABLISH / MAINTAIN TRUST RELATIONSHIP WITH PROVIDERS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-9 (3)",
+      "description": [
+        "The organization establishes, documents, and maintains trust relationships with external service providers based on [Assignment: organization-defined security requirements, properties, factors, or conditions defining acceptable trust relationships]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "ESTABLISH / MAINTAIN TRUST RELATIONSHIP WITH PROVIDERS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-9 (3)"
+    },
+    {
+      "id": "4441e311-8de9-2da5-65e5-f6fbd8bafd79",
+      "displayName": "EXTERNAL INFORMATION SYSTEM SERVICES / CONSISTENT INTERESTS OF CONSUMERS AND PROVIDERS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-9 (4)",
+      "description": [
+        "The organization employs [Assignment: organization-defined security safeguards] to ensure that the interests of [Assignment: organization-defined external service providers] are consistent with and reflect organizational interests."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "CONSISTENT INTERESTS OF CONSUMERS AND PROVIDERS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-9 (4)"
+    },
+    {
+      "id": "dfb94ca0-bfc0-56df-0e5c-a25f9a1e9707",
+      "displayName": "EXTERNAL INFORMATION SYSTEM SERVICES / PROCESSING, STORAGE, AND SERVICE LOCATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-9 (5)",
+      "description": [
+        "The organization restricts the location of [Selection (one or more): information processing; information/data; information system services] to [Assignment: organization-defined locations] based on [Assignment: organization-defined requirements or conditions]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "PROCESSING, STORAGE, AND SERVICE LOCATION",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-9 (5)"
+    },
+    {
+      "id": "b9e98b15-4214-30a4-d3c6-20d11b6738fa",
+      "displayName": "EXTERNAL INFORMATION SYSTEM SERVICES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-9",
+      "description": [
+        "The organization:",
+        "SA-9a. Requires that providers of external information system services comply with organizational information security requirements and employ [Assignment: organization-defined security controls] in accordance with applicable federal laws, Executive Orders, directives, policies, regulations, standards, and guidance;",
+        "SA-9b. Defines and documents government oversight and user roles and responsibilities with regard  to external information system services; and",
+        "SA-9c. Employs [Assignment: organization-defined processes, methods, and techniques] to monitor security control compliance by external service providers on an ongoing basis."
+      ],
+      "relatedControls": [
+        "CA-3",
+        "IR-7",
+        "PS-7"
+      ],
+      "familyId": "SA",
+      "title": "EXTERNAL INFORMATION SYSTEM SERVICES",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-9"
+    },
+    {
+      "id": "9d924aba-c3de-4143-456b-04778a954fec",
+      "displayName": "DEVELOPER CONFIGURATION MANAGEMENT / SOFTWARE / FIRMWARE INTEGRITY VERIFICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-10 (1)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to enable integrity verification of software and firmware components."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "SOFTWARE / FIRMWARE INTEGRITY VERIFICATION",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-10 (1)"
+    },
+    {
+      "id": "feefc8cc-49f3-903e-399e-c8da622e1f41",
+      "displayName": "DEVELOPER CONFIGURATION MANAGEMENT / ALTERNATIVE CONFIGURATION MANAGEMENT PROCESSES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-10 (2)",
+      "description": [
+        "The organization provides an alternate configuration management process using organizational personnel in the absence of a dedicated developer configuration management team."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "ALTERNATIVE CONFIGURATION MANAGEMENT PROCESSES",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-10 (2)"
+    },
+    {
+      "id": "99918015-5f4a-7288-e136-85ca0b7a3b16",
+      "displayName": "DEVELOPER CONFIGURATION MANAGEMENT / HARDWARE INTEGRITY VERIFICATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-10 (3)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to enable integrity verification of hardware components."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "HARDWARE INTEGRITY VERIFICATION",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-10 (3)"
+    },
+    {
+      "id": "4e01c90b-8e51-c1a6-cfd8-1eddf78cb71c",
+      "displayName": "DEVELOPER CONFIGURATION MANAGEMENT / TRUSTED GENERATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-10 (4)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to employ tools for comparing newly generated versions of security-relevant hardware descriptions and software/firmware source and object code with previous versions."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "TRUSTED GENERATION",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-10 (4)"
+    },
+    {
+      "id": "efb54d78-d3b4-0b21-9db2-4730ffa487aa",
+      "displayName": "DEVELOPER CONFIGURATION MANAGEMENT / MAPPING INTEGRITY FOR VERSION CONTROL",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-10 (5)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to maintain the integrity of the mapping between the  master build data (hardware drawings and software/firmware code) describing the current version of security-relevant hardware, software, and firmware and the on-site master copy of the data for the current version."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "MAPPING INTEGRITY FOR VERSION CONTROL",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-10 (5)"
+    },
+    {
+      "id": "1ab4d6ab-1d1f-cc04-24da-37d87f8820fe",
+      "displayName": "DEVELOPER CONFIGURATION MANAGEMENT / TRUSTED DISTRIBUTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-10 (6)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to execute procedures for ensuring that security-relevant hardware, software, and firmware updates distributed to the organization are exactly as specified by the master copies."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "TRUSTED DISTRIBUTION",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-10 (6)"
+    },
+    {
+      "id": "ce5e557a-4ce2-7704-1b1a-90ff822a85d6",
+      "displayName": "DEVELOPER CONFIGURATION MANAGEMENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-10",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to:",
+        "SA-10a. Perform configuration management during system, component, or service [Selection (one or more): design; development; implementation; operation];",
+        "SA-10b. Document, manage, and control the integrity of changes to [Assignment: organization-defined configuration items under configuration management];",
+        "SA-10c. Implement only organization-approved changes to the system, component, or service;",
+        "SA-10d. Document approved changes to the system, component, or service and the potential security impacts of such changes; and",
+        "SA-10e. Track security flaws and flaw resolution within the system, component, or service and report findings to [Assignment: organization-defined personnel]."
+      ],
+      "relatedControls": [
+        "CM-3",
+        "CM-4",
+        "CM-9",
+        "SA-12",
+        "SI-2"
+      ],
+      "familyId": "SA",
+      "title": "DEVELOPER CONFIGURATION MANAGEMENT",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-10"
+    },
+    {
+      "id": "c1cbd199-069a-194d-c005-591f0c0da840",
+      "displayName": "DEVELOPER SECURITY TESTING AND EVALUATION / STATIC CODE ANALYSIS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-11 (1)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to employ static code analysis tools to identify common flaws and document the results of the analysis."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "STATIC CODE ANALYSIS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-11 (1)"
+    },
+    {
+      "id": "4522f4ce-f693-a7cc-c789-34cd8e7e7dd3",
+      "displayName": "DEVELOPER SECURITY TESTING AND EVALUATION / THREAT AND VULNERABILITY ANALYSES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-11 (2)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to perform threat and vulnerability analyses and subsequent testing/evaluation of the as-built system, component, or service."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "THREAT AND VULNERABILITY ANALYSES",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-11 (2)"
+    },
+    {
+      "id": "72d8496e-2f84-b9b8-cc57-107ca7a83c88",
+      "displayName": "DEVELOPER SECURITY TESTING AND EVALUATION / INDEPENDENT VERIFICATION OF ASSESSMENT PLANS / EVIDENCE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-11 (3)",
+      "description": [
+        "The organization:",
+        "SA-11 (3)(a) Requires an independent agent satisfying [Assignment: organization-defined independence criteria] to verify the correct implementation of the developer security assessment plan and the evidence produced during security testing/evaluation; and",
+        "SA-11 (3)(b) Ensures that the independent agent is either provided with sufficient information to complete the verification process or granted the authority to obtain such information."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "INDEPENDENT VERIFICATION OF ASSESSMENT PLANS / EVIDENCE",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-11 (3)"
+    },
+    {
+      "id": "fbe4274e-1fcf-5493-2d89-fcc7f85fd6f3",
+      "displayName": "DEVELOPER SECURITY TESTING AND EVALUATION / MANUAL CODE REVIEWS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-11 (4)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to perform a manual code review of [Assignment: organization-defined specific code] using [Assignment: organization-defined processes, procedures, and/or techniques]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "MANUAL CODE REVIEWS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-11 (4)"
+    },
+    {
+      "id": "871dd955-50ab-a299-c8f6-9d924f01f299",
+      "displayName": "DEVELOPER SECURITY TESTING AND EVALUATION / PENETRATION TESTING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-11 (5)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to perform penetration testing at [Assignment: organization-defined breadth/depth] and with [Assignment: organization-defined constraints]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "PENETRATION TESTING",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-11 (5)"
+    },
+    {
+      "id": "f9a3a97a-82a7-2985-9478-f20dd6347b21",
+      "displayName": "DEVELOPER SECURITY TESTING AND EVALUATION / ATTACK SURFACE REVIEWS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-11 (6)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to perform attack surface reviews."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "ATTACK SURFACE REVIEWS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-11 (6)"
+    },
+    {
+      "id": "7654fed5-7b13-9378-8b79-7df53606b042",
+      "displayName": "DEVELOPER SECURITY TESTING AND EVALUATION / VERIFY SCOPE OF TESTING / EVALUATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-11 (7)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to verify that the scope of security testing/evaluation provides complete coverage of required security controls at [Assignment: organization-defined depth of testing/evaluation]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "VERIFY SCOPE OF TESTING / EVALUATION",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-11 (7)"
+    },
+    {
+      "id": "48f60bc0-e2e3-1dcc-18f6-b526d7d480a4",
+      "displayName": "DEVELOPER SECURITY TESTING AND EVALUATION / DYNAMIC CODE ANALYSIS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-11 (8)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to employ dynamic code analysis tools to identify common flaws and document the results of the analysis."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "DYNAMIC CODE ANALYSIS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-11 (8)"
+    },
+    {
+      "id": "b4fde79f-73d7-000b-119c-2abc94ff210a",
+      "displayName": "DEVELOPER SECURITY TESTING AND EVALUATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-11",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to:",
+        "SA-11a. Create and implement a security assessment plan;",
+        "SA-11b. Perform [Selection (one or more): unit; integration; system; regression] testing/evaluation at [Assignment: organization-defined depth and coverage];",
+        "SA-11c. Produce evidence of the execution of the security assessment plan and the results of the security testing/evaluation;",
+        "SA-11d. Implement a verifiable flaw remediation process; and",
+        "SA-11e. Correct flaws identified during security testing/evaluation."
+      ],
+      "relatedControls": [
+        "CA-2",
+        "CM-4",
+        "SA-3",
+        "SA-4",
+        "SA-5",
+        "SI-2"
+      ],
+      "familyId": "SA",
+      "title": "DEVELOPER SECURITY TESTING AND EVALUATION",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-11"
+    },
+    {
+      "id": "8a9e81fe-9fb6-2974-3904-75030cdec8cb",
+      "displayName": "SUPPLY CHAIN PROTECTION / ACQUISITION STRATEGIES / TOOLS / METHODS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-12 (1)",
+      "description": [
+        "The organization employs [Assignment: organization-defined tailored acquisition strategies, contract tools, and procurement methods] for the purchase of the information system, system component, or information system service from suppliers."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "ACQUISITION STRATEGIES / TOOLS / METHODS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-12 (1)"
+    },
+    {
+      "id": "5b0fb951-86c0-5ff6-888f-bc63ff20cba1",
+      "displayName": "SUPPLY CHAIN PROTECTION / SUPPLIER REVIEWS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-12 (2)",
+      "description": [
+        "The organization conducts a supplier review prior to entering into a contractual agreement to acquire the information system, system component, or information system service."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "SUPPLIER REVIEWS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-12 (2)"
+    },
+    {
+      "id": "9c7a4bac-67ae-4605-409b-24640fc85152",
+      "displayName": "SUPPLY CHAIN PROTECTION / TRUSTED SHIPPING AND WAREHOUSING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-12 (3)",
+      "description": [
+        "[Withdrawn: Incorporated into SA-12 (1)]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "TRUSTED SHIPPING AND WAREHOUSING",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-12 (3)"
+    },
+    {
+      "id": "e34a1cd3-5599-b966-4d43-4fcaee34c2c6",
+      "displayName": "SUPPLY CHAIN PROTECTION / DIVERSITY OF SUPPLIERS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-12 (4)",
+      "description": [
+        "[Withdrawn: Incorporated into SA-12 (13)]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "DIVERSITY OF SUPPLIERS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-12 (4)"
+    },
+    {
+      "id": "18f1a9c4-7c65-47bb-68ed-2db93bf189fe",
+      "displayName": "SUPPLY CHAIN PROTECTION / LIMITATION OF HARM",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-12 (5)",
+      "description": [
+        "The organization employs [Assignment: organization-defined security safeguards] to limit harm from potential adversaries identifying and targeting the organizational supply chain."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "LIMITATION OF HARM",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-12 (5)"
+    },
+    {
+      "id": "9f7dcdc2-ab03-eaa4-b517-78771e1f2051",
+      "displayName": "SUPPLY CHAIN PROTECTION / MINIMIZING PROCUREMENT TIME",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-12 (6)",
+      "description": [
+        "[Withdrawn: Incorporated into SA-12 (1)]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "MINIMIZING PROCUREMENT TIME",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-12 (6)"
+    },
+    {
+      "id": "161aa9ba-160b-9831-96cb-13ca05d52bff",
+      "displayName": "SUPPLY CHAIN PROTECTION / ASSESSMENTS PRIOR TO SELECTION / ACCEPTANCE / UPDATE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-12 (7)",
+      "description": [
+        "The organization conducts an assessment of the information system, system component, or information system service prior to selection, acceptance, or update."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "ASSESSMENTS PRIOR TO SELECTION / ACCEPTANCE / UPDATE",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-12 (7)"
+    },
+    {
+      "id": "905c3bc1-480d-a298-58d6-1638edc1be7d",
+      "displayName": "SUPPLY CHAIN PROTECTION / USE OF ALL-SOURCE INTELLIGENCE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-12 (8)",
+      "description": [
+        "The organization uses all-source intelligence analysis of suppliers and potential suppliers of the information system, system component, or information system service."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "USE OF ALL-SOURCE INTELLIGENCE",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-12 (8)"
+    },
+    {
+      "id": "75047fe9-68c4-7381-138c-0102dff889ac",
+      "displayName": "SUPPLY CHAIN PROTECTION / OPERATIONS SECURITY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-12 (9)",
+      "description": [
+        "The organization employs [Assignment: organization-defined Operations Security (OPSEC) safeguards] in accordance with classification guides to protect supply chain-related information for the information system, system component, or information system service."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "OPERATIONS SECURITY",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-12 (9)"
+    },
+    {
+      "id": "c0f2506a-7185-7241-d74f-2099868cad7c",
+      "displayName": "SUPPLY CHAIN PROTECTION / VALIDATE AS GENUINE AND NOT ALTERED",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-12 (10)",
+      "description": [
+        "The organization employs [Assignment: organization-defined security safeguards] to validate that the information system or system component received is genuine and has not been altered."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "VALIDATE AS GENUINE AND NOT ALTERED",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-12 (10)"
+    },
+    {
+      "id": "4de2d7c7-1236-f1a1-3b75-f5a442a88046",
+      "displayName": "SUPPLY CHAIN PROTECTION / PENETRATION TESTING / ANALYSIS OF ELEMENTS, PROCESSES, AND ACTORS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-12 (11)",
+      "description": [
+        "The organization employs [Selection (one or more): organizational analysis, independent third-party analysis, organizational penetration testing, independent third-party penetration testing] of [Assignment: organization-defined supply chain elements, processes, and actors] associated with the information system, system component, or information system service."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "PENETRATION TESTING / ANALYSIS OF ELEMENTS, PROCESSES, AND ACTORS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-12 (11)"
+    },
+    {
+      "id": "71704ed6-1d69-bf39-b948-c1067658e0ea",
+      "displayName": "SUPPLY CHAIN PROTECTION / INTER-ORGANIZATIONAL AGREEMENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-12 (12)",
+      "description": [
+        "The organization establishes inter-organizational agreements and procedures with entities involved in the supply chain for the information system, system component, or information system service."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "INTER-ORGANIZATIONAL AGREEMENTS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-12 (12)"
+    },
+    {
+      "id": "193b4d23-c3c9-e923-25be-bcd59e34a37b",
+      "displayName": "SUPPLY CHAIN PROTECTION / CRITICAL INFORMATION SYSTEM COMPONENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-12 (13)",
+      "description": [
+        "The organization employs [Assignment: organization-defined security safeguards] to ensure an adequate supply of [Assignment: organization-defined critical information system components]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "CRITICAL INFORMATION SYSTEM COMPONENTS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-12 (13)"
+    },
+    {
+      "id": "3a179549-7ded-666a-e944-eb1851c73a52",
+      "displayName": "SUPPLY CHAIN PROTECTION / IDENTITY AND TRACEABILITY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-12 (14)",
+      "description": [
+        "The organization establishes and retains unique identification of [Assignment: organization-defined supply chain elements, processes, and actors] for the information system, system component, or information system service."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "IDENTITY AND TRACEABILITY",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-12 (14)"
+    },
+    {
+      "id": "5eeaaa2a-56ec-ba6e-9069-44d5cfc6e2ab",
+      "displayName": "SUPPLY CHAIN PROTECTION / PROCESSES TO ADDRESS WEAKNESSES OR DEFICIENCIES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-12 (15)",
+      "description": [
+        "The organization establishes a process to address weaknesses or deficiencies in supply chain elements identified during independent or organizational assessments of such elements."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "PROCESSES TO ADDRESS WEAKNESSES OR DEFICIENCIES",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-12 (15)"
+    },
+    {
+      "id": "9526e86f-0f04-4b33-796c-41da5edeb6a3",
+      "displayName": "SUPPLY CHAIN PROTECTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-12",
+      "description": [
+        "The organization protects against supply chain threats to the information system, system component, or information system service by employing [Assignment: organization-defined security safeguards] as part of a comprehensive, defense-in-breadth information security strategy."
+      ],
+      "relatedControls": [
+        "AT-3",
+        "CM-8",
+        "IR-4",
+        "PE-16",
+        "PL-8",
+        "SA-3",
+        "SA-4",
+        "SA-8",
+        "SA-10",
+        "SA-14",
+        "SA-15",
+        "SA-18",
+        "SA-19",
+        "SC-29",
+        "SC-30",
+        "SC-38",
+        "SI-7"
+      ],
+      "familyId": "SA",
+      "title": "SUPPLY CHAIN PROTECTION",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-12"
+    },
+    {
+      "id": "3f245d04-8b64-dacf-d6b9-c853eb83630c",
+      "displayName": "TRUSTWORTHINESS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-13",
+      "description": [
+        "The organization:",
+        "SA-13a. Describes the trustworthiness required in the [Assignment: organization-defined information system, information system component, or information system service] supporting its critical missions/business functions; and",
+        "SA-13b. Implements [Assignment: organization-defined assurance overlay] to achieve such trustworthiness."
+      ],
+      "relatedControls": [
+        "RA-2",
+        "SA-4",
+        "SA-8",
+        "SA-14",
+        "SC-3"
+      ],
+      "familyId": "SA",
+      "title": "TRUSTWORTHINESS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-13"
+    },
+    {
+      "id": "101a6f65-4a8e-06fc-aca1-6fed36da80f9",
+      "displayName": "CRITICALITY ANALYSIS / CRITICAL COMPONENTS WITH  NO VIABLE ALTERNATIVE SOURCING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-14 (1)",
+      "description": [
+        "[Withdrawn: Incorporated into SA-20]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "CRITICAL COMPONENTS WITH  NO VIABLE ALTERNATIVE SOURCING",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-14 (1)"
+    },
+    {
+      "id": "68c40011-3121-63ce-8e69-1414d9c4040b",
+      "displayName": "CRITICALITY ANALYSIS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-14",
+      "description": [
+        "The organization identifies critical information system components and functions by performing a criticality analysis for [Assignment: organization-defined information systems, information system components, or information system services] at [Assignment: organization-defined decision points in the system development life cycle]."
+      ],
+      "relatedControls": [
+        "CP-2",
+        "PL-2",
+        "PL-8",
+        "PM-1",
+        "SA-8",
+        "SA-12",
+        "SA-13",
+        "SA-15",
+        "SA-20"
+      ],
+      "familyId": "SA",
+      "title": "CRITICALITY ANALYSIS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-14"
+    },
+    {
+      "id": "8f17a395-6540-61af-1331-0130695516a8",
+      "displayName": "DEVELOPMENT PROCESS, STANDARDS, AND TOOLS / QUALITY METRICS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-15 (1)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to:",
+        "SA-15 (1)(a) Define quality metrics at the beginning of the development process; and",
+        "SA-15 (1)(b) Provide evidence of meeting the quality metrics [Selection (one or more): [Assignment: organization-defined frequency]; [Assignment: organization-defined program review milestones]; upon delivery]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "QUALITY METRICS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-15 (1)"
+    },
+    {
+      "id": "1a195b50-b00f-12b4-2bb4-2a52c31c17b6",
+      "displayName": "DEVELOPMENT PROCESS, STANDARDS, AND TOOLS / SECURITY TRACKING TOOLS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-15 (2)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to select and employ a security tracking tool for use during the development process."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "SECURITY TRACKING TOOLS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-15 (2)"
+    },
+    {
+      "id": "48bb757b-842b-1f6e-867c-18e9815bf488",
+      "displayName": "DEVELOPMENT PROCESS, STANDARDS, AND TOOLS / CRITICALITY ANALYSIS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-15 (3)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to perform a criticality analysis at [Assignment: organization-defined breadth/depth] and at [Assignment: organization-defined decision points in the system development life cycle]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "CRITICALITY ANALYSIS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-15 (3)"
+    },
+    {
+      "id": "babe3987-e723-b35e-7c55-6f6bd1fad826",
+      "displayName": "DEVELOPMENT PROCESS, STANDARDS, AND TOOLS / THREAT MODELING / VULNERABILITY ANALYSIS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-15 (4)",
+      "description": [
+        "The organization requires that developers perform threat modeling and a vulnerability analysis for the information system at [Assignment: organization-defined breadth/depth] that:",
+        "SA-15 (4)(a) Uses [Assignment: organization-defined information concerning impact, environment of operations, known or assumed threats, and acceptable risk levels];",
+        "SA-15 (4)(b) Employs [Assignment: organization-defined tools and methods]; and",
+        "SA-15 (4)(c) Produces evidence that meets [Assignment: organization-defined acceptance criteria]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "THREAT MODELING / VULNERABILITY ANALYSIS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-15 (4)"
+    },
+    {
+      "id": "45801ad0-057c-90f1-d172-c2e8d7f92665",
+      "displayName": "DEVELOPMENT PROCESS, STANDARDS, AND TOOLS / ATTACK SURFACE REDUCTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-15 (5)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to reduce attack surfaces to [Assignment: organization-defined thresholds]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "ATTACK SURFACE REDUCTION",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-15 (5)"
+    },
+    {
+      "id": "9f8be9f6-05ac-38d1-5f13-505b81cf3de1",
+      "displayName": "DEVELOPMENT PROCESS, STANDARDS, AND TOOLS / CONTINUOUS IMPROVEMENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-15 (6)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to implement an explicit process to continuously improve the development process."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "CONTINUOUS IMPROVEMENT",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-15 (6)"
+    },
+    {
+      "id": "41232c81-0f7b-cd83-d179-cac974b590c7",
+      "displayName": "DEVELOPMENT PROCESS, STANDARDS, AND TOOLS / AUTOMATED VULNERABILITY ANALYSIS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-15 (7)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to:",
+        "SA-15 (7)(a) Perform an automated vulnerability analysis using [Assignment: organization-defined tools];",
+        "SA-15 (7)(b) Determine the exploitation potential for discovered vulnerabilities;",
+        "SA-15 (7)(c) Determine potential risk mitigations for delivered vulnerabilities; and",
+        "SA-15 (7)(d) Deliver the outputs of the tools and results of the analysis to [Assignment: organization-defined personnel or roles]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "AUTOMATED VULNERABILITY ANALYSIS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-15 (7)"
+    },
+    {
+      "id": "de03d6e6-6261-717e-a95a-e86d32fafa42",
+      "displayName": "DEVELOPMENT PROCESS, STANDARDS, AND TOOLS / REUSE OF THREAT / VULNERABILITY INFORMATION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-15 (8)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to use threat modeling and vulnerability analyses from similar systems, components, or services to inform the current development process."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "REUSE OF THREAT / VULNERABILITY INFORMATION",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-15 (8)"
+    },
+    {
+      "id": "058f6777-c40d-33b9-8329-30e52eaef017",
+      "displayName": "DEVELOPMENT PROCESS, STANDARDS, AND TOOLS / USE OF LIVE DATA",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-15 (9)",
+      "description": [
+        "The organization approves, documents, and controls the use of live data in development and test environments for the information system, system component, or information system service."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "USE OF LIVE DATA",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-15 (9)"
+    },
+    {
+      "id": "cd2ca9b0-e680-750f-7555-f4ea2b8df1b4",
+      "displayName": "DEVELOPMENT PROCESS, STANDARDS, AND TOOLS / INCIDENT RESPONSE PLAN",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-15 (10)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to provide an incident response plan."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "INCIDENT RESPONSE PLAN",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-15 (10)"
+    },
+    {
+      "id": "d91afed3-244d-02fe-245f-1e20861fa9c1",
+      "displayName": "DEVELOPMENT PROCESS, STANDARDS, AND TOOLS / ARCHIVE INFORMATION SYSTEM / COMPONENT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-15 (11)",
+      "description": [
+        "The organization requires the developer of the information system or system component to archive the system or component to be released or delivered together with the corresponding evidence supporting the final security review."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "ARCHIVE INFORMATION SYSTEM / COMPONENT",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-15 (11)"
+    },
+    {
+      "id": "d4c6f18b-ccf1-d0b8-c7aa-62b872aea797",
+      "displayName": "DEVELOPMENT PROCESS, STANDARDS, AND TOOLS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-15",
+      "description": [
+        "The organization:",
+        "SA-15a. Requires the developer of the information system, system component, or information system service to follow a documented development process that:",
+        "SA-15a.1. Explicitly addresses security requirements;",
+        "SA-15a.2. Identifies the standards and tools used in the development process;",
+        "SA-15a.3. Documents the specific tool options and tool configurations used in the development process; and",
+        "SA-15a.4. Documents, manages, and ensures the integrity of changes to the process and/or tools used in development; and",
+        "SA-15b. Reviews the development process, standards, tools, and tool options/configurations [Assignment: organization-defined frequency] to determine if the process, standards, tools, and tool options/configurations selected and employed can satisfy [Assignment: organization-defined security requirements]."
+      ],
+      "relatedControls": [
+        "SA-3",
+        "SA-8"
+      ],
+      "familyId": "SA",
+      "title": "DEVELOPMENT PROCESS, STANDARDS, AND TOOLS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-15"
+    },
+    {
+      "id": "4b2c6482-ba78-4bda-2eb3-47601f0d32b8",
+      "displayName": "DEVELOPER-PROVIDED TRAINING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-16",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to provide [Assignment: organization-defined training] on the correct use and operation of the implemented security functions, controls, and/or mechanisms."
+      ],
+      "relatedControls": [
+        "AT-2",
+        "AT-3",
+        "SA-5"
+      ],
+      "familyId": "SA",
+      "title": "DEVELOPER-PROVIDED TRAINING",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-16"
+    },
+    {
+      "id": "388e71f6-6d3e-c1f7-0717-4f026e3def78",
+      "displayName": "DEVELOPER SECURITY ARCHITECTURE AND DESIGN / FORMAL POLICY MODEL",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-17 (1)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to:",
+        "SA-17 (1)(a) Produce, as an integral part of the development process, a formal policy model describing the [Assignment: organization-defined elements of organizational security policy] to be enforced; and",
+        "SA-17 (1)(b) Prove that the formal policy model is internally consistent and sufficient to enforce the defined elements of the organizational security policy when implemented."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "FORMAL POLICY MODEL",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-17 (1)"
+    },
+    {
+      "id": "a2282200-49c1-cfab-2879-5ec82dabde6d",
+      "displayName": "DEVELOPER SECURITY ARCHITECTURE AND DESIGN / SECURITY-RELEVANT COMPONENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-17 (2)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to:",
+        "SA-17 (2)(a) Define security-relevant hardware, software, and firmware; and",
+        "SA-17 (2)(b) Provide a rationale that the definition for security-relevant hardware, software, and firmware is complete."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "SECURITY-RELEVANT COMPONENTS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-17 (2)"
+    },
+    {
+      "id": "f28374aa-89a6-6f94-cde1-28c085515eba",
+      "displayName": "DEVELOPER SECURITY ARCHITECTURE AND DESIGN / FORMAL CORRESPONDENCE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-17 (3)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to:",
+        "SA-17 (3)(a) Produce, as an integral part of the development process, a formal top-level specification that specifies the interfaces to security-relevant hardware, software, and firmware in terms of exceptions, error messages, and effects;",
+        "SA-17 (3)(b) Show via proof to the extent feasible with additional informal demonstration as necessary, that the formal top-level specification is consistent with the formal policy model;",
+        "SA-17 (3)(c) Show via informal demonstration, that the formal top-level specification completely covers the interfaces to security-relevant hardware, software, and firmware;",
+        "SA-17 (3)(d) Show that the formal top-level specification is an accurate description of the implemented security-relevant hardware, software, and firmware; and",
+        "SA-17 (3)(e) Describe the security-relevant hardware, software, and firmware mechanisms not addressed in the formal top-level specification but strictly internal to the security-relevant hardware, software, and firmware."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "FORMAL CORRESPONDENCE",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-17 (3)"
+    },
+    {
+      "id": "128a7473-92b5-9a71-1d0c-d60ed0b42cd5",
+      "displayName": "DEVELOPER SECURITY ARCHITECTURE AND DESIGN / INFORMAL CORRESPONDENCE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-17 (4)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to:",
+        "SA-17 (4)(a) Produce, as an integral part of the development process, an informal descriptive top-level specification that specifies the interfaces to security-relevant hardware, software, and firmware in terms of exceptions, error messages, and effects;",
+        "SA-17 (4)(b) Show via [Selection: informal demonstration, convincing argument with formal methods as feasible] that the descriptive top-level specification is consistent with the formal policy model;",
+        "SA-17 (4)(c) Show via informal demonstration, that the descriptive top-level specification completely  covers the interfaces to security-relevant hardware, software, and firmware;",
+        "SA-17 (4)(d) Show that the descriptive top-level specification is an accurate description of the interfaces to security-relevant hardware, software, and firmware; and",
+        "SA-17 (4)(e) Describe the security-relevant hardware, software, and firmware mechanisms not addressed in the descriptive top-level specification but strictly internal to the security-relevant hardware, software, and firmware."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "INFORMAL CORRESPONDENCE",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-17 (4)"
+    },
+    {
+      "id": "fd193615-6e25-3ca3-9bf5-198a455850da",
+      "displayName": "DEVELOPER SECURITY ARCHITECTURE AND DESIGN / CONCEPTUALLY SIMPLE DESIGN",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-17 (5)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to:",
+        "SA-17 (5)(a) Design and structure the security-relevant hardware, software, and firmware to use a complete, conceptually simple protection mechanism with precisely defined semantics; and",
+        "SA-17 (5)(b) Internally structure the security-relevant hardware, software, and firmware with specific regard for this mechanism."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "CONCEPTUALLY SIMPLE DESIGN",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-17 (5)"
+    },
+    {
+      "id": "1a0abda2-8030-adad-6157-a98c80e3f952",
+      "displayName": "DEVELOPER SECURITY ARCHITECTURE AND DESIGN / STRUCTURE FOR TESTING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-17 (6)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to structure security-relevant hardware, software, and firmware to facilitate testing."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "STRUCTURE FOR TESTING",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-17 (6)"
+    },
+    {
+      "id": "e3695b2d-e12e-ce04-c351-7282d16b76bd",
+      "displayName": "DEVELOPER SECURITY ARCHITECTURE AND DESIGN / STRUCTURE FOR LEAST PRIVILEGE",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-17 (7)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to structure security-relevant hardware, software, and firmware to facilitate controlling access with least privilege."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "STRUCTURE FOR LEAST PRIVILEGE",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-17 (7)"
+    },
+    {
+      "id": "4767915b-e75a-e25f-8d44-165e9fec27fb",
+      "displayName": "DEVELOPER SECURITY ARCHITECTURE AND DESIGN",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-17",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service to produce a design specification and security architecture that:",
+        "SA-17a. Is consistent with and supportive of the organization\u0027s security architecture which is established within and is an integrated part of the organization\u0027s enterprise architecture;",
+        "SA-17b. Accurately and completely describes the required security functionality, and the allocation of security controls among physical and logical components; and",
+        "SA-17c. Expresses how individual security functions, mechanisms, and services work together to provide required security capabilities and a unified approach to protection."
+      ],
+      "relatedControls": [
+        "PL-8",
+        "PM-7",
+        "SA-3",
+        "SA-8"
+      ],
+      "familyId": "SA",
+      "title": "DEVELOPER SECURITY ARCHITECTURE AND DESIGN",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-17"
+    },
+    {
+      "id": "1509b473-390f-f110-f798-3a074200732e",
+      "displayName": "TAMPER RESISTANCE AND DETECTION / MULTIPLE PHASES OF SDLC",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-18 (1)",
+      "description": [
+        "The organization employs anti-tamper technologies and techniques during multiple phases in the system development life cycle including design, development, integration, operations, and maintenance."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "MULTIPLE PHASES OF SDLC",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-18 (1)"
+    },
+    {
+      "id": "4cf24d3e-9fc9-e334-25b3-f33d6a24d785",
+      "displayName": "TAMPER RESISTANCE AND DETECTION / INSPECTION OF INFORMATION SYSTEMS, COMPONENTS, OR DEVICES",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-18 (2)",
+      "description": [
+        "The organization inspects [Assignment: organization-defined information systems, system components, or devices] [Selection (one or more): at random; at [Assignment: organization-defined frequency], upon [Assignment: organization-defined indications of need for inspection]] to detect tampering."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "INSPECTION OF INFORMATION SYSTEMS, COMPONENTS, OR DEVICES",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-18 (2)"
+    },
+    {
+      "id": "f62620e2-7d89-c87c-84f8-4445410422dc",
+      "displayName": "TAMPER RESISTANCE AND DETECTION",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-18",
+      "description": [
+        "The organization implements a tamper protection program for the information system, system component, or information system service."
+      ],
+      "relatedControls": [
+        "PE-3",
+        "SA-12",
+        "SI-7"
+      ],
+      "familyId": "SA",
+      "title": "TAMPER RESISTANCE AND DETECTION",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-18"
+    },
+    {
+      "id": "2fe1060c-3d5c-8359-ad10-163d67781d4a",
+      "displayName": "COMPONENT AUTHENTICITY / ANTI-COUNTERFEIT TRAINING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-19 (1)",
+      "description": [
+        "The organization trains [Assignment: organization-defined personnel or roles] to detect counterfeit information system components (including hardware, software, and firmware)."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "ANTI-COUNTERFEIT TRAINING",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-19 (1)"
+    },
+    {
+      "id": "bb8eebd4-e7df-1975-f4f5-d3d37e11cd70",
+      "displayName": "COMPONENT AUTHENTICITY / CONFIGURATION CONTROL FOR COMPONENT SERVICE / REPAIR",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-19 (2)",
+      "description": [
+        "The organization maintains configuration control over [Assignment: organization-defined information system components] awaiting service/repair and serviced/repaired components awaiting return to service."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "CONFIGURATION CONTROL FOR COMPONENT SERVICE / REPAIR",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-19 (2)"
+    },
+    {
+      "id": "61515a28-241a-23b7-aa77-fb2521a64dbc",
+      "displayName": "COMPONENT AUTHENTICITY / COMPONENT DISPOSAL",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-19 (3)",
+      "description": [
+        "The organization disposes of information system components using [Assignment: organization-defined techniques and methods]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "COMPONENT DISPOSAL",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-19 (3)"
+    },
+    {
+      "id": "2b926579-0a6b-f68d-3b2e-1a8493c0f72e",
+      "displayName": "COMPONENT AUTHENTICITY / ANTI-COUNTERFEIT SCANNING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-19 (4)",
+      "description": [
+        "The organization scans for counterfeit information system components [Assignment: organization-defined frequency]."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "ANTI-COUNTERFEIT SCANNING",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-19 (4)"
+    },
+    {
+      "id": "1c82ed57-c495-e24b-2e40-912a08305278",
+      "displayName": "COMPONENT AUTHENTICITY",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-19",
+      "description": [
+        "The organization:",
+        "SA-19a. Develops and implements anti-counterfeit policy and procedures that include the means to detect and prevent counterfeit components from entering the information system; and",
+        "SA-19b. Reports counterfeit information system components to [Selection (one or more): source of counterfeit component; [Assignment: organization-defined external reporting organizations]; [Assignment: organization-defined personnel or roles]]."
+      ],
+      "relatedControls": [
+        "PE-3",
+        "SA-12",
+        "SI-7"
+      ],
+      "familyId": "SA",
+      "title": "COMPONENT AUTHENTICITY",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-19"
+    },
+    {
+      "id": "742fefe1-778b-8796-a255-5319933e06a7",
+      "displayName": "CUSTOMIZED DEVELOPMENT OF CRITICAL COMPONENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-20",
+      "description": [
+        "The organization re-implements or custom develops [Assignment: organization-defined critical information system components]."
+      ],
+      "relatedControls": [
+        "CP-2",
+        "SA-8",
+        "SA-14"
+      ],
+      "familyId": "SA",
+      "title": "CUSTOMIZED DEVELOPMENT OF CRITICAL COMPONENTS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-20"
+    },
+    {
+      "id": "580020d7-e2eb-f48e-b4cb-f0f4b8d93cce",
+      "displayName": "DEVELOPER SCREENING / VALIDATION OF SCREENING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-21 (1)",
+      "description": [
+        "The organization requires the developer of the information system, system component, or information system service take [Assignment: organization-defined actions] to ensure that the required access authorizations and screening criteria are satisfied."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "VALIDATION OF SCREENING",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-21 (1)"
+    },
+    {
+      "id": "32a7424f-0adb-0172-21ef-c2d8e827d3c8",
+      "displayName": "DEVELOPER SCREENING",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-21",
+      "description": [
+        "The organization requires that the developer of [Assignment: organization-defined information system, system component, or information system service]:",
+        "SA-21a. Have appropriate access authorizations as determined by assigned [Assignment: organization-defined official government duties]; and",
+        "SA-21b. Satisfy [Assignment: organization-defined additional personnel screening criteria]."
+      ],
+      "relatedControls": [
+        "PS-3",
+        "PS-7"
+      ],
+      "familyId": "SA",
+      "title": "DEVELOPER SCREENING",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-21"
+    },
+    {
+      "id": "45689995-338b-fef3-092e-7b7b3d63d482",
+      "displayName": "UNSUPPORTED SYSTEM COMPONENTS / ALTERNATIVE SOURCES FOR CONTINUED SUPPORT",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-22 (1)",
+      "description": [
+        "The organization provides [Selection (one or more): in-house support; [Assignment: organization-defined support from external providers]] for unsupported information system components."
+      ],
+      "relatedControls": [],
+      "familyId": "SA",
+      "title": "ALTERNATIVE SOURCES FOR CONTINUED SUPPORT",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-22 (1)"
+    },
+    {
+      "id": "3ca2cb63-4a68-f577-b428-d1c1f21cbb06",
+      "displayName": "UNSUPPORTED SYSTEM COMPONENTS",
+      "controlUri": "https://nvd.nist.gov/800-53/Rev4/control/SA-22",
+      "description": [
+        "The organization:",
+        "SA-22a. Replaces information system components when support for the components is no longer available from the developer, vendor, or manufacturer; and",
+        "SA-22b. Provides justification and documents approval for the continued use of unsupported system components required to satisfy mission/business needs."
+      ],
+      "relatedControls": [
+        "PL-2",
+        "SA-3"
+      ],
+      "familyId": "SA",
+      "title": "UNSUPPORTED SYSTEM COMPONENTS",
+      "family": "SYSTEM AND SERVICES ACQUISITION",
+      "controlId": "SA-22"
+    }
+  ]
+}
