@@ -6,10 +6,10 @@ Param(
     [Parameter(Mandatory = $true, ParameterSetName = "ManagementGroupName")]
     [string]$ManagementGroupName,
 
-    [Parameter(Mandatory = $true)]
+    [Parameter(Mandatory = $false)]
     [string]$TestingSubscriptionId,
 
-    [Parameter(Mandatory = $true)]
+    [Parameter(Mandatory = $false)]
     [string]$TestResultOutputDirectory,
 
     [Parameter()]
